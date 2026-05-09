@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-50 text-bark font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  ::selection {
+    @apply bg-olive-200 text-bark;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-olive-500 outline-offset-2 rounded;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-olive-600 text-white font-sans font-semibold text-sm tracking-wide rounded-md transition-all duration-200 hover:bg-olive-700 hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-olive-600 text-olive-700 font-sans font-semibold text-sm tracking-wide rounded-md transition-all duration-200 hover:bg-olive-50 hover:shadow-sm;
+  }
+
+  .btn-white {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white text-olive-700 font-sans font-semibold text-sm tracking-wide rounded-md transition-all duration-200 hover:bg-cream-100 hover:shadow-md;
+  }
+
+  .section-label {
+    @apply text-olive-600 font-sans text-sm font-semibold tracking-widest uppercase;
+  }
+
+  .section-heading {
+    @apply font-serif text-3xl md:text-4xl lg:text-5xl text-bark leading-tight;
+  }
+
+  .section-subheading {
+    @apply font-serif text-2xl md:text-3xl text-bark leading-snug;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-cream-200 overflow-hidden transition-shadow duration-200 hover:shadow-md;
+  }
+
+  .prose-wellness h2 {
+    @apply font-serif text-2xl text-bark mt-8 mb-3;
+  }
+
+  .prose-wellness h3 {
+    @apply font-serif text-xl text-bark-light mt-6 mb-2;
+  }
+
+  .prose-wellness p {
+    @apply text-bark-muted leading-relaxed mb-4;
+  }
+
+  .prose-wellness ul {
+    @apply list-disc list-inside space-y-1 text-bark-muted mb-4 pl-4;
+  }
+
+  .prose-wellness a {
+    @apply text-olive-600 underline hover:text-olive-800;
+  }
+}
