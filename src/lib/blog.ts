@@ -13,126 +13,129 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: 'winter-wellness-tips-rochester-ny',
-    title: '5 Ways to Prioritize Your Wellness This Winter in Rochester, NY',
+    slug: 'signs-you-should-see-a-chiropractor-rochester',
+    title: '5 Signs You Should See a Chiropractor — And What to Expect at Your First Visit',
     excerpt:
-      'Rochester winters are no joke — but that doesn\'t mean your health has to take a back seat. Discover five practical strategies to stay energized, nourished, and grounded through the colder months.',
-    date: '2026-01-15',
-    dateModified: '2026-01-15',
-    author: 'Dr. Claire Ashford',
-    category: 'Wellness Tips',
+      'Back pain, stiff neck, headaches after long workdays — these are signals your body sends when something is off. Learn the five most common signs that chiropractic care could help, and what a first appointment at Oak & Olive actually looks like.',
+    date: '2026-03-10',
+    dateModified: '2026-03-10',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
     readTime: '6 min read',
-    tags: ['wellness', 'winter health', 'Rochester NY', 'nutrition', 'self-care'],
+    tags: ['chiropractic', 'back pain', 'Rochester NY', 'spinal health', 'first visit'],
     content: `
-<p>If you've lived in Rochester long enough, you know that our winters — from the lake-effect snow to the grey skies that seem to linger for weeks — can take a real toll on your physical and mental wellbeing. At Oak & Olive Health & Wellness, we've worked with hundreds of Rochester residents who struggle to maintain their health routines once November hits.</p>
+<p>Many people wait far too long before seeing a chiropractor. They assume the ache in their lower back will go away on its own, or that headaches are just part of life. Sometimes those things are true — but often, they're your body telling you that something in your spine or soft tissue needs attention. Here are five signs that chiropractic care could make a real difference, and what you can expect when you come in for your first visit at Oak &amp; Olive Chiropractic in Rochester, NY.</p>
 
-<p>The good news? With the right strategies, winter can actually be a powerful time to reset, rebuild, and invest in your long-term health. Here are five evidence-backed ways to stay well through a Rochester winter.</p>
+<h2>1. Persistent Back or Neck Pain</h2>
+<p>This is the most obvious one, but it's worth saying plainly: if you've been dealing with back or neck pain for more than a week or two — especially if it's not improving with rest — that's worth evaluating. Chiropractic manipulative therapy addresses the underlying joint restrictions and muscle imbalances that cause that pain, rather than just masking it. Many patients feel meaningful relief after their first few sessions.</p>
 
-<h2>1. Prioritize Vitamin D — It's More Critical Here Than You Think</h2>
-<p>Rochester, NY receives significantly less sunlight than the national average, especially between November and March. This makes Vitamin D deficiency far more common in our community than in other parts of the country. Low Vitamin D has been linked to fatigue, mood changes, weakened immunity, and even weight gain.</p>
-<p>We recommend getting your Vitamin D levels tested through your primary care provider, and supplementing strategically under the guidance of a registered dietitian. Our nutrition counseling team at Oak & Olive can help you identify the right dosage and food sources to support healthy levels all winter long.</p>
+<h2>2. Headaches That Start at the Base of Your Skull</h2>
+<p>Not all headaches originate in your head. Cervicogenic headaches — headaches caused by tension and restriction in the cervical spine — are extremely common, especially among people who sit at desks or look down at screens for hours at a time. If your headaches tend to start at the back of your neck and radiate upward, chiropractic care and soft-tissue work can address the root cause.</p>
 
-<h2>2. Nourish Your Body With Seasonal, Anti-Inflammatory Foods</h2>
-<p>Winter is actually a beautiful season for hearty, nutrient-dense eating. Rochester has access to wonderful local farms and markets even in the colder months. Root vegetables like sweet potatoes, beets, and carrots; warming spices like turmeric and ginger; and omega-3-rich foods like salmon and walnuts all support immune function and help combat winter inflammation.</p>
-<p>Our nutrition counselors work with clients throughout Greater Rochester — from Pittsford to Webster to the City — to build personalized meal plans that make healthy eating feel doable, not like a chore.</p>
+<h2>3. Sharp Pain, Tingling, or Numbness Down Your Arm or Leg</h2>
+<p>If you're experiencing shooting pain, tingling, or numbness that travels down your arm or into your leg, this could be a sign of nerve irritation — often related to disc pressure or spinal joint dysfunction. This is exactly the kind of problem that responds well to spinal decompression therapy and nerve flossing techniques. Don't ignore these symptoms; they tend to worsen over time without treatment.</p>
 
-<h2>3. Move Your Body — Even When It's Cold Outside</h2>
-<p>It's tempting to hibernate when temperatures dip into the teens, but consistent movement is one of the most powerful tools you have for winter wellness. Whether it's indoor yoga, a strength training routine, or bundling up for a walk through Highland Park, staying active supports your mood, energy, circulation, and immunity.</p>
-<p>Our yoga and movement classes at Oak & Olive are a favorite for Rochester residents looking for a warm, welcoming space to stay active all winter. We offer classes for all levels — from complete beginners to advanced practitioners.</p>
+<h2>4. You Were in a Car Accident or Sports Injury</h2>
+<p>Even "minor" accidents and sports injuries can cause significant soft-tissue and joint damage that doesn't become obvious until days or weeks later. Getting evaluated promptly after an injury gives us the opportunity to treat problems before they become chronic. We commonly treat whiplash, muscle strains, and joint sprains using a combination of chiropractic adjustment, instrument-assisted soft-tissue mobilization (IASTM), and shockwave therapy.</p>
 
-<h2>4. Protect Your Mental Health Proactively</h2>
-<p>Seasonal Affective Disorder (SAD) affects a significant portion of Rochester's population. Light therapy, structured routines, social connection, and mindfulness practices can all make a meaningful difference. Our wellness coaches specialize in stress management and can work with you to build a winter routine that supports your mental health as much as your physical health.</p>
+<h2>5. You Feel Stiff, Off-Balance, or Like You're Compensating in Your Movement</h2>
+<p>If you notice that you're favoring one side, that your posture has shifted, or that everyday movements like bending or reaching feel awkward or restricted, these are signs that your musculoskeletal system is compensating for something. A thorough chiropractic evaluation can identify those patterns and create a plan to correct them before they compound into bigger problems.</p>
 
-<h2>5. Make Sleep a Non-Negotiable</h2>
-<p>The longer nights of winter are actually an invitation to improve your sleep hygiene. Quality sleep is foundational to everything — your weight, your immunity, your mood, your energy. If you're struggling with sleep, our wellness team can help you identify the root causes and create sustainable changes that support better rest year-round.</p>
+<h2>What to Expect at Your First Visit</h2>
+<p>Your first appointment at Oak &amp; Olive Chiropractic is a conversation as much as it is an examination. We'll talk through your health history, the specific concerns that brought you in, and your goals. We'll do a postural and movement assessment, and if indicated, a spinal evaluation. From there, we build a care plan tailored specifically to you — not a generic protocol.</p>
+<p>Most patients leave their first visit with a clear understanding of what's going on in their body and a realistic picture of how we're going to address it. Many also receive their first treatment that same day.</p>
 
-<p>Ready to make this your healthiest winter yet? <a href="/contact">Schedule a free 20-minute consultation</a> with our team at Oak & Olive Health & Wellness. We proudly serve Rochester, Pittsford, Brighton, Webster, Irondequoit, and surrounding communities.</p>
+<p>If any of these signs sound familiar, <a href="/contact">book a consultation</a> at our Rochester, NY office. We proudly serve Greece, Gates, Spencerport, Brighton, and the surrounding communities.</p>
     `.trim(),
   },
   {
-    slug: 'benefits-nutrition-counseling-rochester-families',
-    title: 'The Benefits of Nutrition Counseling for Rochester Families',
+    slug: 'shockwave-therapy-chronic-pain-rochester',
+    title: 'How Shockwave Therapy Is Changing the Treatment of Chronic Pain in Rochester',
     excerpt:
-      'Good nutrition is the foundation of a healthy family. Learn how personalized nutrition counseling can help Rochester families build lifelong healthy habits — and why a one-size-fits-all approach rarely works.',
-    date: '2026-02-08',
-    dateModified: '2026-02-08',
-    author: 'Sarah Mendez, RDN',
-    category: 'Nutrition',
+      'If you\'ve been dealing with stubborn tendon pain, plantar fasciitis, or a shoulder that just won\'t heal, shockwave therapy may be the missing piece. Here\'s how it works and who it\'s right for.',
+    date: '2026-04-02',
+    dateModified: '2026-04-02',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
     readTime: '5 min read',
-    tags: ['nutrition', 'family wellness', 'Rochester NY', 'dietitian', 'healthy eating'],
+    tags: ['shockwave therapy', 'chronic pain', 'tendon pain', 'Rochester NY', 'plantar fasciitis'],
     content: `
-<p>At Oak & Olive Health & Wellness in Rochester, NY, one of the most common things we hear from new clients is: "I know what I <em>should</em> be eating — I just can't seem to make it stick." Sound familiar? You're not alone, and it's not a willpower problem.</p>
+<p>One of the most common frustrations I hear from new patients is this: "I've tried everything, and nothing has worked long-term." They've done physical therapy. They've taken anti-inflammatories. They may have had cortisone injections. And yet the pain — in their heel, their Achilles, their rotator cuff, their knee — keeps coming back. For many of these patients, shockwave therapy is the answer they've been looking for.</p>
 
-<p>The truth is, sustainable healthy eating isn't about following a rigid diet — it's about understanding your unique body, lifestyle, and relationship with food. That's exactly what personalized nutrition counseling offers.</p>
+<h2>What Is Shockwave Therapy?</h2>
+<p>Shockwave therapy (also called extracorporeal shockwave therapy, or ESWT) uses high-energy acoustic waves delivered through a handheld device to the affected area of the body. These pressure waves stimulate the body's natural healing response — increasing blood flow, breaking down calcific deposits, and triggering the regeneration of tendon and soft tissue cells.</p>
+<p>Unlike surgery or injections, shockwave therapy is non-invasive. There's no downtime, no needles, and no medication involved. Sessions typically last 10–15 minutes, and most patients notice meaningful improvement within 3–5 treatments.</p>
 
-<h2>What Is Nutrition Counseling?</h2>
-<p>Nutrition counseling goes well beyond handing you a meal plan. A registered dietitian-nutritionist (RDN) takes a comprehensive look at your health history, current eating patterns, lifestyle factors, and goals — then works with you collaboratively to develop a realistic, enjoyable approach to eating that actually fits your life.</p>
-<p>For families in Rochester, this might mean figuring out how to feed picky eaters, managing a household member's chronic condition like diabetes or high blood pressure, supporting an athlete's performance nutrition, or simply trying to stop relying on takeout every weeknight.</p>
-
-<h2>Why Families in Rochester Specifically Benefit</h2>
-<p>Rochester is a vibrant, diverse community with unique food culture, seasonal eating patterns shaped by our climate, and the everyday realities of busy family schedules. Our dietitians understand these local dynamics — from navigating the Rochester Public Market for fresh seasonal produce to helping families on various budgets find nutritious options at local grocery stores like Wegmans and Tops.</p>
-
-<h2>Common Issues Our Nutrition Clients Bring to Us</h2>
+<h2>What Conditions Respond Well to Shockwave?</h2>
+<p>Shockwave therapy has strong clinical evidence behind it for a number of chronic musculoskeletal conditions, including:</p>
 <ul>
-<li>Weight management and metabolic health</li>
-<li>Managing Type 2 diabetes, pre-diabetes, or insulin resistance</li>
-<li>High cholesterol or cardiovascular risk reduction</li>
-<li>Digestive issues, IBS, or food sensitivities</li>
-<li>Supporting children's growth and development</li>
-<li>Sports nutrition for youth and adult athletes</li>
-<li>Eating disorder recovery support</li>
-<li>Pregnancy and postpartum nutrition</li>
+<li><strong>Plantar fasciitis</strong> — heel pain that's worst with your first steps in the morning</li>
+<li><strong>Achilles tendinopathy</strong> — chronic stiffness and pain in the back of the ankle</li>
+<li><strong>Rotator cuff tendinopathy</strong> — shoulder pain that limits overhead movement</li>
+<li><strong>Lateral epicondylitis (tennis elbow)</strong> — outer elbow pain that persists despite rest</li>
+<li><strong>Patellar tendinopathy (jumper's knee)</strong> — pain at the front of the knee</li>
+<li><strong>Greater trochanteric pain syndrome</strong> — hip pain on the outer side</li>
+<li><strong>Calcific tendinitis</strong> — calcium deposits in tendons, most commonly the shoulder</li>
 </ul>
 
-<h2>What to Expect From Your First Session</h2>
-<p>Your first nutrition counseling session at Oak & Olive is a conversation, not a lecture. We'll get to know you — your goals, your challenges, your food history, and your lifestyle. From there, we'll build a roadmap together. Most clients find that even small, strategic changes make a significant difference within the first few weeks.</p>
+<h2>Why Does Chronic Tendon Pain Persist?</h2>
+<p>Understanding why shockwave works requires understanding why these conditions become chronic in the first place. Tendons have relatively poor blood supply compared to muscles, which means they heal slowly — and sometimes incompletely. Over time, the tissue can become disorganized and degenerated rather than properly repaired. Standard anti-inflammatory treatments (ice, NSAIDs, cortisone) reduce pain temporarily but don't address the underlying tissue quality. Shockwave does. It essentially "restarts" the healing process in tissue that has become stuck in a chronic state.</p>
 
-<p>We offer both in-person sessions at our Rochester location and virtual appointments for clients throughout the Greater Rochester area. Many insurance plans cover nutrition counseling, and our team can help you verify your benefits.</p>
+<h2>Is Shockwave Therapy Right for You?</h2>
+<p>Shockwave is most effective for pain that has been present for at least 3–6 months and hasn't fully responded to other conservative treatments. It's generally not recommended for acute injuries (less than 6 weeks old), patients on blood thinners, or pain over areas with active infection or tumors. A thorough evaluation will determine whether it's the right tool for your specific condition — and it's often used alongside other treatments like chiropractic adjustment, IASTM, and exercise programming for the best results.</p>
 
-<p><a href="/contact">Book your first consultation today</a> and take the first step toward a healthier, more nourished life for your family.</p>
+<p>If you're dealing with stubborn tendon or soft-tissue pain that hasn't responded to treatment, <a href="/contact">reach out to schedule an evaluation</a> at Oak &amp; Olive Chiropractic in Rochester, NY. We'd be happy to talk through whether shockwave therapy makes sense for you.</p>
     `.trim(),
   },
   {
-    slug: 'stress-management-guide-rochester',
-    title: 'Finding Balance: A Practical Guide to Stress Management in Rochester',
+    slug: 'desk-job-spine-health-rochester',
+    title: 'What Sitting 8 Hours a Day Does to Your Spine — And How to Fix It',
     excerpt:
-      'Chronic stress is one of the biggest threats to long-term health — but it doesn\'t have to be your norm. Explore evidence-based stress management strategies that real Rochester residents are using to reclaim their calm.',
-    date: '2026-03-12',
-    dateModified: '2026-03-12',
-    author: 'Marcus Thompson, MS',
-    category: 'Stress & Mental Wellness',
+      'Desk work is one of the leading drivers of back pain, neck stiffness, and headaches in Rochester adults. Here\'s the biology of what prolonged sitting does to your spine, and the practical steps you can take to reverse the damage.',
+    date: '2026-04-28',
+    dateModified: '2026-04-28',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
     readTime: '7 min read',
-    tags: ['stress management', 'mental wellness', 'mindfulness', 'Rochester NY', 'work-life balance'],
+    tags: ['posture', 'desk ergonomics', 'back pain', 'Rochester NY', 'spine health', 'office workers'],
     content: `
-<p>Rochester is a city that moves. Between demanding careers, family responsibilities, long commutes, and the unique seasonal pressures of living in Western New York, it's no surprise that many of our clients come to Oak & Olive Health & Wellness feeling chronically stressed and burnt out.</p>
+<p>Rochester has a strong and growing base of office workers, remote professionals, healthcare employees, and students — many of whom spend the majority of their waking hours seated. If you're one of them, and you've noticed increasing stiffness in your neck, aching in your lower back, or headaches that seem to appear reliably around 3pm, there's a very specific reason for that. And the good news is, it's addressable.</p>
 
-<p>Stress, when chronic and unmanaged, is not just uncomfortable — it's a genuine health crisis. It contributes to weight gain, poor sleep, weakened immunity, cardiovascular disease, hormonal imbalance, and accelerated aging. The good news is that stress management is a learnable skill, and the right support makes all the difference.</p>
+<h2>What Actually Happens to Your Spine When You Sit</h2>
+<p>The human spine is not designed for prolonged static loading. When you sit — especially with a forward head posture looking at a screen — a cascade of biomechanical changes occurs:</p>
+<ul>
+<li><strong>Disc compression increases.</strong> Intradiscal pressure is actually higher when sitting than when standing. Over time, this can accelerate disc degeneration and contribute to disc bulges or herniations.</li>
+<li><strong>Hip flexors shorten and tighten.</strong> The psoas and iliacus muscles, which connect your spine to your femur, adaptively shorten when held in a flexed position for hours. This pulls your lumbar spine forward and contributes to lower back pain and poor movement patterns.</li>
+<li><strong>Glutes inhibit.</strong> Sitting essentially "turns off" your gluteal muscles — the primary stabilizers of your pelvis and lower back. Weak, inhibited glutes force your lower back to compensate, contributing to chronic strain.</li>
+<li><strong>Forward head posture loads the cervical spine.</strong> For every inch your head moves forward of your shoulders, the effective weight on your cervical spine increases by roughly 10 pounds. At a moderate forward head position, that's an additional 30–40 lbs of force on the joints and muscles of your neck — all day, every day.</li>
+</ul>
 
-<h2>Understanding Your Stress Response</h2>
-<p>Before you can manage stress effectively, it helps to understand what's actually happening in your body. When you perceive a threat — whether it's a work deadline, a difficult conversation, or financial pressure — your nervous system activates the "fight or flight" response, flooding your body with cortisol and adrenaline. In short bursts, this is useful. But when it's constantly activated, these same hormones become destructive.</p>
-<p>The antidote is learning to activate the parasympathetic nervous system — your body's "rest and digest" mode. And there are concrete, evidence-based ways to do that.</p>
+<h2>The Warning Signs to Watch For</h2>
+<p>These structural changes don't happen overnight, but they accumulate. The early warning signs include:</p>
+<ul>
+<li>Stiffness or aching in the lower back, especially after long periods of sitting or upon standing</li>
+<li>Tension headaches originating at the base of the skull</li>
+<li>Tightness or reduced range of motion when turning your head</li>
+<li>Burning or fatigue between the shoulder blades</li>
+<li>Numbness or tingling in the hands or fingers</li>
+</ul>
+<p>If any of these are familiar, they're worth taking seriously — not just managing with ibuprofen and hoping they pass.</p>
 
-<h2>Evidence-Based Strategies That Work</h2>
+<h2>What You Can Do Right Now</h2>
 
-<h3>Diaphragmatic Breathing</h3>
-<p>Slow, deep belly breathing is one of the fastest ways to downregulate your nervous system. Even five minutes of intentional breathing can measurably lower cortisol levels. We teach specific breathwork techniques in our stress management sessions at Oak & Olive.</p>
+<h3>Set a Movement Alarm</h3>
+<p>The single highest-impact change most desk workers can make is simply standing up and moving every 30–45 minutes. Even a 2-minute walk to get water or do a few gentle neck rotations interrupts the static loading cycle. Set a recurring reminder on your phone or computer.</p>
 
-<h3>Mindfulness-Based Stress Reduction (MBSR)</h3>
-<p>MBSR is one of the most well-researched approaches to chronic stress. It combines mindfulness meditation, body awareness, and yoga to help you develop a different relationship with stress. Many Rochester professionals and parents have found this approach genuinely life-changing.</p>
+<h3>Audit Your Workstation</h3>
+<p>Your monitor should be at eye level so your head isn't tilting down. Your chair height should allow your hips and knees to be at roughly 90 degrees with feet flat on the floor. Your keyboard and mouse should be close enough that your shoulders aren't rounded forward. These aren't luxury adjustments — they're biomechanical necessities for anyone spending significant time at a desk.</p>
 
-<h3>Movement as Medicine</h3>
-<p>Exercise is one of nature's most powerful stress relievers, releasing endorphins and helping to metabolize excess cortisol. You don't need to run marathons — even a 20-minute walk through Genesee Valley Park or a yoga class can have meaningful effects on your stress levels.</p>
+<h3>Strengthen the Right Muscles</h3>
+<p>Hip flexor stretching, glute activation exercises, and deep neck flexor strengthening are the three most important corrective targets for desk workers. A customized exercise programming plan can address your specific patterns — we build these as part of chiropractic care at Oak &amp; Olive so that your progress between visits sticks.</p>
 
-<h3>Sleep Optimization</h3>
-<p>Stress and poor sleep create a vicious cycle. Improving sleep hygiene — consistent bedtimes, limiting screens, optimizing your sleep environment — can dramatically reduce baseline stress levels.</p>
+<h3>Get a Chiropractic Evaluation</h3>
+<p>If you've already accumulated significant postural strain, spinal joint restrictions, or muscle imbalances, self-care alone has limits. Chiropractic manipulative therapy restores mobility to restricted spinal segments, instrument-assisted soft-tissue mobilization addresses the fascial and muscular components, and a structured treatment plan can reverse patterns that years of desk work have created.</p>
 
-<h3>Social Connection</h3>
-<p>Rochester has a strong sense of community, and leaning into that connection is genuinely therapeutic. Isolation amplifies stress; meaningful relationships buffer it.</p>
-
-<h2>When to Seek Professional Support</h2>
-<p>If stress is significantly impacting your relationships, work performance, physical health, or quality of life, it may be time to work with a wellness professional. At Oak & Olive, our wellness coaches are trained to help you identify the root sources of your stress and build a sustainable, personalized management plan.</p>
-
-<p>We work with individuals, couples, and corporate teams throughout the Rochester, NY area. <a href="/contact">Reach out today</a> to schedule your free consultation and take the first step toward a calmer, more balanced life.</p>
+<p>Many of our patients at Oak &amp; Olive Chiropractic are Rochester-area professionals who came in for back or neck pain and discovered that a targeted plan — combining chiropractic care with exercise programming and soft-tissue work — made a bigger difference than anything they'd tried before. If that sounds like you, <a href="/contact">book a consultation</a> and let's take a look at what's going on.</p>
     `.trim(),
   },
 ]
