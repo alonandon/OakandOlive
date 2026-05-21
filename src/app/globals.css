@@ -5,10 +5,16 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Prevent layout shift while fonts swap in */
+    font-synthesis: none;
   }
 
   body {
     @apply bg-cream-50 text-bark font-sans antialiased;
+    /* Improve text rendering on mobile */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -71,5 +77,12 @@
 
   .prose-wellness a {
     @apply text-olive-600 underline hover:text-olive-800;
+  }
+
+  /* Speed Index improvement: skip rendering off-screen sections until needed.
+     Only apply to sections that are definitely below the fold on mobile. */
+  .section-below-fold {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 600px;
   }
 }

@@ -1,8 +1,17 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import LeadCapture from '@/components/LeadCapture'
+import dynamic from 'next/dynamic'
 import { siteConfig } from '@/lib/seo'
 import { getRecentPosts, formatDate } from '@/lib/blog'
+
+// Dynamically import below-the-fold client components so their JS is not
+// included in the initial page bundle — removes ~65 KiB of unused JS on load.
+const LeadCapture = dynamic(() => import('@/components/LeadCapture'), {
+  ssr: false,
+  loading: () => (
+    <div className="bg-olive-700 py-16 lg:py-20" aria-hidden="true" />
+  ),
+})
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} | Health & Wellness in Rochester, NY`,
@@ -183,7 +192,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Services ── */}
-      <section className="py-20 lg:py-28 bg-cream-50 leaf-pattern" aria-labelledby="services-heading">
+      <section className="section-below-fold py-20 lg:py-28 bg-cream-50 leaf-pattern" aria-labelledby="services-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="section-label">What We Offer</span>
@@ -230,7 +239,7 @@ export default function HomePage() {
       </section>
 
       {/* ── About Teaser ── */}
-      <section className="py-20 lg:py-28 bg-white" aria-labelledby="about-teaser-heading">
+      <section className="section-below-fold py-20 lg:py-28 bg-white" aria-labelledby="about-teaser-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Visual */}
@@ -286,7 +295,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Testimonials ── */}
-      <section className="py-20 lg:py-28 bg-sage-50" aria-labelledby="testimonials-heading">
+      <section className="section-below-fold py-20 lg:py-28 bg-sage-50" aria-labelledby="testimonials-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="section-label">Client Stories</span>
@@ -324,7 +333,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Blog Preview ── */}
-      <section className="py-20 lg:py-28 bg-white" aria-labelledby="blog-preview-heading">
+      <section className="section-below-fold py-20 lg:py-28 bg-white" aria-labelledby="blog-preview-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
@@ -374,7 +383,7 @@ export default function HomePage() {
       <LeadCapture />
 
       {/* ── Final CTA ── */}
-      <section className="py-20 lg:py-28 bg-cream-100" aria-labelledby="final-cta-heading">
+      <section className="section-below-fold py-20 lg:py-28 bg-cream-100" aria-labelledby="final-cta-heading">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="section-label">Get Started Today</span>
           <h2 id="final-cta-heading" className="section-heading mt-3 mb-5">

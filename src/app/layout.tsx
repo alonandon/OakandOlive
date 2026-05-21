@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Lato } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -8,8 +9,11 @@ import { localBusinessSchema } from '@/lib/schema'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
+  // Explicitly include bold weights so the hero h1 (font-bold) is preloaded
+  weight: ['400', '700', '900'],
   variable: '--font-playfair',
   display: 'swap',
+  preload: true,
 })
 
 const lato = Lato({
@@ -17,6 +21,7 @@ const lato = Lato({
   weight: ['300', '400', '700', '900'],
   variable: '--font-lato',
   display: 'swap',
+  preload: true,
 })
 
 export const metadata: Metadata = {
@@ -72,23 +77,29 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-        {/* Google Analytics — replace G-XXXXXXXXXX with your Measurement ID */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${siteConfig.googleAnalyticsId}', { page_path: window.location.pathname });
-            `,
-          }}
-        />
       </head>
       <body>
         <Header />
         <main id="main-content">{children}</main>
         <Footer />
+
+        {/*
+          Google Analytics loaded after the page is interactive so it does not
+          block the critical rendering path (fixes "render-blocking requests").
+          Replace G-XXXXXXXXXX with your actual Measurement ID.
+        */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${siteConfig.googleAnalyticsId}');
+          `}
+        </Script>
       </body>
     </html>
   )
