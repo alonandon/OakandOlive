@@ -14,18 +14,88 @@ const LeadCapture = dynamic(() => import('@/components/LeadCapture'), {
 })
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Health & Wellness in Rochester, NY`,
+  title: `${siteConfig.name} | Chiropractic Care in Rochester, NY`,
   description:
-    'Oak & Olive Health & Wellness — Rochester\'s trusted destination for nutrition counseling, wellness coaching, yoga, massage therapy, and stress management. Book a free consultation today.',
+    'Oak & Olive Chiropractic — Rochester\'s trusted chiropractic practice. Expert spinal care, injury rehabilitation, and hands-on treatment. Book a consultation today.',
   alternates: { canonical: siteConfig.url },
   openGraph: {
-    title: `${siteConfig.name} | Health & Wellness in Rochester, NY`,
-    description: 'Rochester\'s trusted destination for holistic health and wellness. Expert nutrition, coaching, yoga, massage, and more.',
+    title: `${siteConfig.name} | Chiropractic Care in Rochester, NY`,
+    description: 'Rochester\'s trusted chiropractic practice. Expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.',
     url: siteConfig.url,
   },
 }
 
 const services = [
+  {
+    id: 'chiropractic',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+      </svg>
+    ),
+    title: 'Chiropractic Manipulative Therapy',
+    description: 'Hands-on spinal adjustments to restore proper alignment, reduce pain, and improve your body\'s natural movement patterns.',
+  },
+  {
+    id: 'bfrt',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+      </svg>
+    ),
+    title: 'Blood Flow Restriction Therapy (BFRT)',
+    description: 'Low-load exercise with specialized cuffs that safely promote muscle growth and strength — ideal for injury recovery.',
+  },
+  {
+    id: 'cupping',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      </svg>
+    ),
+    title: 'Cupping Therapy',
+    description: 'Ancient technique using suction cups to release muscle tension, improve circulation, and accelerate soft-tissue healing.',
+  },
+  {
+    id: 'decompression',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+      </svg>
+    ),
+    title: 'Flexion Distraction & Spinal Decompression Therapy',
+    description: 'Gentle, non-surgical decompression to relieve disc pressure, reduce nerve pain, and restore spinal mobility.',
+  },
+  {
+    id: 'iastm',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+      </svg>
+    ),
+    title: 'Instrument Assisted Soft-Tissue Mobilization',
+    description: 'Specialized tools to break down scar tissue and fascial restrictions, restoring normal tissue function and reducing chronic pain.',
+  },
+  {
+    id: 'shockwave',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+    title: 'Shockwave Therapy',
+    description: 'High-energy acoustic wave treatment that stimulates healing in tendons, muscles, and connective tissue — proven for chronic conditions.',
+  },
+  {
+    id: 'nerve-flossing',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
+      </svg>
+    ),
+    title: 'Nerve Flossing',
+    description: 'Targeted neurodynamic techniques to mobilize irritated nerves, reduce pain, and restore normal nerve function throughout the body.',
+  },
   {
     id: 'nutrition',
     icon: (
@@ -33,58 +103,18 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m-7-9H4m16 0h-1M6.343 6.343l-.707-.707m12.728 12.728l-.707-.707M6.343 17.657l-.707.707M17.657 6.343l-.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
       </svg>
     ),
-    title: 'Nutrition Counseling',
-    description: 'Personalized nutrition plans designed around your unique body, health history, and goals — no cookie-cutter diets here.',
+    title: 'Nutrition for a Lifetime',
+    description: 'Personalized nutrition guidance rooted in real-life sustainability — designed to fuel your recovery and long-term health.',
   },
   {
-    id: 'coaching',
+    id: 'exercise',
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: 'Wellness Coaching',
-    description: 'One-on-one coaching that goes beyond fitness to address your whole life — habits, mindset, relationships, and purpose.',
-  },
-  {
-    id: 'yoga',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-      </svg>
-    ),
-    title: 'Yoga & Movement',
-    description: 'Welcoming yoga and movement classes for all levels — from gentle beginners to advanced practitioners. In-person in Rochester.',
-  },
-  {
-    id: 'massage',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
-      </svg>
-    ),
-    title: 'Massage Therapy',
-    description: 'Swedish, deep tissue, and therapeutic massage from licensed practitioners. Restore your body and quiet your mind.',
-  },
-  {
-    id: 'stress',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-      </svg>
-    ),
-    title: 'Stress Management',
-    description: 'Mindfulness, breathwork, and evidence-based techniques to help you find calm — even in the middle of a Rochester winter.',
-  },
-  {
-    id: 'corporate',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-      </svg>
-    ),
-    title: 'Corporate Wellness',
-    description: 'Customized wellness programs for Rochester businesses. Invest in your team\'s health and watch productivity and morale soar.',
+    title: 'Exercise Programming',
+    description: 'Customized movement programs to complement your chiropractic care, build strength, and prevent future injury.',
   },
 ]
 
@@ -109,13 +139,6 @@ const testimonials = [
   },
 ]
 
-const stats = [
-  { value: '500+', label: 'Rochester Clients Served' },
-  { value: '12+', label: 'Years of Experience' },
-  { value: '6',   label: 'Wellness Services' },
-  { value: '98%', label: 'Client Satisfaction Rate' },
-]
-
 export default function HomePage() {
   const recentPosts = getRecentPosts(3)
 
@@ -135,7 +158,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
           <div className="max-w-3xl">
             <span className="inline-block section-label text-olive-300 mb-5">
-              Rochester, NY Health &amp; Wellness
+              Rochester, NY Chiropractic Care
             </span>
             <h1
               id="hero-heading"
@@ -145,7 +168,7 @@ export default function HomePage() {
               <span className="text-olive-300">Grown for You.</span>
             </h1>
             <p className="font-sans text-lg md:text-xl text-cream-200 leading-relaxed max-w-2xl mb-10">
-              Rochester&apos;s trusted health and wellness destination. We combine expert nutrition counseling, mindful movement, and holistic coaching to help you live your strongest, most balanced life.
+              Rochester&apos;s trusted chiropractic practice. We combine expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="btn-white text-base px-8 py-4">
@@ -156,7 +179,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-2 mt-8">
-              {['Nutrition Counseling', 'Wellness Coaching', 'Yoga & Movement', 'Massage Therapy'].map((s) => (
+              {['Chiropractic Care', 'Spinal Decompression', 'Shockwave Therapy', 'Nutrition & Exercise'].map((s) => (
                 <span key={s} className="flex items-center gap-1.5 font-sans text-sm text-olive-200">
                   <svg className="w-3.5 h-3.5 text-olive-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
@@ -177,30 +200,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Trust Bar ── */}
-      <section className="bg-cream-100 border-y border-cream-200 py-8" aria-label="Key stats">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x md:divide-cream-300">
-            {stats.map((stat) => (
-              <div key={stat.label} className="text-center px-4">
-                <p className="font-serif text-3xl md:text-4xl text-olive-700 font-bold">{stat.value}</p>
-                <p className="font-sans text-xs text-bark-muted mt-1 tracking-wide">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── Services ── */}
       <section className="section-below-fold py-20 lg:py-28 bg-cream-50 leaf-pattern" aria-labelledby="services-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="section-label">What We Offer</span>
             <h2 id="services-heading" className="section-heading mt-3 mb-5">
-              Comprehensive Wellness Services<br className="hidden md:block" /> for Rochester Residents
+              Individualized Chiropractic Care for Rochester
             </h2>
             <p className="font-sans text-bark-muted max-w-2xl mx-auto leading-relaxed">
-              Every service we offer is designed with one goal in mind: helping you build a healthier, more vibrant life — on your terms, at your pace.
+              Every patient receives a care plan designed with one goal in mind: helping you build and maintain a healthier life.
             </p>
           </div>
 
@@ -246,21 +255,12 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-[4/5] bg-gradient-to-br from-olive-800 to-olive-950 rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-                  <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mb-6">
+                  <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center">
                     <svg className="w-12 h-12 text-olive-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <p className="font-serif text-2xl text-white leading-snug mb-3">
-                    &ldquo;True wellness begins with a single, courageous step toward change.&rdquo;
-                  </p>
-                  <p className="font-sans text-sm text-olive-200">— The Oak &amp; Olive Team</p>
                 </div>
-              </div>
-              {/* Floating badge */}
-              <div className="absolute -bottom-6 -right-4 bg-white rounded-2xl shadow-lg px-6 py-4 border border-cream-200">
-                <p className="font-serif text-2xl text-olive-700 font-bold">12+</p>
-                <p className="font-sans text-xs text-bark-muted">Years serving<br/>Rochester, NY</p>
               </div>
             </div>
 
@@ -272,13 +272,10 @@ export default function HomePage() {
               </h2>
               <div className="space-y-4 font-sans text-bark-muted leading-relaxed">
                 <p>
-                  Oak &amp; Olive Health &amp; Wellness was born out of a simple belief: that everyone deserves access to expert, compassionate wellness care — right here in their own community.
+                  Oak &amp; Olive Chiropractic was born out of a simple belief: that everyone deserves access to the care I would expect and hope for my own family. I use my expertise to deliver compassionate care right here in my own community.
                 </p>
                 <p>
-                  Founded in the heart of Rochester, NY, we&apos;ve spent over a decade building deep roots in this remarkable city. From the Finger Lakes to the neighborhoods of Pittsford, Brighton, Webster, and beyond, we are proud to be Rochester&apos;s go-to wellness resource.
-                </p>
-                <p>
-                  Our team of registered dietitians, certified wellness coaches, yoga instructors, and massage therapists all share a common philosophy: <em>true wellness is not a destination — it&apos;s a practice.</em> And we&apos;re here to walk that path with you.
+                  Founded in the heart of Rochester, NY, we continue to build deep roots in this remarkable city. From the Finger Lakes to the neighborhoods of Greece, Gates, Spencerport, Brighton and beyond, we are proud to be Rochester&apos;s go-to chiropractic resource.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -328,6 +325,17 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <a
+              href="https://g.page/r/CUxphcxcZIPbEAE/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary px-7 py-3"
+            >
+              Leave Us a Google Review
+            </a>
           </div>
         </div>
       </section>
@@ -390,7 +398,7 @@ export default function HomePage() {
             Ready to Begin Your Wellness Journey?
           </h2>
           <p className="font-sans text-bark-muted max-w-xl mx-auto leading-relaxed mb-8">
-            Take the first step toward a healthier, more balanced life. Book a free 20-minute consultation with one of our Rochester wellness experts — no commitment required.
+            Take the first step toward a healthier, more balanced life. Book a free 20-minute consultation with one of our Rochester chiropractic experts — no commitment required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="btn-primary px-8 py-4 text-base">
@@ -401,7 +409,7 @@ export default function HomePage() {
             </a>
           </div>
           <p className="font-sans text-xs text-bark-muted mt-6">
-            Serving Rochester, Pittsford, Brighton, Webster, Irondequoit &amp; surrounding communities
+            Serving Rochester, Greece, Gates, Spencerport, Brighton &amp; surrounding communities
           </p>
         </div>
       </section>

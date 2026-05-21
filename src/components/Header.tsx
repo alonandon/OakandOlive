@@ -44,7 +44,7 @@ export default function Header() {
               Oak &amp; Olive
             </span>
             <span className="font-sans text-[10px] md:text-xs tracking-widest text-bark-muted uppercase">
-              Health &amp; Wellness
+              Chiropractic
             </span>
           </Link>
 
