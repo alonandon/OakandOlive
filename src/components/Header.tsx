@@ -6,11 +6,12 @@ import { usePathname } from 'next/navigation'
 import { siteConfig } from '@/lib/seo'
 
 const navLinks = [
-  { label: 'Home',     href: '/' },
-  { label: 'About',    href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Blog',     href: '/blog' },
-  { label: 'FAQ',      href: '/faq' },
+  { label: 'Home',        href: '/' },
+  { label: 'About',       href: '/about' },
+  { label: 'Treatments',  href: '/services' },
+  { label: 'Conditions',  href: '/conditions' },
+  { label: 'New Patients', href: '/faq' },
+  { label: 'Blog',        href: '/blog' },
 ]
 
 export default function Header() {

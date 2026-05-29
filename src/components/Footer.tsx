@@ -14,12 +14,13 @@ const services = [
 ]
 
 const quickLinks = [
-  { label: 'Home',     href: '/' },
-  { label: 'About Us', href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Blog',     href: '/blog' },
-  { label: 'FAQ',      href: '/faq' },
-  { label: 'Contact',  href: '/contact' },
+  { label: 'Home',        href: '/' },
+  { label: 'About Us',    href: '/about' },
+  { label: 'Treatments',  href: '/services' },
+  { label: 'Conditions',  href: '/conditions' },
+  { label: 'New Patients', href: '/faq' },
+  { label: 'Blog',        href: '/blog' },
+  { label: 'Contact',     href: '/contact' },
 ]
 
 export default function Footer() {
