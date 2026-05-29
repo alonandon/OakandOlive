@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { buildMetadata, siteConfig } from '@/lib/seo'
 import { breadcrumbSchema } from '@/lib/schema'
@@ -68,7 +69,17 @@ export default function AboutPage() {
       {/* Story */}
       <section className="py-20 lg:py-28 bg-white" aria-labelledby="story-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start mb-16">
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/5] w-full max-w-md mx-auto lg:mx-0">
+              <Image
+                src="/doctor.jpg.jpg"
+                alt="Dr. Alex Eckert, D.C. — founder of Oak & Olive Chiropractic"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
+            </div>
             <div>
               <span className="section-label">How We Started</span>
               <h2 id="story-heading" className="section-heading mt-3 mb-6">
@@ -86,22 +97,22 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
+          </div>
 
-            <div className="space-y-5">
-              {values.map((v) => (
-                <div key={v.title} className="bg-cream-50 border border-cream-200 rounded-xl p-6">
-                  <div className="flex gap-4">
-                    <div className="w-10 h-10 bg-olive-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <div className="w-3 h-3 bg-olive-500 rounded-full" />
-                    </div>
-                    <div>
-                      <h3 className="font-serif text-lg text-bark mb-1.5">{v.title}</h3>
-                      <p className="font-sans text-sm text-bark-muted leading-relaxed">{v.description}</p>
-                    </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {values.map((v) => (
+              <div key={v.title} className="bg-cream-50 border border-cream-200 rounded-xl p-6">
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-olive-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-3 h-3 bg-olive-500 rounded-full" />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-lg text-bark mb-1.5">{v.title}</h3>
+                    <p className="font-sans text-sm text-bark-muted leading-relaxed">{v.description}</p>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
