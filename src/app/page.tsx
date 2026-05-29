@@ -305,7 +305,7 @@ export default function HomePage() {
                   Meet the Doctor
                 </Link>
                 <Link href="/contact" className="btn-secondary px-7 py-3.5">
-                  Book a Consultation
+                  Schedule an Appointment
                 </Link>
               </div>
             </div>

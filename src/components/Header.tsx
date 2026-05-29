@@ -72,7 +72,7 @@ export default function Header() {
               {siteConfig.phone}
             </span>
             <Link href="/contact" className="btn-primary text-sm px-5 py-2.5">
-              Book a Consultation
+              Schedule an Appointment
             </Link>
           </div>
 
@@ -118,7 +118,7 @@ export default function Header() {
           <div className="pt-3 border-t border-cream-200 mt-3 space-y-2">
             <p className="px-3 text-xs text-bark-muted font-sans">{siteConfig.phone}</p>
             <Link href="/contact" className="btn-primary w-full justify-center mt-2">
-              Book a Consultation
+              Schedule an Appointment
             </Link>
           </div>
         </div>
