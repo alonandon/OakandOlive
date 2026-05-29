@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Script from 'next/script'
 import dynamic from 'next/dynamic'
 import { siteConfig } from '@/lib/seo'
 import { getRecentPosts, formatDate } from '@/lib/blog'
@@ -118,26 +119,6 @@ const services = [
   },
 ]
 
-const testimonials = [
-  {
-    quote: "Oak & Olive completely transformed my relationship with food and my body. After years of yo-yo dieting, I finally have a sustainable approach to nutrition that I actually enjoy. I can't recommend their team enough.",
-    name: 'Sarah M.',
-    location: 'Rochester, NY',
-    service: 'Nutrition Counseling',
-  },
-  {
-    quote: "I came to Oak & Olive completely burned out and barely functioning. My wellness coach helped me rebuild my routines from the ground up. Six months later, I feel like a completely different person — calmer, stronger, and more focused.",
-    name: 'James T.',
-    location: 'Pittsford, NY',
-    service: 'Wellness Coaching',
-  },
-  {
-    quote: "The yoga classes here are unlike anything else in Rochester. The instructors are incredibly skilled and the atmosphere is so welcoming. I went from a complete beginner to attending three classes a week and loving every minute.",
-    name: 'Maria L.',
-    location: 'Brighton, NY',
-    service: 'Yoga & Movement',
-  },
-]
 
 export default function HomePage() {
   const recentPosts = getRecentPosts(3)
@@ -301,48 +282,12 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((t, i) => (
-              <a
-                key={i}
-                href="https://g.page/r/CUxphcxcZIPbEAE/review"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-2xl p-8 shadow-sm border border-cream-200 flex flex-col hover:shadow-md transition-shadow"
-              >
-                <div className="flex gap-1 mb-5">
-                  {[...Array(5)].map((_, j) => (
-                    <svg key={j} className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                    </svg>
-                  ))}
-                </div>
-                <blockquote className="font-sans text-bark-muted leading-relaxed text-sm flex-1 mb-6">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-olive-100 rounded-full flex items-center justify-center font-serif text-olive-700 font-bold text-sm">
-                    {t.name.charAt(0)}
-                  </div>
-                  <div>
-                    <p className="font-sans text-sm font-semibold text-bark">{t.name}</p>
-                    <p className="font-sans text-xs text-bark-muted">{t.location} · {t.service}</p>
-                  </div>
-                </div>
-              </a>
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <a
-              href="https://g.page/r/CUxphcxcZIPbEAE/review"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary px-7 py-3"
-            >
-              Leave Us a Google Review
-            </a>
-          </div>
+          <div id="shapo-widget-9351899923fd5046a50b" />
+          <Script
+            id="shapo-embed-js"
+            src="https://cdn.shapo.io/js/embed.js"
+            strategy="lazyOnload"
+          />
         </div>
       </section>
 
