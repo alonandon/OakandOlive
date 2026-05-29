@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start mb-16">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] w-full max-w-md mx-auto lg:mx-0">
               <Image
-                src="/doctor.jpg.jpg"
+                src="/doctor.jpg"
                 alt="Dr. Alex Eckert, D.C. — founder of Oak & Olive Chiropractic"
                 fill
                 className="object-cover object-top"
