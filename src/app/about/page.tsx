@@ -83,7 +83,7 @@ export default function AboutPage() {
             <div>
               <span className="section-label">How We Started</span>
               <h2 id="story-heading" className="section-heading mt-3 mb-6">
-                A Rochester Practice Built on Purpose
+                A Rochester Practice Built with Purpose
               </h2>
               <div className="space-y-4 font-sans text-bark-muted leading-relaxed">
                 <p>
