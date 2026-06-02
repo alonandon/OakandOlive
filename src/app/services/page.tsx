@@ -255,9 +255,9 @@ export default function ServicesPage() {
                     </div>
                   </div>
 
-                  <Link href="/contact" className="btn-primary px-7 py-3.5">
+                  <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary px-7 py-3.5">
                     Book {service.title}
-                  </Link>
+                  </a>
                 </div>
 
                 <div className="bg-cream-50 border border-cream-200 rounded-2xl p-8">
@@ -289,9 +289,9 @@ export default function ServicesPage() {
             Your first step starts here. Schedule an appointment below or call for a consultation with Dr. Alex and see if we are the most appropriate next step in your care.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn-white px-8 py-4">
+            <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-white px-8 py-4">
               Book an Appointment
-            </Link>
+            </a>
             <a href="tel:5854295100" className="font-sans font-semibold text-white border-2 border-white/60 hover:border-white px-8 py-4 rounded-lg transition-colors">
               Call (585) 429-5100
             </a>

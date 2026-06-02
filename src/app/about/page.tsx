@@ -127,9 +127,9 @@ export default function AboutPage() {
           <p className="font-sans text-olive-100 leading-relaxed max-w-2xl mx-auto mb-8">
             Oak &amp; Olive serves patients throughout the Rochester, NY metro area including the City of Rochester, Pittsford, Brighton, Irondequoit, Penfield, Chili, Greece, Gates, and beyond.
           </p>
-          <Link href="/contact" className="btn-white px-8 py-4">
+          <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-white px-8 py-4">
             Schedule Your Consultation
-          </Link>
+          </a>
         </div>
       </section>
     </>
