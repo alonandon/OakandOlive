@@ -152,11 +152,11 @@ export default function HomePage() {
               Rochester&apos;s trusted chiropractic practice. We combine expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="btn-white text-base px-8 py-4">
+              <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-white text-base px-8 py-4">
                 Schedule an Appointment
-              </Link>
+              </a>
               <Link href="/services" className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-sans font-semibold text-base rounded-md hover:border-white/60 hover:bg-white/10 transition-all duration-200">
-                Explore Our Services
+                Explore Our Treatments
               </Link>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-2 mt-8">
@@ -304,9 +304,9 @@ export default function HomePage() {
                 <Link href="/about" className="btn-primary px-7 py-3.5">
                   Meet the Doctor
                 </Link>
-                <Link href="/contact" className="btn-secondary px-7 py-3.5">
+                <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-secondary px-7 py-3.5">
                   Schedule an Appointment
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -394,9 +394,9 @@ export default function HomePage() {
             Take the first step toward a healthier, more balanced life. Book a free 20-minute consultation with one of our Rochester chiropractic experts — no commitment required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn-primary px-8 py-4 text-base">
+            <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-base">
               Schedule an Appointment
-            </Link>
+            </a>
             <a href={`tel:${siteConfig.phone.replace(/\D/g, '')}`} className="btn-secondary px-8 py-4 text-base">
               Call {siteConfig.phone}
             </a>

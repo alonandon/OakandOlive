@@ -109,9 +109,9 @@ export default function ConditionsPage() {
             We treat many more musculoskeletal and neuromusculoskeletal conditions. Schedule a consultation and Dr. Eckert will evaluate your case personally.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn-primary px-8 py-4 text-base">
+            <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-base">
               Schedule an Appointment
-            </Link>
+            </a>
             <Link href="/services" className="btn-secondary px-8 py-4 text-base">
               View All Treatments
             </Link>

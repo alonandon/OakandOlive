@@ -71,9 +71,9 @@ export default function Header() {
             <span className="text-xs text-bark-muted font-sans hidden lg:block">
               {siteConfig.phone}
             </span>
-            <Link href="/contact" className="btn-primary text-sm px-5 py-2.5">
+            <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary text-sm px-5 py-2.5">
               Schedule an Appointment
-            </Link>
+            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -117,9 +117,9 @@ export default function Header() {
           ))}
           <div className="pt-3 border-t border-cream-200 mt-3 space-y-2">
             <p className="px-3 text-xs text-bark-muted font-sans">{siteConfig.phone}</p>
-            <Link href="/contact" className="btn-primary w-full justify-center mt-2">
+            <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary w-full justify-center mt-2 flex">
               Schedule an Appointment
-            </Link>
+            </a>
           </div>
         </div>
       )}
