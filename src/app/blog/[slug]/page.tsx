@@ -152,9 +152,9 @@ export default function BlogPostPage({ params }: Props) {
                 <p className="font-sans text-sm text-olive-100 mb-5 leading-relaxed">
                   Book a free consultation with our Rochester wellness team.
                 </p>
-                <Link href="/contact" className="btn-white w-full justify-center text-sm px-4 py-3">
+                <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-white w-full justify-center text-sm px-4 py-3">
                   Book a Free Consultation
-                </Link>
+                </a>
                 <p className="font-sans text-xs text-olive-200 mt-3">{siteConfig.phone}</p>
               </div>
 
