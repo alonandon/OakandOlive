@@ -4,131 +4,167 @@ import { buildMetadata, siteConfig } from '@/lib/seo'
 import { breadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Health & Wellness Services',
-  description: 'Explore Oak & Olive\'s full range of health and wellness services in Rochester, NY — nutrition counseling, wellness coaching, yoga, massage therapy, stress management, and corporate wellness.',
+  title: 'Chiropractic Treatments',
+  description: 'Chiropractic treatments in Rochester, NY — CMT, flexion distraction, IASTM, shockwave therapy, BFRT, cupping, nerve flossing, nutrition, and exercise programming. All under one roof.',
   path: '/services',
 })
 
 const services = [
   {
+    id: 'cmt',
+    title: 'Chiropractic Manipulative Therapy (CMT)',
+    tagline: 'Precise, hands-on care to restore movement and reduce pain.',
+    description: 'Chiropractic Manipulative Therapy (CMT) uses precise, hands-on spinal adjustments to restore proper movement, reduce joint restriction, and reduce pain.',
+    details: [
+      'Comprehensive spinal and extremity assessment',
+      'High-velocity low-amplitude (HVLA) adjustments',
+      'Instrument-assisted adjusting (Activator) when appropriate',
+      'Drop-table technique for comfort and precision',
+      'Flexion-distraction for disc-related complaints',
+      'Extremity adjusting (shoulder, knee, ankle, wrist)',
+      'Post-adjustment mobility and movement guidance',
+    ],
+    who: 'Neck pain, back pain, headaches, joint dysfunction, and anyone looking to maintain spinal health over time.',
+    format: 'In-person at our Rochester, NY location',
+    duration: 'Included in every visit',
+    color: 'olive',
+  },
+  {
+    id: 'flexion-distraction',
+    title: 'Flexion Distraction & Spinal Decompression',
+    tagline: 'Gentle, non-surgical relief for disc and nerve pressure.',
+    description: 'Flexion distraction and spinal decompression therapy is a gentle, non-surgical approach to relieving pressure on intervertebral discs and compressed spinal nerves. Using a specialized table, rhythmic traction is applied to the spine — reducing disc bulge, relieving nerve irritation, and restoring normal spinal mobility without pain or twisting forces.',
+    details: [
+      'Segmental flexion distraction technique',
+      'Lumbar and cervical decompression protocols',
+      'Nerve root and disc pressure reduction',
+      'Integration with chiropractic adjustment and soft tissue care',
+      'Home traction and positioning guidance when appropriate',
+    ],
+    who: 'Disc herniations, bulging discs, sciatica, lumbar stenosis, and radiating arm or leg pain.',
+    format: 'In-person at our Rochester, NY location',
+    duration: '10–20 minutes (often combined with CMT)',
+    color: 'sage',
+  },
+  {
+    id: 'iastm',
+    title: 'Instrument Assisted Soft-Tissue Mobilization (IASTM)',
+    tagline: 'Targeted soft-tissue treatment to break down adhesions and restore function.',
+    description: 'Instrument Assisted Soft-Tissue Mobilization (IASTM) uses specially designed stainless steel tools to detect and treat areas of soft-tissue dysfunction — including scar tissue, fascial adhesions, and fibrotic tissue that builds up after injury or repetitive strain. The tools allow for precise application of controlled pressure, promoting tissue remodeling and restoring normal function.',
+    details: [
+      'IASTM assessment and tissue mapping',
+      'Treatment of upper and lower extremity soft tissue',
+      'Spinal and paraspinal fascial release',
+      'Tendon and ligament remodeling protocols',
+      'Post-treatment stretching and movement integration',
+    ],
+    who: 'Scar tissue, chronic tendinopathy, repetitive strain injuries, post-surgical adhesions, and restricted range of motion.',
+    format: 'In-person at our Rochester, NY location',
+    duration: '10–15 minutes per region (typically combined with your visit)',
+    color: 'olive',
+  },
+  {
+    id: 'shockwave',
+    title: 'Shockwave Therapy',
+    tagline: 'Evidence-based acoustic wave therapy for chronic tendon conditions.',
+    description: 'Shockwave therapy delivers high-energy acoustic waves to injured or chronically painful tissue, stimulating the body\'s natural repair process at a cellular level. It\'s one of the most evidence-supported non-surgical options for conditions that haven\'t responded to other conservative care — and results are often felt within just a few sessions.',
+    details: [
+      'Radial shockwave protocols',
+      'Tendon and calcification treatment',
+      'Trigger point shockwave application',
+      'Combination with exercise rehabilitation',
+      'Typical course: 4–8 sessions',
+    ],
+    who: 'Plantar fasciitis, Achilles tendinopathy, calcific shoulder tendinitis, lateral epicondylitis (tennis elbow), patellar tendinopathy, and other chronic tendon conditions.',
+    format: 'In-person at our Rochester, NY location',
+    duration: '10–15 minutes per area',
+    color: 'sage',
+  },
+  {
+    id: 'bfrt',
+    title: 'Blood Flow Restriction Therapy (BFRT)',
+    tagline: 'Rebuild strength with less stress on healing tissue.',
+    description: 'Blood Flow Restriction Therapy (BFRT) uses specialized cuffs to partially restrict venous blood flow during low-load exercise, triggering muscle growth and healing. The result: meaningful rehabilitation progress with significantly less stress on healing tissue — making it ideal for post-injury and post-surgical recovery.',
+    details: [
+      'Limb occlusion pressure assessment for personalized cuff settings',
+      'Upper and lower extremity BFRT protocols',
+      'Integration with active rehabilitation exercise',
+      'Progress tracking and load progression',
+      'Education on home program carry-over',
+    ],
+    who: 'Injury recovery, post-surgical rehab, muscle atrophy, and anyone who needs to rebuild strength without heavy loading.',
+    format: 'In-person at our Rochester, NY location',
+    duration: '20–30 minutes (often combined with your chiropractic visit)',
+    color: 'olive',
+  },
+  {
+    id: 'cupping',
+    title: 'Cupping Therapy',
+    tagline: 'Decompress tissue, improve circulation, and accelerate healing.',
+    description: 'Cupping therapy uses suction cups placed on the skin to lift soft tissue, improve local circulation, and release fascial restrictions. Unlike traditional massage that compresses tissue, cupping decompresses it — creating space, improving blood flow, and accelerating the body\'s natural healing process.',
+    details: [
+      'Static and dynamic cupping techniques',
+      'Myofascial decompression (movement-based cupping)',
+      'Integration with soft-tissue and chiropractic care',
+      'Post-cupping mobility work',
+    ],
+    who: 'Muscle tension, myofascial restrictions, chronic tightness, athletic recovery, and poor circulation in localized areas.',
+    format: 'In-person at our Rochester, NY location',
+    duration: '15–20 minutes (typically combined with your chiropractic visit)',
+    color: 'sage',
+  },
+  {
+    id: 'nerve-flossing',
+    title: 'Nerve Flossing',
+    tagline: 'Restore nerve mobility to relieve radiating pain and tingling.',
+    description: 'Nerve flossing — also called neural mobilization or neurodynamic technique — uses controlled movement sequences to gently mobilize irritated or compressed nerves through their surrounding tissue. When a nerve loses its ability to glide freely, it can generate pain, tingling, and weakness far from the original problem site. Nerve flossing restores that mobility.',
+    details: [
+      'Upper and lower extremity neurodynamic assessment',
+      'Median, ulnar, radial, sciatic, and femoral nerve techniques',
+      'Active and passive neural mobilization',
+      'Integration with spinal manipulation and decompression',
+      'Personalized home nerve flossing program',
+    ],
+    who: 'Sciatica, carpal tunnel, thoracic outlet syndrome, cervical radiculopathy, and any radiating, burning, or tingling pain along a nerve pathway.',
+    format: 'In-person at our Rochester, NY location (with home exercise instruction)',
+    duration: '10–15 minutes (combined with your chiropractic visit)',
+    color: 'olive',
+  },
+  {
     id: 'nutrition',
-    title: 'Nutrition Counseling',
-    tagline: 'Personalized nutrition that fits your real life.',
-    description: 'Our registered dietitian-nutritionists work with you one-on-one to create an individualized nutrition plan that aligns with your health goals, preferences, and lifestyle. No rigid meal plans, no unsustainable diets — just practical, evidence-based guidance that lasts.',
+    title: 'Nutrition for a Lifetime',
+    tagline: 'Good nutrition isn\'t a diet — it\'s a foundation.',
+    description: 'Our nutrition guidance is designed to maintain optimal function over the long term. We focus on practical, sustainable habits rooted in evidence — not rigid plans or short-term fixes. With so much information available on the topic, we\'ve boiled a diet down to its most simple and effective form.',
     details: [
-      'Comprehensive dietary assessment',
-      'Personalized meal planning and guidance',
-      'Metabolic health and weight management',
-      'Chronic disease nutrition (diabetes, heart disease, IBS)',
+      'Macronutrient guidance for tissue repair',
+      'Supplement recommendations (when appropriate)',
+      'Weight and metabolic health guidance',
       'Sports and performance nutrition',
-      'Pediatric and family nutrition',
-      'Eating disorder recovery support',
-      'Pregnancy and postpartum nutrition',
+      'Practical meal planning frameworks',
     ],
-    who: 'Anyone looking to improve their relationship with food, manage a health condition through diet, or optimize their energy and performance.',
-    format: 'In-person (Rochester, NY) or virtual',
-    duration: '60-minute initial · 45-minute follow-ups',
-    color: 'olive',
-  },
-  {
-    id: 'coaching',
-    title: 'Wellness Coaching',
-    tagline: 'Whole-life transformation, one habit at a time.',
-    description: 'Our Board-Certified Health & Wellness Coaches use motivational interviewing, behavioral science, and deep listening to help you build the habits, mindset, and routines that support the life you want. Whether you\'re navigating burnout, seeking better balance, or working toward a major life change — we meet you exactly where you are.',
-    details: [
-      'One-on-one coaching sessions',
-      'Goal setting and accountability',
-      'Habit formation and behavior change',
-      'Burnout recovery and resilience building',
-      'Work-life balance strategies',
-      'Sleep optimization',
-      'Mindset and motivation coaching',
-      'Lifestyle and identity alignment',
-    ],
-    who: 'Individuals feeling stuck, overwhelmed, or ready for meaningful change in any area of their health and life.',
-    format: 'In-person (Rochester, NY) or virtual',
-    duration: '60-minute sessions · packages available',
+    who: 'Patients seeking to support recovery through diet, manage inflammation, improve energy, or build sustainable long-term eating habits.',
+    format: 'In-person or integrated into your chiropractic visit',
+    duration: 'Woven into your ongoing care plan',
     color: 'sage',
   },
   {
-    id: 'yoga',
-    title: 'Yoga & Movement',
-    tagline: 'Movement that honors your body at any level.',
-    description: 'Our yoga and movement classes are designed to be accessible, welcoming, and deeply effective. Led by experienced instructors with training across multiple yoga traditions, our classes help you build strength, flexibility, and body awareness — while cultivating the inner calm that ripples into every area of your life.',
+    id: 'exercise',
+    title: 'Exercise Programming',
+    tagline: 'Chiropractic care gets you out of pain — exercise programming keeps you there.',
+    description: 'Every patient receives individualized movement recommendations to complement their in-office treatment, build functional strength, and reduce the risk of re-injury. Whether you\'re brand new to structured exercise or a seasoned athlete, your program is built around your goals and your life.',
     details: [
-      'Beginner-friendly group classes',
-      'Vinyasa flow (all levels)',
-      'Gentle and restorative yoga',
-      'Yin yoga for deep release',
-      'Private one-on-one sessions',
-      'Corporate yoga programs',
-      'Prenatal yoga (specialized sessions)',
-      'Meditation and breathwork integration',
+      'Functional movement screening',
+      'Personalized corrective exercise programs',
+      'Strength and conditioning programming (beginner through advanced)',
+      'Sport-specific and return-to-activity protocols',
+      'Mobility and flexibility programming',
+      'Home and gym-based program options',
+      'Progress reassessment and program updates',
     ],
-    who: 'Complete beginners through experienced practitioners. Anyone seeking improved flexibility, strength, stress relief, or mindful movement.',
-    format: 'In-person at our Rochester studio',
-    duration: '60–90 minutes per class',
+    who: 'Anyone looking to build strength, prevent re-injury, return to sport, or develop a sustainable active lifestyle alongside their chiropractic care.',
+    format: 'In-person instruction with take-home programming',
+    duration: 'Integrated into your care plan',
     color: 'olive',
-  },
-  {
-    id: 'massage',
-    title: 'Massage Therapy',
-    tagline: 'Healing touch for body and mind.',
-    description: 'Our licensed massage therapists provide therapeutic massage in a calm, professional setting in Rochester. Whether you\'re carrying the tension of a demanding week, recovering from an injury, or simply seeking rest, our massage services offer genuine relief and restoration.',
-    details: [
-      'Swedish relaxation massage',
-      'Deep tissue and sports massage',
-      'Trigger point therapy',
-      'Myofascial release',
-      'Prenatal massage',
-      'Chronic pain management massage',
-      'Post-surgical recovery support',
-      'Corporate chair massage (on-site)',
-    ],
-    who: 'Anyone dealing with muscle tension, chronic pain, stress, injury recovery, or seeking regular relaxation and body maintenance.',
-    format: 'In-person at our Rochester location',
-    duration: '60, 75, or 90-minute sessions',
-    color: 'sage',
-  },
-  {
-    id: 'stress',
-    title: 'Stress Management',
-    tagline: 'Calm is a skill you can learn.',
-    description: 'Chronic stress is one of the greatest threats to long-term health — and one of the most underaddressed. Our stress management programs combine evidence-based approaches including mindfulness, breathwork, cognitive-behavioral strategies, and somatic practices to help you build lasting resilience and calm.',
-    details: [
-      'Mindfulness-Based Stress Reduction (MBSR)',
-      'Breathwork and nervous system regulation',
-      'Cognitive-behavioral stress management',
-      'Sleep and recovery optimization',
-      'Burnout assessment and recovery',
-      'Anxiety management strategies',
-      'Somatic body-based practices',
-      'Customized stress management plans',
-    ],
-    who: 'Anyone experiencing chronic stress, anxiety, burnout, sleep issues, or difficulty finding calm in their daily life.',
-    format: 'In-person (Rochester) or virtual',
-    duration: '60-minute sessions · group workshops available',
-    color: 'olive',
-  },
-  {
-    id: 'corporate',
-    title: 'Corporate Wellness',
-    tagline: 'Healthier teams. Stronger organizations.',
-    description: 'We partner with Rochester-area businesses to design and deliver customized corporate wellness programs that genuinely move the needle — on employee health, engagement, and retention. From lunch-and-learn nutrition workshops to on-site yoga and stress management, we bring wellness to your workplace.',
-    details: [
-      'Workplace wellness program design',
-      'On-site and virtual lunch-and-learns',
-      'Group nutrition workshops',
-      'Stress management for teams',
-      'On-site yoga and movement sessions',
-      'Chair massage for employees',
-      'Employee wellness challenges',
-      'Mental wellness and resilience workshops',
-    ],
-    who: 'Rochester businesses of all sizes — from startups to large enterprises — seeking to invest in their most important asset: their people.',
-    format: 'On-site (your Rochester location) or virtual',
-    duration: 'Custom packages — monthly, quarterly, or annual',
-    color: 'sage',
   },
 ]
 
@@ -155,12 +191,12 @@ export default function ServicesPage() {
               <li className="text-white" aria-current="page">Services</li>
             </ol>
           </nav>
-          <span className="section-label text-olive-300">What We Offer</span>
+          <span className="section-label text-olive-300">How We Help</span>
           <h1 id="services-hero-heading" className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mt-3 mb-6 max-w-3xl leading-tight">
-            Health &amp; Wellness Services in Rochester, NY
+            Chiropractic Treatments in Rochester, NY
           </h1>
           <p className="font-sans text-olive-100 text-lg max-w-2xl leading-relaxed mb-8">
-            Six specialized services. One connected team. All under one roof in Rochester. Whether you&apos;re starting your wellness journey or deepening an existing practice, we have the expertise to support you.
+            Hands-on care. Evidence-based treatment. Built around you. Rochester&apos;s trusted chiropractic practice offering nine specialized treatments — all under one roof, all designed to help you move better, feel better, and stay better.
           </p>
 
           {/* Quick links */}
@@ -190,7 +226,7 @@ export default function ServicesPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className={`grid grid-cols-1 lg:grid-cols-2 gap-14 items-start ${index % 2 !== 0 ? 'lg:flex lg:flex-row-reverse' : ''}`}>
                 <div>
-                  <span className="section-label">Service 0{index + 1}</span>
+                  <span className="section-label">Treatment 0{index + 1}</span>
                   <h2 id={`${service.id}-heading`} className="section-heading mt-2 mb-2">
                     {service.title}
                   </h2>
@@ -247,14 +283,19 @@ export default function ServicesPage() {
       <section className="py-20 bg-olive-700" aria-labelledby="services-cta-heading">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 id="services-cta-heading" className="font-serif text-3xl md:text-4xl text-white mb-4">
-            Not Sure Where to Start?
+            Ready to feel better?
           </h2>
           <p className="font-sans text-olive-100 leading-relaxed mb-8">
-            Book a free 20-minute discovery call with our team. We&apos;ll help you understand which service — or combination of services — is the right fit for your goals.
+            Your first step starts here. Schedule an appointment below or call for a consultation with Dr. Alex and see if we are the most appropriate next step in your care.
           </p>
-          <Link href="/contact" className="btn-white px-8 py-4">
-            Book a Free Discovery Call
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact" className="btn-white px-8 py-4">
+              Book an Appointment
+            </Link>
+            <a href="tel:5854295100" className="font-sans font-semibold text-white border-2 border-white/60 hover:border-white px-8 py-4 rounded-lg transition-colors">
+              Call (585) 429-5100
+            </a>
+          </div>
         </div>
       </section>
     </>
