@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 interface FaqItemProps {
   question: string
-  answer: string
+  answer: React.ReactNode
 }
 
 function FaqItem({ question, answer }: FaqItemProps) {
@@ -30,8 +30,8 @@ function FaqItem({ question, answer }: FaqItemProps) {
       </button>
       {open && (
         <div className="px-6 pb-6">
-          <div className="border-t border-cream-200 pt-4">
-            <p className="font-sans text-bark-muted leading-relaxed text-sm">{answer}</p>
+          <div className="border-t border-cream-200 pt-4 font-sans text-bark-muted leading-relaxed text-sm">
+            {answer}
           </div>
         </div>
       )}

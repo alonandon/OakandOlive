@@ -18,7 +18,7 @@ const quickLinks = [
   { label: 'About Us',    href: '/about' },
   { label: 'Treatments',  href: '/services' },
   { label: 'Conditions',  href: '/conditions' },
-  { label: 'New Patients', href: '/faq' },
+  { label: 'FAQ', href: '/faq' },
   { label: 'Blog',        href: '/blog' },
   { label: 'Contact',     href: '/contact' },
 ]

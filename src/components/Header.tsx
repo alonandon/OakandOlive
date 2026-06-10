@@ -10,7 +10,7 @@ const navLinks = [
   { label: 'About',       href: '/about' },
   { label: 'Treatments',  href: '/services' },
   { label: 'Conditions',  href: '/conditions' },
-  { label: 'New Patients', href: '/faq' },
+  { label: 'FAQ', href: '/faq' },
   { label: 'Blog',        href: '/blog' },
 ]
 

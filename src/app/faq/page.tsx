@@ -6,50 +6,156 @@ import { breadcrumbSchema, faqSchema } from '@/lib/schema'
 
 export const metadata: Metadata = buildMetadata({
   title: 'FAQ — Frequently Asked Questions',
-  description: 'Answers to the most common questions about Oak & Olive Health & Wellness in Rochester, NY — our services, insurance, appointments, and how to get started.',
+  description: 'Everything you need to know about Oak & Olive Chiropractic — our treatments, insurance, appointments, and what to expect as a new patient in Rochester, NY.',
   path: '/faq',
 })
 
+const faqsForSchema = [
+  {
+    question: 'What is Oak & Olive Chiropractic, and what makes it different?',
+    answer: "Oak & Olive Chiropractic is a Rochester, NY chiropractic practice founded and operated by Dr. Alex Eckert, DC. Unlike high-volume clinics, Oak & Olive takes a one-on-one approach — every visit is with Dr. Eckert, every treatment plan is built around your specific presentation, and care doesn't stop at the adjustment. We combine spinal manipulation with advanced soft-tissue therapies, rehabilitation, and exercise programming to address the root cause of your pain, not just the symptom.",
+  },
+  {
+    question: 'What conditions do you treat?',
+    answer: "We treat a wide range of musculoskeletal conditions, including low back pain, neck pain, sciatica, disc herniations, headaches, shoulder pain, hip pain, knee pain, sports injuries, auto accident injuries, and workplace injuries. Whether you're dealing with a new acute injury or chronic pain you've been managing for years, we'll build a plan to get you moving better. Not sure if we can help? Call us — we'll give you a straight answer.",
+  },
+  {
+    question: 'What treatments and therapies do you offer?',
+    answer: "Oak & Olive offers a comprehensive suite of chiropractic and adjunct therapies, including: Chiropractic Manipulative Therapy — expert spinal and extremity adjustments; Flexion-Distraction Therapy — gentle spinal decompression for disc and nerve conditions; Shockwave Therapy — non-invasive treatment for tendinopathies and chronic soft-tissue injuries; Blood Flow Restriction Training (BFRT) — advanced rehab tool for building strength with minimal load; Cupping Therapy — myofascial decompression for muscle tension and mobility; IASTM (Instrument-Assisted Soft-Tissue Mobilization) — targeted treatment for scar tissue and fascial restriction; Nerve Flossing — neural mobilization techniques for radiating pain and nerve tension; Exercise Programming — individualized rehab and performance programming; Nutrition for a Lifetime — practical nutritional guidance to support recovery and long-term health.",
+  },
+  {
+    question: 'Do you accept insurance?',
+    answer: "Yes. Oak & Olive is in-network with several major insurance plans, including BlueCross BlueShield, Aetna, MVP Medicare, workers' compensation, and no-fault/auto insurance (PIP). We recommend calling our office before your first visit so we can verify your specific benefits and explain any out-of-pocket costs upfront — no surprises.",
+  },
+  {
+    question: 'What should I expect at my first appointment?',
+    answer: "Your first visit typically runs 45–60 minutes. Dr. Eckert will conduct a thorough intake covering your health history, current complaints, and goals. From there, he'll perform a focused orthopedic and neurological examination and, if clinically indicated, discuss any imaging needs. You'll leave with a clear diagnosis, a proposed treatment plan, and — in most cases — your first treatment on that same visit. You don't need a referral to be seen.",
+  },
+  {
+    question: 'How long are follow-up appointments?',
+    answer: "Follow-up visits are typically 15–30 minutes depending on the complexity of your care and which therapies are included. We don't rush patients through — if a visit runs long because it needs to, it runs long.",
+  },
+  {
+    question: 'Do I need a referral to see a chiropractor?',
+    answer: "No. Chiropractors are primary care providers for musculoskeletal conditions in New York State. You can schedule directly without a referral from your primary care physician. If your insurance requires a referral for coverage purposes, our team can help you navigate that before your visit.",
+  },
+  {
+    question: 'Where are you located, and what are your hours?',
+    answer: "We're located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606 — convenient to Greece, Gates, Chili, and the west side of Rochester. Hours: Monday: 12:00 PM – 5:00 PM; Tuesday: 8:00 AM – 6:00 PM; Wednesday: 8:00 AM – 6:00 PM; Thursday: 8:00 AM – 5:00 PM; Friday: 8:00 AM – 5:00 PM.",
+  },
+  {
+    question: 'How do I schedule an appointment?',
+    answer: 'You can book online through our patient portal at any time, or call us at (585) 429-5100 during office hours. New patients are welcome — no referral needed.',
+  },
+  {
+    question: 'Is chiropractic care safe?',
+    answer: "Yes. Chiropractic care is one of the safest non-invasive treatments available for musculoskeletal conditions. Serious adverse events are extremely rare. Dr. Eckert conducts a thorough examination before any treatment to ensure chiropractic is appropriate for you, and will always discuss your options so you can make an informed decision about your care.",
+  },
+  {
+    question: 'Do you treat auto accident and workers’ compensation injuries?',
+    answer: "Yes. Oak & Olive accepts both no-fault (PIP) auto insurance and workers' compensation cases. If you've been injured in a car accident or on the job, chiropractic care is often a covered benefit — and getting evaluated promptly matters for both your recovery and your claim. Contact us and we'll walk you through the process.",
+  },
+  {
+    question: 'Can you work alongside my other healthcare providers?',
+    answer: "Absolutely. We regularly co-manage patients with primary care physicians, orthopedic surgeons, physical therapists, and pain management specialists. If imaging, specialist referral, or co-management is appropriate for your case, we'll coordinate that directly. Good care doesn't happen in a silo.",
+  },
+]
+
 const faqs = [
   {
-    question: 'What services does Oak & Olive Health & Wellness offer?',
-    answer: 'We offer six core services at our Rochester, NY location: Nutrition Counseling with Registered Dietitian-Nutritionists, Wellness Coaching with Board-Certified Health & Wellness Coaches, Yoga & Movement classes for all levels, Massage Therapy (Swedish, deep tissue, therapeutic), Stress Management programs, and Corporate Wellness programs for Rochester-area businesses. Many services are also available virtually.',
+    question: 'What is Oak & Olive Chiropractic, and what makes it different?',
+    answer: (
+      <p>Oak &amp; Olive Chiropractic is a Rochester, NY chiropractic practice founded and operated by Dr. Alex Eckert, DC. Unlike high-volume clinics, Oak &amp; Olive takes a one-on-one approach — every visit is with Dr. Eckert, every treatment plan is built around your specific presentation, and care doesn&apos;t stop at the adjustment. We combine spinal manipulation with advanced soft-tissue therapies, rehabilitation, and exercise programming to address the root cause of your pain, not just the symptom.</p>
+    ),
   },
   {
-    question: 'Where are you located in Rochester, NY?',
-    answer: 'Our wellness center is located at 500 East Avenue, Rochester, NY 14604. We serve clients from across the Greater Rochester area including Pittsford, Brighton, Webster, Irondequoit, Penfield, Fairport, Greece, and beyond. We also offer virtual appointments for clients throughout New York State.',
+    question: 'What conditions do you treat?',
+    answer: (
+      <p>We treat a wide range of musculoskeletal conditions, including low back pain, neck pain, sciatica, disc herniations, headaches, shoulder pain, hip pain, knee pain, sports injuries, auto accident injuries, and workplace injuries. Whether you&apos;re dealing with a new acute injury or chronic pain you&apos;ve been managing for years, we&apos;ll build a plan to get you moving better. Not sure if we can help? Call us — we&apos;ll give you a straight answer.</p>
+    ),
   },
   {
-    question: 'Do you accept health insurance?',
-    answer: 'Some of our services — particularly nutrition counseling with our Registered Dietitian-Nutritionists — may be covered by health insurance, especially if you have a documented medical condition such as diabetes, obesity, or heart disease. We recommend contacting your insurance provider to verify your benefits. Our team can help you navigate the process. Wellness coaching, yoga, massage therapy, and stress management are typically paid out-of-pocket, though some HSA and FSA accounts may cover certain services.',
+    question: 'What treatments and therapies do you offer?',
+    answer: (
+      <>
+        <p className="mb-3">Oak &amp; Olive offers a comprehensive suite of chiropractic and adjunct therapies, including:</p>
+        <ul className="space-y-1.5">
+          <li><span className="font-medium text-bark">Chiropractic Manipulative Therapy</span> — expert spinal and extremity adjustments</li>
+          <li><span className="font-medium text-bark">Flexion-Distraction Therapy</span> — gentle spinal decompression for disc and nerve conditions</li>
+          <li><span className="font-medium text-bark">Shockwave Therapy</span> — non-invasive treatment for tendinopathies and chronic soft-tissue injuries</li>
+          <li><span className="font-medium text-bark">Blood Flow Restriction Training (BFRT)</span> — advanced rehab tool for building strength with minimal load</li>
+          <li><span className="font-medium text-bark">Cupping Therapy</span> — myofascial decompression for muscle tension and mobility</li>
+          <li><span className="font-medium text-bark">IASTM (Instrument-Assisted Soft-Tissue Mobilization)</span> — targeted treatment for scar tissue and fascial restriction</li>
+          <li><span className="font-medium text-bark">Nerve Flossing</span> — neural mobilization techniques for radiating pain and nerve tension</li>
+          <li><span className="font-medium text-bark">Exercise Programming</span> — individualized rehab and performance programming</li>
+          <li><span className="font-medium text-bark">Nutrition for a Lifetime</span> — practical nutritional guidance to support recovery and long-term health</li>
+        </ul>
+      </>
+    ),
   },
   {
-    question: 'How do I get started?',
-    answer: "The easiest way to get started is to book a free 20-minute discovery consultation through our website or by calling us at (585) 555-0192. During this call, one of our wellness professionals will learn about your goals and recommend the service or services that best fit your needs. There's no commitment required — it's simply a conversation to help us understand how we can best support you.",
+    question: 'Do you accept insurance?',
+    answer: (
+      <p>Yes. Oak &amp; Olive is in-network with several major insurance plans, including BlueCross BlueShield, Aetna, MVP Medicare, workers&apos; compensation, and no-fault/auto insurance (PIP). We recommend calling our office before your first visit so we can verify your specific benefits and explain any out-of-pocket costs upfront — no surprises.</p>
+    ),
   },
   {
-    question: 'Do you offer virtual appointments?',
-    answer: 'Yes! Nutrition counseling, wellness coaching, and stress management sessions are all available virtually via secure video call. This makes our services accessible to clients throughout the Greater Rochester area and across New York State who prefer the convenience of remote care. In-person services like yoga classes and massage therapy take place at our Rochester studio.',
+    question: 'What should I expect at my first appointment?',
+    answer: (
+      <p>Your first visit typically runs 45–60 minutes. Dr. Eckert will conduct a thorough intake covering your health history, current complaints, and goals. From there, he&apos;ll perform a focused orthopedic and neurological examination and, if clinically indicated, discuss any imaging needs. You&apos;ll leave with a clear diagnosis, a proposed treatment plan, and — in most cases — your first treatment on that same visit. You don&apos;t need a referral to be seen.</p>
+    ),
   },
   {
-    question: 'What makes Oak & Olive different from other wellness centers in Rochester?',
-    answer: "A few things set us apart. First, we offer a truly integrated team — rather than seeing separate practitioners in separate locations, all of our specialists work together under one roof and collaborate on your care. Second, we take a whole-person approach: we don't just focus on one aspect of your health, but help you understand how nutrition, movement, stress, sleep, and mindset all interconnect. Third, we are deeply rooted in the Rochester community — we've been here for over 12 years and are genuinely invested in the health of our city.",
+    question: 'How long are follow-up appointments?',
+    answer: (
+      <p>Follow-up visits are typically 15–30 minutes depending on the complexity of your care and which therapies are included. We don&apos;t rush patients through — if a visit runs long because it needs to, it runs long.</p>
+    ),
   },
   {
-    question: 'How long are sessions?',
-    answer: "Session lengths vary by service. Initial nutrition counseling appointments are typically 60 minutes; follow-ups are 45 minutes. Wellness coaching and stress management sessions run 60 minutes. Yoga classes are 60–90 minutes. Massage therapy sessions are available in 60, 75, or 90-minute increments. Corporate wellness sessions are customized based on your team's needs.",
+    question: 'Do I need a referral to see a chiropractor?',
+    answer: (
+      <p>No. Chiropractors are primary care providers for musculoskeletal conditions in New York State. You can schedule directly without a referral from your primary care physician. If your insurance requires a referral for coverage purposes, our team can help you navigate that before your visit.</p>
+    ),
   },
   {
-    question: 'Do you offer packages or membership options?',
-    answer: 'Yes! We offer multi-session packages for nutrition counseling, wellness coaching, and massage therapy that provide savings versus single-session pricing. We are also developing a wellness membership program for clients who want ongoing, multi-service access. Contact us for current package pricing and availability.',
+    question: 'Where are you located, and what are your hours?',
+    answer: (
+      <>
+        <p className="mb-3">We&apos;re located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606 — convenient to Greece, Gates, Chili, and the west side of Rochester.</p>
+        <p className="font-medium text-bark mb-2">Hours:</p>
+        <ul className="space-y-1">
+          <li>Monday: 12:00 PM – 5:00 PM</li>
+          <li>Tuesday: 8:00 AM – 6:00 PM</li>
+          <li>Wednesday: 8:00 AM – 6:00 PM</li>
+          <li>Thursday: 8:00 AM – 5:00 PM</li>
+          <li>Friday: 8:00 AM – 5:00 PM</li>
+        </ul>
+      </>
+    ),
   },
   {
-    question: "Is Oak & Olive right for me if I'm just starting my wellness journey?",
-    answer: "Absolutely — beginners are exactly who we're here for. Whether you've never worked with a wellness professional before or you're returning to health after a difficult period, we meet you exactly where you are. Our team is warm, non-judgmental, and deeply experienced in helping people take their first steps. There is no 'wrong' starting point.",
+    question: 'How do I schedule an appointment?',
+    answer: (
+      <p>You can book online through our patient portal at any time, or call us at (585) 429-5100 during office hours. New patients are welcome — no referral needed.</p>
+    ),
   },
   {
-    question: 'Do you work with corporate clients in Rochester?',
-    answer: "Yes! Our corporate wellness division works with businesses throughout the Rochester area to design customized employee wellness programs. We offer on-site and virtual lunch-and-learns, team yoga and movement sessions, stress management workshops, nutritional cooking demonstrations, and more. Contact us to discuss a custom program for your Rochester business.",
+    question: 'Is chiropractic care safe?',
+    answer: (
+      <p>Yes. Chiropractic care is one of the safest non-invasive treatments available for musculoskeletal conditions. Serious adverse events are extremely rare. Dr. Eckert conducts a thorough examination before any treatment to ensure chiropractic is appropriate for you, and will always discuss your options so you can make an informed decision about your care.</p>
+    ),
+  },
+  {
+    question: 'Do you treat auto accident and workers’ compensation injuries?',
+    answer: (
+      <p>Yes. Oak &amp; Olive accepts both no-fault (PIP) auto insurance and workers&apos; compensation cases. If you&apos;ve been injured in a car accident or on the job, chiropractic care is often a covered benefit — and getting evaluated promptly matters for both your recovery and your claim. Contact us and we&apos;ll walk you through the process.</p>
+    ),
+  },
+  {
+    question: 'Can you work alongside my other healthcare providers?',
+    answer: (
+      <p>Absolutely. We regularly co-manage patients with primary care physicians, orthopedic surgeons, physical therapists, and pain management specialists. If imaging, specialist referral, or co-management is appropriate for your case, we&apos;ll coordinate that directly. Good care doesn&apos;t happen in a silo.</p>
+    ),
   },
 ]
 
@@ -58,7 +164,7 @@ export default function FaqPage() {
     { name: 'Home', url: siteConfig.url },
     { name: 'FAQ', url: `${siteConfig.url}/faq` },
   ])
-  const faqMarkup = faqSchema(faqs)
+  const faqMarkup = faqSchema(faqsForSchema)
 
   return (
     <>
@@ -87,7 +193,7 @@ export default function FaqPage() {
             Your Questions, Answered
           </h1>
           <p className="font-sans text-olive-100 text-lg max-w-2xl leading-relaxed">
-            Everything you need to know about Oak &amp; Olive Health &amp; Wellness — our services, our team, and how to get started in Rochester, NY.
+            Everything you need to know about Oak &amp; Olive Chiropractic — our treatments, insurance, appointments, and what to expect as a new patient in Rochester, NY.
           </p>
         </div>
       </section>
