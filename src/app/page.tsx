@@ -1,18 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
-import dynamic from 'next/dynamic'
 import { siteConfig } from '@/lib/seo'
 import { getRecentPosts, formatDate } from '@/lib/blog'
 
-// Dynamically import below-the-fold client components so their JS is not
-// included in the initial page bundle — removes ~65 KiB of unused JS on load.
-const LeadCapture = dynamic(() => import('@/components/LeadCapture'), {
-  ssr: false,
-  loading: () => (
-    <div className="bg-olive-700 py-16 lg:py-20" aria-hidden="true" />
-  ),
-})
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} | Chiropractic Care in Rochester, NY`,
@@ -379,9 +370,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ── Lead Capture ── */}
-      <LeadCapture />
 
       {/* ── Final CTA ── */}
       <section className="section-below-fold py-20 lg:py-28 bg-cream-100" aria-labelledby="final-cta-heading">
