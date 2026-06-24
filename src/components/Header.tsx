@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { siteConfig } from '@/lib/seo'
 
@@ -40,13 +41,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-none group" aria-label={siteConfig.name}>
-            <span className="font-serif text-xl md:text-2xl text-olive-700 group-hover:text-olive-800 transition-colors">
-              Oak &amp; Olive
-            </span>
-            <span className="font-sans text-[10px] md:text-xs tracking-widest text-bark-muted uppercase">
-              Chiropractic
-            </span>
+          <Link href="/" aria-label={siteConfig.name}>
+            <Image src="/logo.png" alt={siteConfig.name} width={160} height={60} priority className="h-12 md:h-14 w-auto" />
           </Link>
 
           {/* Desktop nav */}

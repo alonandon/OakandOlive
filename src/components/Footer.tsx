@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { siteConfig } from '@/lib/seo'
 
 const services = [
@@ -34,10 +35,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1 space-y-4">
             <div>
-              <p className="font-serif text-2xl text-white">Oak &amp; Olive</p>
-              <p className="font-sans text-xs tracking-widest text-cream-300 uppercase mt-0.5">
-                Chiropractic
-              </p>
+              <Image src="/logo.png" alt="Oak & Olive Chiropractic" width={160} height={60} className="h-12 w-auto" />
             </div>
             <p className="font-sans text-sm text-cream-300 leading-relaxed">
               Rochester&apos;s trusted chiropractic practice. We combine expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.
