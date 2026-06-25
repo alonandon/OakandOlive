@@ -35,7 +35,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1 space-y-4">
             <div>
-              <Image src="/logo.png" alt="Oak & Olive Chiropractic" width={160} height={60} className="h-12 w-auto" />
+              <Image src="/logo.png" alt="Oak & Olive Chiropractic" width={1500} height={1500} className="h-12 w-auto" />
             </div>
             <p className="font-sans text-sm text-cream-300 leading-relaxed">
               Rochester&apos;s trusted chiropractic practice. We combine expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.
