@@ -42,7 +42,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" aria-label={siteConfig.name}>
-            <Image src="/logo.png" alt={siteConfig.name} width={160} height={60} priority className="h-12 md:h-14 w-auto" />
+            <Image src="/logo.png" alt={siteConfig.name} width={1500} height={1500} priority className="h-12 md:h-14 w-auto" />
           </Link>
 
           {/* Desktop nav */}
