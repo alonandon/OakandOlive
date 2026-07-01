@@ -10,7 +10,7 @@ export const siteConfig = {
   address: '2316 Lyell Ave, Suite 2, Rochester, NY 14606',
   phone: '(585)429-5100',
   email: 'dr.alex@oakolivehealth.com',
-  googleAnalyticsId: 'G-XXXXXXXXXX',
+  googleAnalyticsId: 'G-2NS7VYHRTW',
   twitterHandle: '@oakandoliveny',
   keywords: [
     'chiropractor Rochester NY',
