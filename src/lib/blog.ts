@@ -138,6 +138,99 @@ export const blogPosts: BlogPost[] = [
 <p>Many of our patients at Oak &amp; Olive Chiropractic are Rochester-area professionals who came in for back or neck pain and discovered that a targeted plan — combining chiropractic care with exercise programming and soft-tissue work — made a bigger difference than anything they'd tried before. If that sounds like you, <a href="/contact">book a consultation</a> and let's take a look at what's going on.</p>
     `.trim(),
   },
+  {
+    slug: 'hot-weather-back-pain-rochester',
+    title: 'Can Hot Weather Make Your Back Pain Worse? The Evidence Behind Summer Pain and How Chiropractic Care Can Help',
+    excerpt:
+      'As temperatures climb across Rochester each summer, many people notice more back pain, neck pain, headaches, and muscle stiffness. Here\'s what the research says about heat, dehydration, and musculoskeletal pain — and how chiropractic care can help.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '7 min read',
+    tags: ['back pain', 'summer health', 'hot weather', 'chiropractic care', 'Rochester NY', 'dehydration'],
+    content: `
+<img src="/backpainweather.png" alt="Person experiencing back pain outdoors in hot summer weather" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>As temperatures climb across Rochester each summer, many people expect to feel more active — not more uncomfortable. Yet it's common for individuals to notice increased back pain, neck pain, headaches, or muscle stiffness during periods of extreme heat.</p>
+<p>While heat itself doesn't directly cause spinal conditions, research suggests that high outdoor temperatures can contribute to dehydration, fatigue, altered activity levels, and muscle cramping, all of which may increase the likelihood of musculoskeletal pain.</p>
+
+<h2>How Does Hot Weather Affect Your Body?</h2>
+<p>Your body works hard to regulate its internal temperature during hot weather. This process often involves increased sweating, which can lead to dehydration if fluids aren't replaced adequately.</p>
+<p>Even mild dehydration has been shown to:</p>
+<ul>
+<li>Reduce physical performance</li>
+<li>Increase muscle fatigue</li>
+<li>Decrease endurance</li>
+<li>Increase the risk of muscle cramps</li>
+</ul>
+<p>When muscles fatigue more quickly, they provide less support for the spine and joints. This can allow previously manageable aches and pains to become more noticeable.</p>
+<p>Many people also change their activity patterns during the summer by:</p>
+<ul>
+<li>Spending more time gardening</li>
+<li>Tackling home improvement projects</li>
+<li>Playing golf or recreational sports</li>
+<li>Taking long road trips</li>
+<li>Lifting coolers, kayaks, or camping equipment</li>
+</ul>
+<p>These sudden increases in physical activity often contribute more to pain than the heat itself.</p>
+
+<h2>What Does the Research Say?</h2>
+<p>Current scientific evidence does not show that chiropractic adjustments prevent heat-related illness or dehydration. However, there is strong evidence that spinal manipulation can help certain musculoskeletal conditions.</p>
+<p>Clinical practice guidelines support spinal manipulation as part of the treatment of:</p>
+<ul>
+<li>Acute and chronic low back pain</li>
+<li>Mechanical neck pain</li>
+<li>Some headache disorders, particularly cervicogenic headaches</li>
+</ul>
+<p>The greatest improvements are typically seen when chiropractic care is combined with:</p>
+<ul>
+<li>Targeted exercise</li>
+<li>Patient education</li>
+<li>Activity modification</li>
+<li>Home rehabilitation</li>
+</ul>
+<p>At Oak &amp; Olive Chiropractic, treatment plans are designed around these evidence-based recommendations rather than relying on passive care alone.</p>
+
+<h2>Common Summer Injuries We See</h2>
+<p>During the warmer months, patients frequently visit our office with:</p>
+<ul>
+<li>Low back pain after yard work</li>
+<li>Neck pain from long drives</li>
+<li>Shoulder discomfort from overhead activities</li>
+<li>Muscle strains after returning to recreational sports</li>
+<li>Headaches associated with muscle tension</li>
+</ul>
+<p>Early evaluation can often help reduce pain, improve movement, and prevent minor problems from becoming longer-lasting injuries.</p>
+
+<h2>Tips to Keep Your Spine Healthy This Summer</h2>
+<p>A few simple habits can reduce your risk of injury:</p>
+<ul>
+<li>Stay hydrated throughout the day, not just when you're thirsty.</li>
+<li>Take breaks during prolonged outdoor work.</li>
+<li>Lift with your legs instead of your back.</li>
+<li>Warm up before sports or yard work.</li>
+<li>Avoid staying in one position for extended periods during road trips.</li>
+<li>Listen to your body and avoid pushing through increasing pain.</li>
+</ul>
+
+<h2>When Should You See a Chiropractor?</h2>
+<p>If your pain:</p>
+<ul>
+<li>Lasts more than a few days,</li>
+<li>Returns every time you're active,</li>
+<li>Limits your ability to work or exercise, or</li>
+<li>Begins after lifting, gardening, or sports,</li>
+</ul>
+<p>an evaluation may help determine the underlying cause and whether conservative treatment is appropriate.</p>
+<p>At Oak &amp; Olive Chiropractic, we focus on identifying the source of your pain and creating a personalized treatment plan that may include chiropractic adjustments, soft tissue therapy, rehabilitation exercises, and education to help you recover and stay active.</p>
+
+<h2>Stay Active All Summer Long</h2>
+<p>Summer should be spent enjoying Rochester's parks, trails, golf courses, and outdoor events — not sitting on the sidelines because of pain.</p>
+<p>If you're experiencing back pain, neck pain, headaches, or muscle stiffness after outdoor activities, Oak &amp; Olive Chiropractic provides evidence-based chiropractic care designed to help you move better and get back to doing what you enjoy.</p>
+<p><a href="/contact">Schedule an appointment today</a> and let us help you stay healthy, active, and pain-free this summer.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
