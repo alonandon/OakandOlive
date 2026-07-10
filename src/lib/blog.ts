@@ -288,6 +288,69 @@ export const blogPosts: BlogPost[] = [
 <p><a href="/contact">Schedule your appointment today</a> and enjoy the rest of your summer feeling your best.</p>
     `.trim(),
   },
+  {
+    slug: 'neck-pain-relief-rochester-ny',
+    title: 'Neck Pain Relief in Rochester, NY: Causes, Treatment Options & When to See a Chiropractor',
+    excerpt:
+      'Struggling with neck pain in Rochester, NY? Oak & Olive Chiropractic explains common causes and evidence-based treatments — from chiropractic adjustments to flexion distraction and nerve flossing. Book your evaluation today.',
+    date: '2026-07-10',
+    dateModified: '2026-07-10',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '7 min read',
+    tags: ['neck pain Rochester NY', 'chiropractor for neck pain', 'neck pain treatment near me', 'tech neck relief', 'chiropractic adjustment neck pain'],
+    content: `
+<img src="/neckpainrelief.png" alt="Person holding their neck in pain, in need of chiropractic relief" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>If you're reading this while rubbing the back of your neck, you're not alone. Neck pain is one of the most common reasons patients walk through our doors at Oak &amp; Olive Chiropractic in Rochester, NY — and it's also one of the most treatable, when you understand what's actually causing it.</p>
+<p>Whether your pain crept in after a long day at a desk, a restless night's sleep, or a fender bender on 490, this guide will walk you through what's likely going on and how we approach lasting relief here at our Lyell Ave office.</p>
+
+<h2>Common Causes of Neck Pain We See in Rochester Patients</h2>
+<ul>
+<li><strong>"Tech neck" and poor posture.</strong> Hours spent looking down at a phone or hunched over a laptop place significant extra load on the cervical spine — sometimes the equivalent of 40+ pounds of force at a forward head angle. This is by far the most common driver of neck pain in our working-age patients.</li>
+<li><strong>Sleeping position and pillow support.</strong> An unsupportive pillow or an unfamiliar mattress can leave the neck in an awkward position for hours, leading to that stiff, "I slept wrong" ache.</li>
+<li><strong>Muscle strain and overuse.</strong> Weightlifting, yard work, or even carrying a toddler on one hip can strain the muscles that stabilize the neck and upper back.</li>
+<li><strong>Whiplash and auto injuries.</strong> Rochester winters mean icy roads, and rear-end collisions are a frequent cause of acute neck pain and stiffness that can linger for weeks without proper care.</li>
+<li><strong>Joint dysfunction and disc issues.</strong> The small facet joints in the cervical spine can become restricted or irritated, and in some cases a disc may bulge and irritate a nearby nerve — causing pain, numbness, or tingling that radiates into the shoulder or arm.</li>
+</ul>
+
+<h2>How Chiropractic Care Helps Neck Pain</h2>
+<p>At Oak &amp; Olive, we don't believe in one-size-fits-all treatment. After a thorough evaluation, we build a plan that may include:</p>
+<ul>
+<li><strong>Chiropractic Manipulative Treatment (CMT):</strong> Gentle, targeted adjustments to restore motion to restricted joints in the neck and upper back, reducing pain and improving range of motion.</li>
+<li><strong>Flexion Distraction:</strong> A low-force, non-thrust technique especially useful for disc-related neck and radiating arm pain.</li>
+<li><strong>IASTM (Instrument-Assisted Soft Tissue Mobilization):</strong> Helps break up tension and adhesions in the surrounding neck and shoulder muscles that often accompany joint dysfunction.</li>
+<li><strong>Nerve Flossing:</strong> Gentle mobilization techniques to relieve irritation along nerves that may be contributing to numbness or tingling into the arm or hand.</li>
+<li><strong>Cupping:</strong> Used to address deep muscular tension in the neck, upper traps, and shoulders.</li>
+<li><strong>Exercise Programming:</strong> Targeted strengthening and mobility exercises so relief lasts well beyond your visit — especially important for posture-driven "tech neck."</li>
+</ul>
+
+<h2>When Should You See a Chiropractor for Neck Pain?</h2>
+<p>You don't need to wait until pain becomes unbearable. Consider scheduling an evaluation if you notice:</p>
+<ul>
+<li>Neck stiffness that hasn't improved after a few days of rest</li>
+<li>Pain that radiates into your shoulder, arm, or hand</li>
+<li>Numbness, tingling, or weakness in your arm or fingers</li>
+<li>Frequent headaches that seem to start at the base of your skull</li>
+<li>Neck pain following a car accident, fall, or sports injury</li>
+</ul>
+
+<h2>Why Rochester Patients Choose Oak &amp; Olive Chiropractic</h2>
+<p>We're a family-founded practice located at 2316 Lyell Ave, Suite 2, right here in Rochester. Every treatment plan starts with a real conversation and a thorough exam — not a cookie-cutter protocol. Our goal is simple: figure out what's actually driving your pain, and build a plan that gets you back to living without it.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How many chiropractic visits does it take to fix neck pain?</h3>
+<p>It varies by cause and severity, but many patients notice meaningful improvement within 2–4 visits, with a full plan often spanning several weeks depending on how long the issue has been present.</p>
+<h3>Is chiropractic care safe for whiplash from a car accident?</h3>
+<p>Yes — gentle, appropriately dosed chiropractic care is a well-established part of whiplash recovery. We tailor technique and intensity to the acute stage of your injury.</p>
+<h3>Can poor posture from working at a computer really cause neck pain?</h3>
+<p>Absolutely. Forward head posture significantly increases the load on the cervical spine, and it's one of the most common causes of chronic neck tension we treat.</p>
+
+<p>Dr. Alex Eckert, D.C. is the owner and treating chiropractor at Oak &amp; Olive Chiropractic, 2316 Lyell Ave, Suite 2, Rochester, NY 14606.</p>
+
+<p>Ready to stop living with neck pain? <a href="/contact">Schedule your evaluation</a> with Oak &amp; Olive Chiropractic today, or call our Lyell Ave office to get started.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
