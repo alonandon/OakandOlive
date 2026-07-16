@@ -351,6 +351,46 @@ export const blogPosts: BlogPost[] = [
 <p>Ready to stop living with neck pain? <a href="/contact">Schedule your evaluation</a> with Oak &amp; Olive Chiropractic today, or call our Lyell Ave office to get started.</p>
     `.trim(),
   },
+  {
+    slug: 'surviving-rochester-summer-festival-season',
+    title: "Surviving Rochester's Summer Festival Season: A Chiropractor's Guide to Corn Hill, Party in the Park, and America's 250th",
+    excerpt:
+      'Corn Hill Arts Festival, Party in the Park, and America\'s 250th celebrations mean hours on your feet, lawn chairs, and hauling gear across downtown Rochester. Here\'s why festival season is rough on your spine — and how to enjoy it without paying for it the next day.',
+    date: '2026-07-16',
+    dateModified: '2026-07-16',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '6 min read',
+    tags: ['Rochester festivals', 'Corn Hill Arts Festival', 'Party in the Park', 'summer events', 'chiropractic care Rochester', 'back pain', 'neck pain'],
+    content: `
+<img src="/festivalseason.png" alt="Crowd enjoying an outdoor summer festival in downtown Rochester" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>Summer in Rochester means one thing after another: the Corn Hill Arts Festival crowds, weekly Party in the Park concerts downtown, America's 250th birthday celebrations along the Genesee, and a concert calendar packed enough to make even a big touring act's Rochester stop feel like a hometown event. If you've spent the last few weekends on your feet at a festival, hauling a lawn chair to a fireworks show, or dancing at an outdoor concert, your body has been working overtime — even if it didn't feel like "exercise" at the time.</p>
+<p>At Oak &amp; Olive Chiropractic, right here on Lyell Ave, we see a predictable bump in neck, back, and shoulder complaints every summer once festival season kicks into gear. Here's why — and what you can do about it before your next event.</p>
+
+<h2>Why Festival Season Is Rough on Your Spine</h2>
+<p><strong>Standing on pavement for hours.</strong> Corn Hill's brick streets and downtown sidewalks aren't forgiving. Hours of standing on hard, uneven surfaces changes how your pelvis and lower back absorb impact, which is a common trigger for low back tightness and hip discomfort.</p>
+<p><strong>The lawn chair slouch.</strong> Whether you were camped out for the Independence Day fireworks over the Genesee or catching a show at Party in the Park, low-slung lawn chairs and blankets put your spine into a rounded, unsupported position for extended periods. That's a setup for neck and upper back stiffness the next morning.</p>
+<p><strong>Carrying gear.</strong> Coolers, folding chairs, kids, festival bags — all that hauling from parking to the park adds asymmetrical load to your spine and shoulders, especially if you favor one side.</p>
+<p><strong>Concert posture.</strong> A few hours on your feet craning to see the stage, or dancing on uneven grass, works muscles and joints that don't get much use the rest of the year. Fun in the moment, sore two days later — a pattern we hear about often after big outdoor shows.</p>
+<p><strong>Sun, heat, and dehydration.</strong> Dehydration reduces disc hydration and makes muscles more prone to cramping and spasm, which compounds any mechanical strain from standing or carrying gear.</p>
+
+<h2>Chiropractic Tips for Rochester's Outdoor Event Season</h2>
+<ul>
+<li><strong>Bring a supportive chair.</strong> A camp chair with real back support beats a blanket or low beach chair for anything longer than an hour.</li>
+<li><strong>Switch sides.</strong> Alternate which shoulder or hand carries the cooler or bag, and take breaks to reset your posture.</li>
+<li><strong>Move between stops.</strong> If you're bouncing between festival vendors or Party in the Park sets, a few minutes of walking and gentle stretching keeps your hips and low back from locking up.</li>
+<li><strong>Hydrate before you're thirsty.</strong> This matters as much for your spine and joints as it does for avoiding heat exhaustion.</li>
+<li><strong>Don't ignore stiffness that lingers past a day or two.</strong> Post-event soreness is normal; persistent pain, numbness, or reduced range of motion is worth having evaluated.</li>
+</ul>
+
+<h2>When to Come See Us</h2>
+<p>If this summer's lineup of festivals, fireworks, and outdoor concerts has left you dealing with more than the usual next-day soreness, that's exactly the kind of mechanical strain chiropractic care is built to address. We offer a full range of care at our Lyell Ave office, from chiropractic manipulation to soft tissue work and rehab exercise programming, tailored to what your summer has actually been putting your body through.</p>
+<p>Enjoying everything Rochester has going on this summer shouldn't come at the cost of your back. If you're feeling it after your last event, <a href="/contact">schedule a visit with us</a> — we're a five-minute drive from most of downtown's festival grounds.</p>
+
+<p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606. Serving the greater Rochester community with chiropractic care, rehab, and wellness services.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
