@@ -391,6 +391,47 @@ export const blogPosts: BlogPost[] = [
 <p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606. Serving the greater Rochester community with chiropractic care, rehab, and wellness services.</p>
     `.trim(),
   },
+  {
+    slug: 'surviving-the-odyssey-chiropractor-guide',
+    title: 'Surviving "The Odyssey": A Chiropractor\'s Guide to Nolan\'s Nearly-Three-Hour Epic',
+    excerpt:
+      'Christopher Nolan\'s The Odyssey just hit theaters, and between the sirens, the cyclopes, and the nearly-three-hour IMAX runtime, your lower back might feel like it took its own decade-long journey home. Here\'s what Homer\'s hero can teach us about taking care of your body.',
+    date: '2026-07-24',
+    dateModified: '2026-07-24',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '5 min read',
+    tags: ['The Odyssey', 'movie night', 'posture', 'chiropractic care', 'Rochester NY', 'IMAX'],
+    content: `
+<img src="/odyssey.png" alt="Movie theater seating for a long IMAX screening" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>Christopher Nolan's The Odyssey just hit theaters, and if you've bought your IMAX tickets, you already know what you're signing up for: sirens, cyclopes, a decade-long sea voyage, and a runtime that'll have you in that seat for the better part of three hours. Odysseus spent ten years trying to get home from Troy. Your lower back might feel like it took just as long by the time the credits roll.</p>
+<p>We couldn't resist the parallel. The Odyssey is, at its core, a story about a long, grueling journey home &mdash; and that's not a bad metaphor for what a lot of our patients are going through when they walk into Oak &amp; Olive. Whether it's recovering from an injury, working through chronic pain, or just trying to undo months of bad posture, healing is rarely a straight line. It's oars in the water, storms you didn't see coming, and a homecoming that's worth the trip.</p>
+<p>Here's what Homer's hero (and Nolan's marathon runtime) can teach us about taking care of your body.</p>
+
+<h2>1. Even Heroes Need Good Posture</h2>
+<p>Odysseus spent years hunched over the side of a ship, rowing, bracing against storms, and sleeping wherever he could find flat ground. It's a rough way to treat a spine. You don't have to battle a cyclops to end up in the same boat &mdash; hours in a movie theater seat, hunched over a laptop, or slouched in a car for a road trip will do it just fine.</p>
+<p>Before you settle in for a three-hour IMAX epic, a few tips:</p>
+<ul>
+<li>Sit all the way back in the seat so your lower back is supported, not just your shoulders.</li>
+<li>Keep your feet flat on the floor if you can, rather than crossed or tucked under you.</li>
+<li>Get up and move during any lull &mdash; a quick stretch in the lobby resets your spine better than powering through.</li>
+</ul>
+
+<h2>2. The Journey Matters as Much as the Destination</h2>
+<p>Odysseus didn't get home in one clean shot. He got blown off course, again and again, and had to adjust the plan every time. That's honestly a pretty accurate description of most recovery plans we build for patients. Nobody's spine "fixes itself" in one visit any more than Odysseus made it home in one afternoon. Consistent care &mdash; adjustments, mobility work, strengthening &mdash; is what turns a decade-long detour into a shorter, steadier path.</p>
+
+<h2>3. Ten Years at Sea Will Wreck Anyone's Shoulders</h2>
+<p>Rowing, hauling sail lines, sleeping on hard surfaces &mdash; Odysseus's whole crew probably could have used a few rounds of instrument-assisted soft tissue work (we offer that, it's called IASTM) and some cupping therapy for all that tension. If your own version of "ten years at sea" looks more like a desk job, a physical hobby, or just the general wear of daily life, the same principle applies: tight, overworked muscles and joints don't resolve on their own. They need actual treatment.</p>
+
+<h2>4. Coming Home Shouldn't Hurt</h2>
+<p>By the end of The Odyssey, the whole point is relief &mdash; finally being home, finally at rest. That's the goal with chiropractic care too. Not just cracking backs for the sake of it, but getting you back to moving through your life without pain shadowing every step. That's what our full approach &mdash; chiropractic manipulation, flexion distraction, nerve flossing, exercise programming, and more &mdash; is built around.</p>
+
+<h2>Planning to See It This Weekend?</h2>
+<p>If you're headed to see The Odyssey in IMAX and know you'll be sitting for the long haul, come see us beforehand. A quick adjustment and some mobility work can make a real difference in how your back feels three hours later. And if you're already dealing with some post-movie stiffness, we're happy to help with that too.</p>
+<p><a href="/contact">Book an appointment with Oak &amp; Olive Chiropractic</a> and let's get you through your own odyssey feeling better, not worse.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
