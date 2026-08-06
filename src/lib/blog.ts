@@ -432,6 +432,58 @@ export const blogPosts: BlogPost[] = [
 <p><a href="/contact">Book an appointment with Oak &amp; Olive Chiropractic</a> and let's get you through your own odyssey feeling better, not worse.</p>
     `.trim(),
   },
+  {
+    slug: 'low-back-pain-relief-rochester-ny',
+    title: 'Low Back Pain Relief in Rochester, NY',
+    excerpt:
+      'Struggling with low back pain in Rochester, NY? Oak & Olive Chiropractic on Lyell Ave offers personalized care to get you moving again. Book today.',
+    date: '2026-08-06',
+    dateModified: '2026-08-06',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '6 min read',
+    tags: ['chiropractor for low back pain Rochester NY', 'low back pain treatment Lyell Ave', 'chiropractic care Rochester NY', 'low back pain', 'flexion distraction', 'Rochester NY'],
+    content: `
+<img src="/lowbackpainrelief.png" alt="Person experiencing low back pain in need of chiropractic relief in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>If you're dealing with <a href="/conditions">low back pain</a>, you're far from alone — it's one of the most common reasons patients walk through our doors here at Oak &amp; Olive Chiropractic on Lyell Ave in Rochester. Whether the pain crept in slowly from long days at a desk or your work in the garden this summer left you stiff and sore, low back pain can affect nearly everything you do, from getting out of bed to picking up your kids.</p>
+<p>The good news: most low back pain responds well to conservative, non-invasive care — and you don't have to live with it.</p>
+
+<h2>Common Causes of Low Back Pain We See in Rochester Patients</h2>
+<p>Every case is different, but a few patterns show up often in our Lyell Ave practice:</p>
+<ul>
+<li><strong>Prolonged sitting</strong> — many of our patients commute or work desk jobs across the Rochester area, and hours in a chair each day put steady strain on the low back.</li>
+<li><strong>Repetitive lifting or yardwork</strong> — especially common in late summer as people tackle home projects, mowing, and gardening.</li>
+<li><strong>Muscle imbalances from inactivity or overtraining</strong> — whether you're just starting a fitness routine or you're a dedicated lifter, uneven strength and mobility between the hips, core, and low back is a frequent culprit.</li>
+<li><strong>Old injuries that never fully resolved</strong> — a fender-bender, a fall on the ice last winter, or an old sports injury can leave lingering dysfunction long after the initial pain fades.</li>
+</ul>
+
+<h2>How We Approach Low Back Pain at Oak &amp; Olive</h2>
+<p>We don't believe in one-size-fits-all care. After a thorough exam, your treatment plan might include:</p>
+<ul>
+<li><a href="/services#cmt">Chiropractic manipulative therapy (CMT)</a> to restore proper motion to the joints of the spine and pelvis</li>
+<li><a href="/services#flexion-distraction">Flexion distraction</a>, a gentle, low-force technique especially helpful for disc-related low back pain</li>
+<li><a href="/services#iastm">Instrument-assisted soft tissue mobilization (IASTM)</a> to address tight, restricted muscles and fascia</li>
+<li>Targeted exercise programming to build the strength and stability that keeps low back pain from coming back</li>
+<li><a href="/services#nerve-flossing">Nerve flossing</a> techniques when nerve irritation is contributing to pain that radiates into the hip or leg</li>
+</ul>
+<p>Our goal isn't just a quick adjustment — it's giving you a plan that addresses why the pain started in the first place.</p>
+
+<h2>When to See a Chiropractor for Low Back Pain</h2>
+<p>You don't need to wait until the pain is unbearable. Consider scheduling an evaluation if you're experiencing:</p>
+<ul>
+<li>Low back pain lasting more than a few days</li>
+<li>Stiffness that's worse in the morning or after sitting</li>
+<li>Pain that radiates into your hip, glute, or down your leg</li>
+<li>Low back pain that flares up with specific movements like bending or lifting</li>
+</ul>
+
+<h2>Serving Rochester and the Surrounding Community</h2>
+<p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, in Rochester, NY, conveniently serving patients throughout Rochester, Gates, Greece, Chili, and the greater Monroe County area. As a neighborhood practice, we're proud to help our Rochester community move and feel better.</p>
+
+<p>Ready to address your low back pain? <a href="/contact">Schedule an appointment</a> with Oak &amp; Olive Chiropractic today, or give us a call to speak with our team about what's going on and how we can help.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
