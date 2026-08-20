@@ -484,6 +484,118 @@ export const blogPosts: BlogPost[] = [
 <p>Ready to address your low back pain? <a href="/contact">Schedule an appointment</a> with Oak &amp; Olive Chiropractic today, or give us a call to speak with our team about what's going on and how we can help.</p>
     `.trim(),
   },
+  {
+    slug: 'back-to-school-posture-tips-rochester',
+    title: 'Back-to-School Posture Tips: A Rochester Chiropractor’s Guide for Kids and Parents',
+    excerpt:
+      'Backpacks, classroom chairs, homework, and screen time can all take a toll on posture. Here are practical back-to-school posture tips from Oak & Olive Chiropractic in Rochester, NY to help kids and parents start the school year feeling their best.',
+    date: '2026-08-20',
+    dateModified: '2026-08-20',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '7 min read',
+    tags: ['back to school', 'posture tips', 'kids chiropractic', 'Rochester NY', 'backpack safety', 'desk ergonomics'],
+    content: `
+<img src="/betterposture.png" alt="Child with a backpack demonstrating good posture for back-to-school season" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>As summer winds down, long days outside are often replaced with heavier backpacks, bus rides, classroom chairs, homework, and more time in front of screens. That transition can happen quickly &mdash; and so can the stiffness and aches that come with spending more time sitting.</p>
+<p>At Oak &amp; Olive Chiropractic in Rochester, NY, back-to-school season is a time when many families start noticing more neck tightness, shoulder discomfort, headaches, and lower back stiffness. Kids are adjusting to new backpacks and classroom routines, while parents may also be returning to a more desk-bound work schedule.</p>
+<p>The good news? A few simple changes to backpack fit, desk setup, screen habits, and daily movement can make a meaningful difference.</p>
+
+<h2>Why Back-to-School Season Can Affect Posture</h2>
+
+<h3>1. Heavy or poorly fitted backpacks can cause discomfort</h3>
+<p>A backpack can go from nearly empty to packed with books, school supplies, a laptop, and lunch almost overnight. When a backpack is excessively heavy, worn over one shoulder, or hanging too low, it can contribute to strain through the neck, shoulders, and upper back.</p>
+<p>Try these backpack posture tips:</p>
+<ul>
+<li>Use both shoulder straps instead of carrying the backpack on one shoulder.</li>
+<li>Adjust the straps so the backpack sits close to the body.</li>
+<li>Keep heavier items closer to the child's back.</li>
+<li>Avoid letting the backpack hang low toward the tailbone.</li>
+<li>Regularly remove items that aren't needed for the school day.</li>
+</ul>
+<p>If your child regularly complains about shoulder, neck, or back discomfort after carrying their backpack, it may be worth checking the fit and overall load.</p>
+
+<h3>2. More sitting means less movement</h3>
+<p>During the summer, kids are often more active. Once school starts, they may spend much of the day sitting in classrooms, riding the bus, doing homework, and using screens. Parents can experience the same change when summer schedules end and work routines become more sedentary.</p>
+<p>Long periods of sitting can leave the hips, upper back, neck, and shoulders feeling stiff &mdash; especially when movement breaks disappear from the day. Instead of trying to maintain "perfect posture" for hours, focus on changing positions and moving regularly.</p>
+
+<h3>3. Screen time can contribute to neck and shoulder strain</h3>
+<p>Whether it's a laptop for homework, a tablet, or a phone, screen use often encourages people to gradually lean forward and look down. Over time, that position can contribute to tension in the neck, shoulders, and upper back.</p>
+<p>One simple habit to try is the 20-20-20 rule: every 20 minutes, look at something approximately 20 feet away for about 20 seconds. It's also helpful to encourage regular position changes and short movement breaks during homework or computer time.</p>
+
+<h3>4. Changes in routine can add up</h3>
+<p>Back-to-school season doesn't just change how much we sit. It can also change:</p>
+<ul>
+<li>Sleep schedules</li>
+<li>Activity levels</li>
+<li>Stress levels</li>
+<li>Daily routines</li>
+<li>Time spent driving or riding the bus</li>
+</ul>
+<p>For growing kids and busy parents, several small changes happening at once can add up to more stiffness and discomfort.</p>
+
+<h2>Simple Back-to-School Posture Tips for Kids and Parents</h2>
+
+<h3>Check backpack fit</h3>
+<p>Make sure the backpack sits comfortably and close to the body. Both shoulder straps should be used, and the load should be reviewed regularly so kids aren't carrying unnecessary items.</p>
+
+<h3>Create a better homework and desk setup</h3>
+<p>A comfortable desk setup doesn't need to be complicated. Whenever possible:</p>
+<ul>
+<li>Keep both feet supported.</li>
+<li>Position the screen at a comfortable viewing height.</li>
+<li>Avoid spending long periods hunched over a laptop or tablet.</li>
+<li>Use a chair that provides appropriate support.</li>
+<li>Encourage kids to change positions instead of staying rigidly in one posture.</li>
+</ul>
+<p>These same principles apply to parents working from home.</p>
+
+<h3>Make movement breaks part of the routine</h3>
+<p>One of the simplest ways to combat the effects of prolonged sitting is to move more often. A short walk, stretch, or movement break between homework assignments can help break up long periods in the same position.</p>
+<p>For both kids and adults, movement throughout the day is generally more realistic &mdash; and often more helpful &mdash; than trying to force yourself to "sit up straight" all day.</p>
+
+<h3>Get sleep schedules back on track</h3>
+<p>A consistent sleep routine can make the transition back to school easier. Rather than waiting until the first day of school to suddenly change bedtime, gradually shifting sleep schedules before school starts can help the whole family adjust.</p>
+
+<h2>When Is It More Than Normal Back-to-School Stiffness?</h2>
+<p>Some mild stiffness can happen when your routine changes. However, it may be worth having persistent symptoms evaluated if you or your child are experiencing:</p>
+<ul>
+<li>Frequent headaches associated with homework or screen time</li>
+<li>Neck or shoulder pain that doesn't improve</li>
+<li>Ongoing lower back discomfort after sitting</li>
+<li>Noticeably uneven posture</li>
+<li>A head that consistently tilts to one side</li>
+<li>Pain that interferes with normal school, work, sports, or daily activities</li>
+</ul>
+<p>Persistent or worsening symptoms shouldn't simply be ignored.</p>
+
+<h2>Chiropractic Care for Back-to-School Neck and Back Pain in Rochester, NY</h2>
+<p>At Oak &amp; Olive Chiropractic, we work with patients of different ages who are dealing with everyday musculoskeletal concerns &mdash; from neck and shoulder tightness associated with desk work to back discomfort related to sitting, activity, or repetitive strain.</p>
+<p>Care begins with an evaluation to better understand what may be contributing to the problem. From there, recommendations are tailored to the individual and may include chiropractic care, mobility work, soft tissue techniques, exercise recommendations, or other appropriate strategies based on the examination.</p>
+<p>Our goal isn't simply to tell you or your child to "sit up straight." It's to help identify what's contributing to discomfort and develop a practical plan that fits your lifestyle.</p>
+
+<h2>Start the School Year Feeling Your Best</h2>
+<p>A new school year brings new routines for the entire family. Taking a few minutes to check backpack fit, improve the homework setup, build in movement breaks, and address persistent aches early can help make the transition easier.</p>
+<p>If you or your child is dealing with ongoing neck pain, back pain, shoulder discomfort, or posture-related stiffness, Oak &amp; Olive Chiropractic is here to help.</p>
+<p>Schedule an evaluation at Oak &amp; Olive Chiropractic in Rochester, NY, located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606.</p>
+<p><a href="/contact">Schedule an Appointment</a></p>
+
+<h2>Frequently Asked Questions About Back-to-School Posture</h2>
+<h3>Can a heavy backpack cause back or shoulder pain?</h3>
+<p>A heavy or poorly fitted backpack can contribute to discomfort in the shoulders, neck, and back, particularly when it is carried unevenly or for extended periods. Using both shoulder straps and regularly checking the fit can help reduce unnecessary strain.</p>
+<h3>How can I improve my child's posture while doing homework?</h3>
+<p>Focus on creating a comfortable workspace with appropriate support, positioning screens at a comfortable viewing height, and encouraging regular movement breaks. Changing positions regularly is often more practical than trying to maintain one "perfect" posture.</p>
+<h3>Should I take my child to a chiropractor for posture problems?</h3>
+<p>If your child has persistent pain, recurring headaches, noticeable postural changes, or symptoms that interfere with normal activities, an appropriate healthcare evaluation can help determine what may be contributing to the problem.</p>
+<h3>Can adults benefit from these back-to-school posture tips too?</h3>
+<p>Absolutely. Parents often return to more structured work and school schedules at the same time as their children. Desk ergonomics, screen breaks, movement, and regular activity can all be useful for adults as well.</p>
+
+<p>Dr. Alex Eckert, D.C. is a chiropractor and the owner of Oak &amp; Olive Chiropractic in Rochester, NY. He focuses on helping patients address musculoskeletal pain and movement-related concerns through individualized care.</p>
+
+<p>Ready to help your family start the school year feeling their best? <a href="/contact">Schedule an evaluation</a> with Oak &amp; Olive Chiropractic today.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
