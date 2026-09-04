@@ -614,21 +614,21 @@ export const blogPosts: BlogPost[] = [
 <p>At Oak &amp; Olive Chiropractic, this is one of the most common reasons new and returning patients call us this time of year — and it's exactly the kind of stubborn, nagging pain that <a href="/services#shockwave">shockwave therapy</a> is built for.</p>
 
 <h2>What Is Shockwave Therapy?</h2>
-<p>Shockwave therapy uses focused acoustic pulses delivered through the skin to stimulate blood flow and accelerate the body's natural healing response in areas of chronic tendon or soft tissue irritation. Unlike treatments that simply mask pain, shockwave works by triggering the tissue to repair itself — which is why it's especially effective for injuries that have lingered for weeks or months rather than days.</p>
+<p>Shockwave therapy uses focused acoustic pulses delivered through the skin to stimulate blood flow and accelerate the body's natural healing response in areas of <a href="/services#iastm">chronic tendon or soft tissue irritation</a>. Unlike treatments that simply mask pain, shockwave works by triggering the tissue to repair itself — which is why it's especially effective for injuries that have lingered for weeks or months rather than days.</p>
 
 <h2>Conditions We Commonly Treat With Shockwave This Time of Year</h2>
 <ul>
 <li><strong><a href="/conditions">Plantar fasciitis</a></strong> — flares up as fall runners and soccer parents log more miles on turf and pavement</li>
-<li><strong>Achilles and patellar tendonitis</strong> — common in fall athletes ramping up training volume</li>
+<li><strong><a href="/conditions">Achilles and patellar tendonitis</a></strong> — common in fall athletes ramping up training volume</li>
 <li><strong>Golfer's and tennis elbow</strong> — from late-season rounds and racquet sports before the Rochester weather turns</li>
-<li><strong>Rotator cuff and shoulder tendinopathy</strong> — often aggravated by raking, yard cleanup, and moving furniture back indoors</li>
+<li><strong><a href="/conditions">Rotator cuff and shoulder tendinopathy</a></strong> — often aggravated by raking, yard cleanup, and moving furniture back indoors</li>
 </ul>
 
 <h2>Why Rochester Patients Choose Oak &amp; Olive</h2>
 <p>We're a Rochester-based, family-owned practice on Lyell Ave, and we built our approach around treating the whole person — not just the joint that hurts. <a href="/services#shockwave">Shockwave therapy</a> is one tool in a broader toolkit that includes <a href="/services#cmt">chiropractic adjustment</a>, <a href="/services#iastm">instrument-assisted soft tissue work</a>, and <a href="/services#exercise">individualized exercise programming</a>, so you're not just getting temporary relief — you're getting a plan to keep the pain from coming back next fall.</p>
 
 <h2>Don't Let This Become a Winter Problem</h2>
-<p>Untreated overuse injuries from September and October have a way of settling in for the winter if they're not addressed early. If you're feeling that familiar ache as your routine picks back up, now is the time to get ahead of it.</p>
+<p><a href="/conditions">Untreated overuse injuries</a> from September and October have a way of settling in for the winter if they're not addressed early. If you're feeling that familiar ache as your routine picks back up, now is the time to get ahead of it.</p>
 
 <p>Ready to feel better before winter sets in? <a href="/contact">Schedule your visit with Oak &amp; Olive Chiropractic in Rochester, NY today</a>.</p>
     `.trim(),
