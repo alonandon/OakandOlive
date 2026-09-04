@@ -596,6 +596,43 @@ export const blogPosts: BlogPost[] = [
 <p>Ready to help your family start the school year feeling their best? <a href="/contact">Schedule an evaluation</a> with Oak &amp; Olive Chiropractic today.</p>
     `.trim(),
   },
+  {
+    slug: 'fall-chronic-pain-shockwave-therapy-rochester',
+    title: 'Why Fall Is the Season Chronic Pain Comes Back — and How Shockwave Therapy Can Help',
+    excerpt:
+      'If you\'re in Rochester, NY, and your shoulder, heel, or elbow pain is creeping back as the weather cools, you\'re not imagining it. Here\'s why fall triggers so many overuse injuries — and how shockwave therapy can stop them before winter sets in.',
+    date: '2026-09-04',
+    dateModified: '2026-09-04',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
+    readTime: '5 min read',
+    tags: ['shockwave therapy', 'fall injuries', 'chronic pain', 'Rochester NY', 'plantar fasciitis', 'tendonitis'],
+    content: `
+<img src="/ChiropracticShockwave.png" alt="Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>If you're in Rochester, NY, and you've noticed your shoulder, heel, or elbow pain creeping back as the weather cools and life speeds back up, you're not imagining it. Every September, our office sees the same pattern: kids are back in fall sports, weekend warriors are squeezing in one more round of golf or a last group of hikes before winter, and the return to routine means more repetitive strain on joints and tendons that had a quieter summer.</p>
+<p>At Oak &amp; Olive Chiropractic, this is one of the most common reasons new and returning patients call us this time of year — and it's exactly the kind of stubborn, nagging pain that shockwave therapy is built for.</p>
+
+<h2>What Is Shockwave Therapy?</h2>
+<p>Shockwave therapy uses focused acoustic pulses delivered through the skin to stimulate blood flow and accelerate the body's natural healing response in areas of chronic tendon or soft tissue irritation. Unlike treatments that simply mask pain, shockwave works by triggering the tissue to repair itself — which is why it's especially effective for injuries that have lingered for weeks or months rather than days.</p>
+
+<h2>Conditions We Commonly Treat With Shockwave This Time of Year</h2>
+<ul>
+<li><strong>Plantar fasciitis</strong> — flares up as fall runners and soccer parents log more miles on turf and pavement</li>
+<li><strong>Achilles and patellar tendonitis</strong> — common in fall athletes ramping up training volume</li>
+<li><strong>Golfer's and tennis elbow</strong> — from late-season rounds and racquet sports before the Rochester weather turns</li>
+<li><strong>Rotator cuff and shoulder tendinopathy</strong> — often aggravated by raking, yard cleanup, and moving furniture back indoors</li>
+</ul>
+
+<h2>Why Rochester Patients Choose Oak &amp; Olive</h2>
+<p>We're a Rochester-based, family-owned practice on Lyell Ave, and we built our approach around treating the whole person — not just the joint that hurts. Shockwave therapy is one tool in a broader toolkit that includes chiropractic adjustment, instrument-assisted soft tissue work, and individualized exercise programming, so you're not just getting temporary relief — you're getting a plan to keep the pain from coming back next fall.</p>
+
+<h2>Don't Let This Become a Winter Problem</h2>
+<p>Untreated overuse injuries from September and October have a way of settling in for the winter if they're not addressed early. If you're feeling that familiar ache as your routine picks back up, now is the time to get ahead of it.</p>
+
+<p>Ready to feel better before winter sets in? <a href="/contact">Schedule your visit with Oak &amp; Olive Chiropractic in Rochester, NY today</a>.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
