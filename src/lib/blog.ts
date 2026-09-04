@@ -27,16 +27,16 @@ export const blogPosts: BlogPost[] = [
 <p>Many people wait far too long before seeing a chiropractor. They assume the ache in their lower back will go away on its own, or that headaches are just part of life. Sometimes those things are true — but often, they're your body telling you that something in your spine or soft tissue needs attention. Here are five signs that chiropractic care could make a real difference, and what you can expect when you come in for your first visit at Oak &amp; Olive Chiropractic in Rochester, NY.</p>
 
 <h2>1. Persistent Back or Neck Pain</h2>
-<p>This is the most obvious one, but it's worth saying plainly: if you've been dealing with back or neck pain for more than a week or two — especially if it's not improving with rest — that's worth evaluating. Chiropractic manipulative therapy addresses the underlying joint restrictions and muscle imbalances that cause that pain, rather than just masking it. Many patients feel meaningful relief after their first few sessions.</p>
+<p>This is the most obvious one, but it's worth saying plainly: if you've been dealing with back or neck pain for more than a week or two — especially if it's not improving with rest — that's worth evaluating. <a href="/services#cmt">Chiropractic manipulative therapy</a> addresses the underlying joint restrictions and muscle imbalances that cause that pain, rather than just masking it. Many patients feel meaningful relief after their first few sessions.</p>
 
 <h2>2. Headaches That Start at the Base of Your Skull</h2>
 <p>Not all headaches originate in your head. Cervicogenic headaches — headaches caused by tension and restriction in the cervical spine — are extremely common, especially among people who sit at desks or look down at screens for hours at a time. If your headaches tend to start at the back of your neck and radiate upward, chiropractic care and soft-tissue work can address the root cause.</p>
 
 <h2>3. Sharp Pain, Tingling, or Numbness Down Your Arm or Leg</h2>
-<p>If you're experiencing shooting pain, tingling, or numbness that travels down your arm or into your leg, this could be a sign of nerve irritation — often related to disc pressure or spinal joint dysfunction. This is exactly the kind of problem that responds well to spinal decompression therapy and nerve flossing techniques. Don't ignore these symptoms; they tend to worsen over time without treatment.</p>
+<p>If you're experiencing shooting pain, tingling, or numbness that travels down your arm or into your leg, this could be a sign of nerve irritation — often related to disc pressure or spinal joint dysfunction. This is exactly the kind of problem that responds well to <a href="/services#flexion-distraction">spinal decompression therapy</a> and <a href="/services#nerve-flossing">nerve flossing techniques</a>. Don't ignore these symptoms; they tend to worsen over time without treatment.</p>
 
 <h2>4. You Were in a Car Accident or Sports Injury</h2>
-<p>Even "minor" accidents and sports injuries can cause significant soft-tissue and joint damage that doesn't become obvious until days or weeks later. Getting evaluated promptly after an injury gives us the opportunity to treat problems before they become chronic. We commonly treat whiplash, muscle strains, and joint sprains using a combination of chiropractic adjustment, instrument-assisted soft-tissue mobilization (IASTM), and shockwave therapy.</p>
+<p>Even "minor" accidents and sports injuries can cause significant soft-tissue and joint damage that doesn't become obvious until days or weeks later. Getting evaluated promptly after an injury gives us the opportunity to treat problems before they become chronic. We commonly treat whiplash, muscle strains, and joint sprains using a combination of <a href="/services#cmt">chiropractic adjustment</a>, <a href="/services#iastm">instrument-assisted soft-tissue mobilization (IASTM)</a>, and <a href="/services#shockwave">shockwave therapy</a>.</p>
 
 <h2>5. You Feel Stiff, Off-Balance, or Like You're Compensating in Your Movement</h2>
 <p>If you notice that you're favoring one side, that your posture has shifted, or that everyday movements like bending or reaching feel awkward or restricted, these are signs that your musculoskeletal system is compensating for something. A thorough chiropractic evaluation can identify those patterns and create a plan to correct them before they compound into bigger problems.</p>
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '5 min read',
     tags: ['shockwave therapy', 'chronic pain', 'tendon pain', 'Rochester NY', 'plantar fasciitis'],
     content: `
-<p>One of the most common frustrations I hear from new patients is this: "I've tried everything, and nothing has worked long-term." They've done physical therapy. They've taken anti-inflammatories. They may have had cortisone injections. And yet the pain — in their heel, their Achilles, their rotator cuff, their knee — keeps coming back. For many of these patients, shockwave therapy is the answer they've been looking for.</p>
+<p>One of the most common frustrations I hear from new patients is this: "I've tried everything, and nothing has worked long-term." They've done physical therapy. They've taken anti-inflammatories. They may have had cortisone injections. And yet the pain — in their heel, their Achilles, their rotator cuff, their knee — keeps coming back. For many of these patients, <a href="/services#shockwave">shockwave therapy</a> is the answer they've been looking for.</p>
 
 <h2>What Is Shockwave Therapy?</h2>
 <p>Shockwave therapy (also called extracorporeal shockwave therapy, or ESWT) uses high-energy acoustic waves delivered through a handheld device to the affected area of the body. These pressure waves stimulate the body's natural healing response — increasing blood flow, breaking down calcific deposits, and triggering the regeneration of tendon and soft tissue cells.</p>
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
 <h2>What Conditions Respond Well to Shockwave?</h2>
 <p>Shockwave therapy has strong clinical evidence behind it for a number of chronic musculoskeletal conditions, including:</p>
 <ul>
-<li><strong>Plantar fasciitis</strong> — heel pain that's worst with your first steps in the morning</li>
+<li><strong><a href="/conditions">Plantar fasciitis</a></strong> — heel pain that's worst with your first steps in the morning</li>
 <li><strong>Achilles tendinopathy</strong> — chronic stiffness and pain in the back of the ankle</li>
 <li><strong>Rotator cuff tendinopathy</strong> — shoulder pain that limits overhead movement</li>
 <li><strong>Lateral epicondylitis (tennis elbow)</strong> — outer elbow pain that persists despite rest</li>
@@ -82,7 +82,7 @@ export const blogPosts: BlogPost[] = [
 <p>Understanding why shockwave works requires understanding why these conditions become chronic in the first place. Tendons have relatively poor blood supply compared to muscles, which means they heal slowly — and sometimes incompletely. Over time, the tissue can become disorganized and degenerated rather than properly repaired. Standard anti-inflammatory treatments (ice, NSAIDs, cortisone) reduce pain temporarily but don't address the underlying tissue quality. Shockwave does. It essentially "restarts" the healing process in tissue that has become stuck in a chronic state.</p>
 
 <h2>Is Shockwave Therapy Right for You?</h2>
-<p>Shockwave is most effective for pain that has been present for at least 3–6 months and hasn't fully responded to other conservative treatments. It's generally not recommended for acute injuries (less than 6 weeks old), patients on blood thinners, or pain over areas with active infection or tumors. A thorough evaluation will determine whether it's the right tool for your specific condition — and it's often used alongside other treatments like chiropractic adjustment, IASTM, and exercise programming for the best results.</p>
+<p>Shockwave is most effective for pain that has been present for at least 3–6 months and hasn't fully responded to other conservative treatments. It's generally not recommended for acute injuries (less than 6 weeks old), patients on blood thinners, or pain over areas with active infection or tumors. A thorough evaluation will determine whether it's the right tool for your specific condition — and it's often used alongside other treatments like <a href="/services#cmt">chiropractic adjustment</a>, <a href="/services#iastm">IASTM</a>, and <a href="/services#exercise">exercise programming</a> for the best results.</p>
 
 <p>If you're dealing with stubborn tendon or soft-tissue pain that hasn't responded to treatment, <a href="/contact">reach out to schedule an evaluation</a> at Oak &amp; Olive Chiropractic in Rochester, NY. We'd be happy to talk through whether shockwave therapy makes sense for you.</p>
     `.trim(),
@@ -130,10 +130,10 @@ export const blogPosts: BlogPost[] = [
 <p>Your monitor should be at eye level so your head isn't tilting down. Your chair height should allow your hips and knees to be at roughly 90 degrees with feet flat on the floor. Your keyboard and mouse should be close enough that your shoulders aren't rounded forward. These aren't luxury adjustments — they're biomechanical necessities for anyone spending significant time at a desk.</p>
 
 <h3>Strengthen the Right Muscles</h3>
-<p>Hip flexor stretching, glute activation exercises, and deep neck flexor strengthening are the three most important corrective targets for desk workers. A customized exercise programming plan can address your specific patterns — we build these as part of chiropractic care at Oak &amp; Olive so that your progress between visits sticks.</p>
+<p>Hip flexor stretching, glute activation exercises, and deep neck flexor strengthening are the three most important corrective targets for desk workers. A customized <a href="/services#exercise">exercise programming</a> plan can address your specific patterns — we build these as part of chiropractic care at Oak &amp; Olive so that your progress between visits sticks.</p>
 
 <h3>Get a Chiropractic Evaluation</h3>
-<p>If you've already accumulated significant postural strain, spinal joint restrictions, or muscle imbalances, self-care alone has limits. Chiropractic manipulative therapy restores mobility to restricted spinal segments, instrument-assisted soft-tissue mobilization addresses the fascial and muscular components, and a structured treatment plan can reverse patterns that years of desk work have created.</p>
+<p>If you've already accumulated significant postural strain, spinal joint restrictions, or muscle imbalances, self-care alone has limits. <a href="/services#cmt">Chiropractic manipulative therapy</a> restores mobility to restricted spinal segments, <a href="/services#iastm">instrument-assisted soft-tissue mobilization</a> addresses the fascial and muscular components, and a structured treatment plan can reverse patterns that years of desk work have created.</p>
 
 <p>Many of our patients at Oak &amp; Olive Chiropractic are Rochester-area professionals who came in for back or neck pain and discovered that a targeted plan — combining chiropractic care with exercise programming and soft-tissue work — made a bigger difference than anything they'd tried before. If that sounds like you, <a href="/contact">book a consultation</a> and let's take a look at what's going on.</p>
     `.trim(),
@@ -176,16 +176,16 @@ export const blogPosts: BlogPost[] = [
 <p>These sudden increases in physical activity often contribute more to pain than the heat itself.</p>
 
 <h2>What Does the Research Say?</h2>
-<p>Current scientific evidence does not show that chiropractic adjustments prevent heat-related illness or dehydration. However, there is strong evidence that spinal manipulation can help certain musculoskeletal conditions.</p>
+<p>Current scientific evidence does not show that chiropractic adjustments prevent heat-related illness or dehydration. However, there is strong evidence that <a href="/services#cmt">spinal manipulation</a> can help certain musculoskeletal conditions.</p>
 <p>Clinical practice guidelines support spinal manipulation as part of the treatment of:</p>
 <ul>
-<li>Acute and chronic low back pain</li>
+<li>Acute and chronic <a href="/conditions">low back pain</a></li>
 <li>Mechanical neck pain</li>
 <li>Some headache disorders, particularly cervicogenic headaches</li>
 </ul>
 <p>The greatest improvements are typically seen when chiropractic care is combined with:</p>
 <ul>
-<li>Targeted exercise</li>
+<li><a href="/services#exercise">Targeted exercise</a></li>
 <li>Patient education</li>
 <li>Activity modification</li>
 <li>Home rehabilitation</li>
@@ -259,7 +259,7 @@ export const blogPosts: BlogPost[] = [
 <p>These activities can overload muscles and joints that aren't accustomed to the extra demand.</p>
 
 <h2>How Chiropractic Care Can Help</h2>
-<p>Research suggests spinal manipulation can be an effective treatment for many types of mechanical low back pain and neck pain. Chiropractic care may help:</p>
+<p>Research suggests <a href="/services#cmt">spinal manipulation</a> can be an effective treatment for many types of mechanical <a href="/conditions">low back pain</a> and neck pain. Chiropractic care may help:</p>
 <ul>
 <li>Improve joint mobility</li>
 <li>Reduce pain and stiffness</li>
@@ -317,12 +317,12 @@ export const blogPosts: BlogPost[] = [
 <h2>How Chiropractic Care Helps Neck Pain</h2>
 <p>At Oak &amp; Olive, we don't believe in one-size-fits-all treatment. After a thorough evaluation, we build a plan that may include:</p>
 <ul>
-<li><strong>Chiropractic Manipulative Treatment (CMT):</strong> Gentle, targeted adjustments to restore motion to restricted joints in the neck and upper back, reducing pain and improving range of motion.</li>
-<li><strong>Flexion Distraction:</strong> A low-force, non-thrust technique especially useful for disc-related neck and radiating arm pain.</li>
-<li><strong>IASTM (Instrument-Assisted Soft Tissue Mobilization):</strong> Helps break up tension and adhesions in the surrounding neck and shoulder muscles that often accompany joint dysfunction.</li>
-<li><strong>Nerve Flossing:</strong> Gentle mobilization techniques to relieve irritation along nerves that may be contributing to numbness or tingling into the arm or hand.</li>
-<li><strong>Cupping:</strong> Used to address deep muscular tension in the neck, upper traps, and shoulders.</li>
-<li><strong>Exercise Programming:</strong> Targeted strengthening and mobility exercises so relief lasts well beyond your visit — especially important for posture-driven "tech neck."</li>
+<li><strong><a href="/services#cmt">Chiropractic Manipulative Treatment (CMT)</a>:</strong> Gentle, targeted adjustments to restore motion to restricted joints in the neck and upper back, reducing pain and improving range of motion.</li>
+<li><strong><a href="/services#flexion-distraction">Flexion Distraction</a>:</strong> A low-force, non-thrust technique especially useful for disc-related neck and radiating arm pain.</li>
+<li><strong><a href="/services#iastm">IASTM (Instrument-Assisted Soft Tissue Mobilization)</a>:</strong> Helps break up tension and adhesions in the surrounding neck and shoulder muscles that often accompany joint dysfunction.</li>
+<li><strong><a href="/services#nerve-flossing">Nerve Flossing</a>:</strong> Gentle mobilization techniques to relieve irritation along nerves that may be contributing to numbness or tingling into the arm or hand.</li>
+<li><strong><a href="/services#cupping">Cupping</a>:</strong> Used to address deep muscular tension in the neck, upper traps, and shoulders.</li>
+<li><strong><a href="/services#exercise">Exercise Programming</a>:</strong> Targeted strengthening and mobility exercises so relief lasts well beyond your visit — especially important for posture-driven "tech neck."</li>
 </ul>
 
 <h2>When Should You See a Chiropractor for Neck Pain?</h2>
@@ -385,7 +385,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>When to Come See Us</h2>
-<p>If this summer's lineup of festivals, fireworks, and outdoor concerts has left you dealing with more than the usual next-day soreness, that's exactly the kind of mechanical strain chiropractic care is built to address. We offer a full range of care at our Lyell Ave office, from chiropractic manipulation to soft tissue work and rehab exercise programming, tailored to what your summer has actually been putting your body through.</p>
+<p>If this summer's lineup of festivals, fireworks, and outdoor concerts has left you dealing with more than the usual next-day soreness, that's exactly the kind of mechanical strain chiropractic care is built to address. We offer a full range of care at our Lyell Ave office, from <a href="/services#cmt">chiropractic manipulation</a> to <a href="/services#iastm">soft tissue work</a> and <a href="/services#exercise">rehab exercise programming</a>, tailored to what your summer has actually been putting your body through.</p>
 <p>Enjoying everything Rochester has going on this summer shouldn't come at the cost of your back. If you're feeling it after your last event, <a href="/contact">schedule a visit with us</a> — we're a five-minute drive from most of downtown's festival grounds.</p>
 
 <p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY 14606. Serving the greater Rochester community with chiropractic care, rehab, and wellness services.</p>
@@ -422,10 +422,10 @@ export const blogPosts: BlogPost[] = [
 <p>Odysseus didn't get home in one clean shot. He got blown off course, again and again, and had to adjust the plan every time. That's honestly a pretty accurate description of most recovery plans we build for patients. Nobody's spine "fixes itself" in one visit any more than Odysseus made it home in one afternoon. Consistent care &mdash; adjustments, mobility work, strengthening &mdash; is what turns a decade-long detour into a shorter, steadier path.</p>
 
 <h2>3. Ten Years at Sea Will Wreck Anyone's Shoulders</h2>
-<p>Rowing, hauling sail lines, sleeping on hard surfaces &mdash; Odysseus's whole crew probably could have used a few rounds of instrument-assisted soft tissue work (we offer that, it's called IASTM) and some cupping therapy for all that tension. If your own version of "ten years at sea" looks more like a desk job, a physical hobby, or just the general wear of daily life, the same principle applies: tight, overworked muscles and joints don't resolve on their own. They need actual treatment.</p>
+<p>Rowing, hauling sail lines, sleeping on hard surfaces &mdash; Odysseus's whole crew probably could have used a few rounds of instrument-assisted soft tissue work (we offer that, it's called <a href="/services#iastm">IASTM</a>) and some <a href="/services#cupping">cupping therapy</a> for all that tension. If your own version of "ten years at sea" looks more like a desk job, a physical hobby, or just the general wear of daily life, the same principle applies: tight, overworked muscles and joints don't resolve on their own. They need actual treatment.</p>
 
 <h2>4. Coming Home Shouldn't Hurt</h2>
-<p>By the end of The Odyssey, the whole point is relief &mdash; finally being home, finally at rest. That's the goal with chiropractic care too. Not just cracking backs for the sake of it, but getting you back to moving through your life without pain shadowing every step. That's what our full approach &mdash; chiropractic manipulation, flexion distraction, nerve flossing, exercise programming, and more &mdash; is built around.</p>
+<p>By the end of The Odyssey, the whole point is relief &mdash; finally being home, finally at rest. That's the goal with chiropractic care too. Not just cracking backs for the sake of it, but getting you back to moving through your life without pain shadowing every step. That's what our full approach &mdash; <a href="/services#cmt">chiropractic manipulation</a>, <a href="/services#flexion-distraction">flexion distraction</a>, <a href="/services#nerve-flossing">nerve flossing</a>, <a href="/services#exercise">exercise programming</a>, and more &mdash; is built around.</p>
 
 <h2>Planning to See It This Weekend?</h2>
 <p>If you're headed to see The Odyssey in IMAX and know you'll be sitting for the long haul, come see us beforehand. A quick adjustment and some mobility work can make a real difference in how your back feels three hours later. And if you're already dealing with some post-movie stiffness, we're happy to help with that too.</p>
@@ -464,7 +464,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/services#cmt">Chiropractic manipulative therapy (CMT)</a> to restore proper motion to the joints of the spine and pelvis</li>
 <li><a href="/services#flexion-distraction">Flexion distraction</a>, a gentle, low-force technique especially helpful for disc-related low back pain</li>
 <li><a href="/services#iastm">Instrument-assisted soft tissue mobilization (IASTM)</a> to address tight, restricted muscles and fascia</li>
-<li>Targeted exercise programming to build the strength and stability that keeps low back pain from coming back</li>
+<li><a href="/services#exercise">Targeted exercise programming</a> to build the strength and stability that keeps low back pain from coming back</li>
 <li><a href="/services#nerve-flossing">Nerve flossing</a> techniques when nerve irritation is contributing to pain that radiates into the hip or leg</li>
 </ul>
 <p>Our goal isn't just a quick adjustment — it's giving you a plan that addresses why the pain started in the first place.</p>
@@ -572,7 +572,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Chiropractic Care for Back-to-School Neck and Back Pain in Rochester, NY</h2>
 <p>At Oak &amp; Olive Chiropractic, we work with patients of different ages who are dealing with everyday musculoskeletal concerns &mdash; from neck and shoulder tightness associated with desk work to back discomfort related to sitting, activity, or repetitive strain.</p>
-<p>Care begins with an evaluation to better understand what may be contributing to the problem. From there, recommendations are tailored to the individual and may include chiropractic care, mobility work, soft tissue techniques, exercise recommendations, or other appropriate strategies based on the examination.</p>
+<p>Care begins with an evaluation to better understand what may be contributing to the problem. From there, recommendations are tailored to the individual and may include <a href="/services#cmt">chiropractic care</a>, mobility work, <a href="/services#iastm">soft tissue techniques</a>, <a href="/services#exercise">exercise recommendations</a>, or other appropriate strategies based on the examination.</p>
 <p>Our goal isn't simply to tell you or your child to "sit up straight." It's to help identify what's contributing to discomfort and develop a practical plan that fits your lifestyle.</p>
 
 <h2>Start the School Year Feeling Your Best</h2>
@@ -611,21 +611,21 @@ export const blogPosts: BlogPost[] = [
 <img src="/ChiropracticShockwave.png" alt="Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic" class="rounded-2xl w-full mb-8 shadow-md" />
 
 <p>If you're in Rochester, NY, and you've noticed your shoulder, heel, or elbow pain creeping back as the weather cools and life speeds back up, you're not imagining it. Every September, our office sees the same pattern: kids are back in fall sports, weekend warriors are squeezing in one more round of golf or a last group of hikes before winter, and the return to routine means more repetitive strain on joints and tendons that had a quieter summer.</p>
-<p>At Oak &amp; Olive Chiropractic, this is one of the most common reasons new and returning patients call us this time of year — and it's exactly the kind of stubborn, nagging pain that shockwave therapy is built for.</p>
+<p>At Oak &amp; Olive Chiropractic, this is one of the most common reasons new and returning patients call us this time of year — and it's exactly the kind of stubborn, nagging pain that <a href="/services#shockwave">shockwave therapy</a> is built for.</p>
 
 <h2>What Is Shockwave Therapy?</h2>
 <p>Shockwave therapy uses focused acoustic pulses delivered through the skin to stimulate blood flow and accelerate the body's natural healing response in areas of chronic tendon or soft tissue irritation. Unlike treatments that simply mask pain, shockwave works by triggering the tissue to repair itself — which is why it's especially effective for injuries that have lingered for weeks or months rather than days.</p>
 
 <h2>Conditions We Commonly Treat With Shockwave This Time of Year</h2>
 <ul>
-<li><strong>Plantar fasciitis</strong> — flares up as fall runners and soccer parents log more miles on turf and pavement</li>
+<li><strong><a href="/conditions">Plantar fasciitis</a></strong> — flares up as fall runners and soccer parents log more miles on turf and pavement</li>
 <li><strong>Achilles and patellar tendonitis</strong> — common in fall athletes ramping up training volume</li>
 <li><strong>Golfer's and tennis elbow</strong> — from late-season rounds and racquet sports before the Rochester weather turns</li>
 <li><strong>Rotator cuff and shoulder tendinopathy</strong> — often aggravated by raking, yard cleanup, and moving furniture back indoors</li>
 </ul>
 
 <h2>Why Rochester Patients Choose Oak &amp; Olive</h2>
-<p>We're a Rochester-based, family-owned practice on Lyell Ave, and we built our approach around treating the whole person — not just the joint that hurts. Shockwave therapy is one tool in a broader toolkit that includes chiropractic adjustment, instrument-assisted soft tissue work, and individualized exercise programming, so you're not just getting temporary relief — you're getting a plan to keep the pain from coming back next fall.</p>
+<p>We're a Rochester-based, family-owned practice on Lyell Ave, and we built our approach around treating the whole person — not just the joint that hurts. <a href="/services#shockwave">Shockwave therapy</a> is one tool in a broader toolkit that includes <a href="/services#cmt">chiropractic adjustment</a>, <a href="/services#iastm">instrument-assisted soft tissue work</a>, and <a href="/services#exercise">individualized exercise programming</a>, so you're not just getting temporary relief — you're getting a plan to keep the pain from coming back next fall.</p>
 
 <h2>Don't Let This Become a Winter Problem</h2>
 <p>Untreated overuse injuries from September and October have a way of settling in for the winter if they're not addressed early. If you're feeling that familiar ache as your routine picks back up, now is the time to get ahead of it.</p>
