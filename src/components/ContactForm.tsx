@@ -19,12 +19,15 @@ const initialState: FormState = {
 }
 
 const services = [
-  'Nutrition Counseling',
-  'Wellness Coaching',
-  'Yoga & Movement',
-  'Massage Therapy',
-  'Stress Management',
-  'Corporate Wellness',
+  'Chiropractic Manipulative Therapy (CMT)',
+  'Flexion Distraction & Spinal Decompression',
+  'Instrument Assisted Soft-Tissue Mobilization (IASTM)',
+  'Shockwave Therapy',
+  'Blood Flow Restriction Therapy (BFRT)',
+  'Cupping Therapy',
+  'Nerve Flossing',
+  'Nutrition for a Lifetime',
+  'Exercise Programming',
   'General Inquiry',
 ]
 
