@@ -170,32 +170,34 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map placeholder */}
+      {/* Map */}
       <section className="bg-cream-50 border-t border-cream-200" aria-label="Location map">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <div className="text-center mb-6">
             <h2 className="font-serif text-2xl text-bark">Find Us in Rochester</h2>
             <p className="font-sans text-sm text-bark-muted mt-2">2316 Lyell Ave, Suite 2, Rochester, NY 14606</p>
           </div>
-          <div className="aspect-[16/6] bg-olive-100 rounded-2xl flex items-center justify-center border border-olive-200 overflow-hidden">
-            <div className="text-center">
-              <svg className="w-10 h-10 text-olive-400 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-              </svg>
-              <p className="font-sans text-sm text-bark-muted mb-3">2316 Lyell Ave, Suite 2, Rochester, NY 14606</p>
-              <a
-                href="https://maps.google.com/?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary text-sm px-5 py-2.5"
-              >
-                Open in Google Maps
-              </a>
-            </div>
+          <div className="aspect-[16/6] rounded-2xl border border-olive-200 overflow-hidden shadow-sm">
+            <iframe
+              src="https://www.google.com/maps?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606&output=embed"
+              title="Map showing Oak & Olive Chiropractic at 2316 Lyell Ave, Suite 2, Rochester, NY 14606"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
-          <p className="font-sans text-xs text-bark-muted text-center mt-4">
-            Embed your Google Maps iframe here — replace this placeholder with your actual embed code.
-          </p>
+          <div className="text-center mt-5">
+            <a
+              href="https://maps.google.com/?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm px-5 py-2.5"
+            >
+              Open in Google Maps
+            </a>
+          </div>
         </div>
       </section>
     </>
