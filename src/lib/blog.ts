@@ -25,7 +25,11 @@ export const blogPosts: BlogPost[] = [
     category: 'Chiropractic Care',
     readTime: '6 min read',
     tags: ['chiropractic', 'back pain', 'Rochester NY', 'spinal health', 'first visit'],
+    image: '/GuidedMobilityAssessment.png',
+    imageAlt: 'Chiropractor guiding a patient through a mobility assessment',
     content: `
+<img src="/GuidedMobilityAssessment.png" alt="Chiropractor guiding a patient through a mobility assessment" class="rounded-2xl w-full mb-8 shadow-md" />
+
 <p>Many people wait far too long before seeing a chiropractor. They assume the ache in their lower back will go away on its own, or that headaches are just part of life. Sometimes those things are true — but often, they're your body telling you that something in your spine or soft tissue needs attention. Here are five signs that chiropractic care could make a real difference, and what you can expect when you come in for your first visit at Oak &amp; Olive Chiropractic in Rochester, NY.</p>
 
 <h2>1. Persistent Back or Neck Pain</h2>
@@ -61,7 +65,11 @@ export const blogPosts: BlogPost[] = [
     category: 'Treatment Spotlight',
     readTime: '5 min read',
     tags: ['shockwave therapy', 'chronic pain', 'tendon pain', 'Rochester NY', 'plantar fasciitis'],
+    image: '/PhysicalTherapyShockwave.png',
+    imageAlt: 'Physical therapist administering shockwave therapy treatment',
     content: `
+<img src="/PhysicalTherapyShockwave.png" alt="Physical therapist administering shockwave therapy treatment" class="rounded-2xl w-full mb-8 shadow-md" />
+
 <p>One of the most common frustrations I hear from new patients is this: "I've tried everything, and nothing has worked long-term." They've done physical therapy. They've taken anti-inflammatories. They may have had cortisone injections. And yet the pain — in their heel, their Achilles, their rotator cuff, their knee — keeps coming back. For many of these patients, <a href="/services#shockwave">shockwave therapy</a> is the answer they've been looking for.</p>
 
 <h2>What Is Shockwave Therapy?</h2>
@@ -100,7 +108,11 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '7 min read',
     tags: ['posture', 'desk ergonomics', 'back pain', 'Rochester NY', 'spine health', 'office workers'],
+    image: '/DeskErgonomicsPosture.png',
+    imageAlt: 'Office worker demonstrating proper desk ergonomics and posture',
     content: `
+<img src="/DeskErgonomicsPosture.png" alt="Office worker demonstrating proper desk ergonomics and posture" class="rounded-2xl w-full mb-8 shadow-md" />
+
 <p>Rochester has a strong and growing base of office workers, remote professionals, healthcare employees, and students — many of whom spend the majority of their waking hours seated. If you're one of them, and you've noticed increasing stiffness in your neck, aching in your lower back, or headaches that seem to appear reliably around 3pm, there's a very specific reason for that. And the good news is, it's addressable.</p>
 
 <h2>What Actually Happens to Your Spine When You Sit</h2>
@@ -246,7 +258,11 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '5 min read',
     tags: ['Rochester chiropractor', 'chiropractor near me', 'back pain Rochester NY', 'neck pain chiropractor', 'July 4th back pain', 'chiropractic care Rochester', 'sports injury chiropractor', 'Independence Day health tips'],
+    image: '/july4thbackpain.png',
+    imageAlt: 'Person experiencing back pain after July 4th holiday activities',
     content: `
+<img src="/july4thbackpain.png" alt="Person experiencing back pain after July 4th holiday activities" class="rounded-2xl w-full mb-8 shadow-md" />
+
 <p>The Fourth of July is one of the most active weekends of the summer. Whether you're hosting a backyard barbecue, traveling, carrying coolers, watching fireworks, or playing yard games, it's easy to place unexpected stress on your spine and joints.</p>
 <p>At Oak &amp; Olive Chiropractic in Rochester, NY, we often see an increase in back pain, neck pain, and muscle stiffness following holiday weekends. Fortunately, many of these issues can be prevented — or treated — with evidence-based chiropractic care.</p>
 

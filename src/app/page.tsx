@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import Script from 'next/script'
 import { siteConfig } from '@/lib/seo'
 import { getRecentPosts, formatDate } from '@/lib/blog'
@@ -343,8 +344,17 @@ export default function HomePage() {
             {recentPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="card group flex flex-col">
                 {/* Category badge */}
-                <div className="h-44 bg-gradient-to-br from-olive-800 to-olive-950 flex items-end p-5">
-                  <span className="inline-block bg-olive-500/80 text-white font-sans text-xs font-semibold px-3 py-1 rounded-full">
+                <div className="h-44 bg-gradient-to-br from-olive-800 to-olive-950 relative flex items-end p-5 overflow-hidden">
+                  {post.image && (
+                    <Image
+                      src={post.image}
+                      alt={post.imageAlt || post.title}
+                      fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
+                      className="object-cover"
+                    />
+                  )}
+                  <span className="relative inline-block bg-olive-500/80 text-white font-sans text-xs font-semibold px-3 py-1 rounded-full">
                     {post.category}
                   </span>
                 </div>
