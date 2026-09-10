@@ -633,6 +633,67 @@ export const blogPosts: BlogPost[] = [
 <p>Ready to feel better before winter sets in? <a href="/contact">Schedule your visit with Oak &amp; Olive Chiropractic in Rochester, NY today</a>.</p>
     `.trim(),
   },
+  {
+    slug: 'chiropractic-adjustment-rochester-ny',
+    title: 'What Is Chiropractic Manipulation? Your First Adjustment Explained',
+    excerpt:
+      'Wondering what a chiropractic adjustment feels like? Oak & Olive Chiropractic in Rochester, NY explains what CMT is, how it works, and what to expect at your first visit.',
+    date: '2026-09-10',
+    dateModified: '2026-09-10',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '6 min read',
+    tags: ['chiropractic adjustment Rochester NY', 'CMT', 'chiropractic manipulation', 'first visit', 'Rochester NY'],
+    content: `
+<img src="/chiropractic-adjustment-rochester-ny-oak-olive.png" alt="Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
+
+<p>If you've never seen a chiropractor before, the idea of an "adjustment" can sound a little mysterious — maybe even a little intimidating. At Oak &amp; Olive Chiropractic here in Rochester, one of the most common questions we hear from new patients is simply: what actually happens during a chiropractic adjustment, and is it safe?</p>
+<p>This guide walks through what chiropractic manipulation (CMT) is, how it works, and exactly what to expect at your first visit.</p>
+
+<h2>What Is Chiropractic Manipulation (CMT)?</h2>
+<p><a href="/services#cmt">Chiropractic manipulative treatment, or CMT</a>, is a hands-on technique where a chiropractor applies a controlled, precise force to a joint — most often in the spine — to improve mobility and reduce restriction. You may have heard it called an "adjustment," which is the more familiar term for the same thing.</p>
+<p>The goal isn't to "crack your back" for the sake of it. It's to restore normal movement to joints that have become restricted or misaligned, which can happen from everyday posture habits, an old injury, repetitive strain, or simply sitting at a desk for eight hours a day.</p>
+
+<h2>What Does an Adjustment Actually Feel Like?</h2>
+<p>Most patients describe an adjustment as a quick, light pressure followed by a release — often with an audible pop or crack. That sound is simply gas bubbles releasing from the joint fluid, similar to cracking your knuckles. It's not bone grinding on bone, and it's rarely painful.</p>
+<p>Immediately afterward, many people notice looser movement and less tension in the area treated. Some feel results right away; others notice the full benefit over the following day or two as inflammation settles.</p>
+
+<h2>What to Expect at Your First Visit</h2>
+<p>Your first appointment at Oak &amp; Olive isn't just an adjustment — it starts with understanding what's actually going on.</p>
+<ol class="list-decimal list-inside space-y-2 text-bark-muted mb-4 pl-4">
+<li><strong>History and conversation.</strong> We'll talk through your symptoms, how long they've been going on, and anything that makes them better or worse.</li>
+<li><strong>Physical exam.</strong> We assess posture, spinal movement, and joint restriction to pinpoint what's driving your discomfort.</li>
+<li><strong>A tailored plan.</strong> Not everyone needs the same approach. Depending on what we find, your plan might combine CMT with other care we offer, such as <a href="/services#iastm">soft tissue work</a>, <a href="/services#exercise">targeted exercise</a>, or <a href="/services#nutrition">nutrition guidance</a>.</li>
+<li><strong>Your first adjustment (if appropriate).</strong> If manipulation is a good fit for what we find, we'll walk you through exactly what we're doing before we do it — no surprises.</li>
+</ol>
+
+<h2>Who Can Benefit From Chiropractic Adjustments?</h2>
+<p>CMT is commonly used for:</p>
+<ul>
+<li><a href="/conditions#lower-back-pain">Low back pain and stiffness</a></li>
+<li><a href="/conditions#neck-pain-stiffness">Neck pain and tension headaches</a></li>
+<li><a href="/conditions#sciatica-nerve-pain">Sciatica and nerve-related pain</a></li>
+<li>Postural strain from desk work or driving</li>
+<li><a href="/conditions#sports-athletic-injuries">Recovery after minor sports or work injuries</a></li>
+</ul>
+<p>It's not a one-size-fits-all treatment, which is why the exam comes before any hands-on care — we want to know an adjustment is actually the right tool before we use it.</p>
+
+<h2>Is Chiropractic Manipulation Safe?</h2>
+<p>For most people, yes. Chiropractic adjustments are a well-studied, widely used form of conservative care. As with any treatment, it's not right for every condition, which is exactly why a proper history and exam come first. If CMT isn't the right fit for you, we'll say so and recommend an approach that is.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Does a chiropractic adjustment hurt?</h3>
+<p>Most patients feel little to no discomfort — often just brief pressure followed by relief.</p>
+<h3>How many adjustments will I need?</h3>
+<p>It depends entirely on what we find during your exam. Some people feel significant relief in a single visit; others benefit from a short series of visits to fully resolve a longer-standing issue.</p>
+<h3>Can I get adjusted on my first visit?</h3>
+<p>Often, yes — if the exam supports it. Some cases call for gathering more information first.</p>
+
+<h2>Ready to Feel Better?</h2>
+<p>If you're dealing with back pain, neck tension, or stiffness that's been slowing you down, we'd love to help you figure out what's going on. <a href="/contact">Schedule your first visit with Oak &amp; Olive Chiropractic</a> or <a href="/services">learn more about our approach to care</a>.</p>
+<p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY, serving patients throughout the Rochester area.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
@@ -650,5 +711,6 @@ export function formatDate(dateString: string): string {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'UTC',
   })
 }
