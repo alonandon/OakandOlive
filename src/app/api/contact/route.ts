@@ -1,4 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
+import nodemailer from 'nodemailer'
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -20,34 +30,46 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    /*
-     * TODO: Connect an email provider here.
-     * Options: Resend (resend.com), SendGrid, Nodemailer + SMTP, Postmark.
-     * Example with Resend:
-     *
-     * import { Resend } from 'resend'
-     * const resend = new Resend(process.env.RESEND_API_KEY)
-     * await resend.emails.send({
-     *   from: 'noreply@oakandolivewellness.com',
-     *   to: 'hello@oakandolivewellness.com',
-     *   subject: `New inquiry from ${name || email}`,
-     *   html: `<p><strong>Name:</strong> ${name}</p>
-     *          <p><strong>Email:</strong> ${email}</p>
-     *          <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
-     *          <p><strong>Service:</strong> ${service || 'N/A'}</p>
-     *          <p><strong>Message:</strong><br>${message}</p>`,
-     * })
-     */
+    const gmailUser = process.env.GMAIL_USER
+    const gmailAppPassword = process.env.GMAIL_APP_PASSWORD
+    const contactToEmail = process.env.CONTACT_TO_EMAIL || gmailUser
 
-    console.log('[Contact Form]', { name, email, phone, service, message })
+    if (!gmailUser || !gmailAppPassword) {
+      console.error('[Contact Form] Missing GMAIL_USER or GMAIL_APP_PASSWORD env vars — email not sent.')
+      return NextResponse.json(
+        { message: 'Unable to send your message right now. Please call us directly.' },
+        { status: 500 }
+      )
+    }
+
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: gmailUser,
+        pass: gmailAppPassword,
+      },
+    })
+
+    await transporter.sendMail({
+      from: `"Oak & Olive Website" <${gmailUser}>`,
+      to: contactToEmail,
+      replyTo: email,
+      subject: `New inquiry from ${name || email}`,
+      html: `<p><strong>Name:</strong> ${escapeHtml(name || 'N/A')}</p>
+             <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+             <p><strong>Phone:</strong> ${escapeHtml(phone || 'N/A')}</p>
+             <p><strong>Service:</strong> ${escapeHtml(service || 'N/A')}</p>
+             <p><strong>Message:</strong><br>${escapeHtml(message).replace(/\n/g, '<br>')}</p>`,
+    })
 
     return NextResponse.json(
       { message: 'Message received. We will be in touch shortly.' },
       { status: 200 }
     )
-  } catch {
+  } catch (err) {
+    console.error('[Contact Form] Failed to send email:', err)
     return NextResponse.json(
-      { message: 'An unexpected error occurred.' },
+      { message: 'An unexpected error occurred. Please call us directly.' },
       { status: 500 }
     )
   }
