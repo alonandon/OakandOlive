@@ -39,7 +39,7 @@ export function buildMetadata({
 }) {
   const url = `${siteConfig.url}${path}`
   return {
-    title: `${title} | ${siteConfig.name}`,
+    title: { absolute: `${title} | ${siteConfig.name}` },
     description,
     metadataBase: new URL(siteConfig.url),
     alternates: { canonical: url },
