@@ -9,6 +9,8 @@ export interface BlogPost {
   readTime: string
   tags: string[]
   content: string
+  image?: string
+  imageAlt?: string
 }
 
 export const blogPosts: BlogPost[] = [
@@ -149,6 +151,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '7 min read',
     tags: ['back pain', 'summer health', 'hot weather', 'chiropractic care', 'Rochester NY', 'dehydration'],
+    image: '/backpainweather.png',
+    imageAlt: 'Person experiencing back pain outdoors in hot summer weather',
     content: `
 <img src="/backpainweather.png" alt="Person experiencing back pain outdoors in hot summer weather" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -299,6 +303,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Chiropractic Care',
     readTime: '7 min read',
     tags: ['neck pain Rochester NY', 'chiropractor for neck pain', 'neck pain treatment near me', 'tech neck relief', 'chiropractic adjustment neck pain'],
+    image: '/neckpainrelief.png',
+    imageAlt: 'Person holding their neck in pain, in need of chiropractic relief',
     content: `
 <img src="/neckpainrelief.png" alt="Person holding their neck in pain, in need of chiropractic relief" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -362,6 +368,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '6 min read',
     tags: ['Rochester festivals', 'Corn Hill Arts Festival', 'Party in the Park', 'summer events', 'chiropractic care Rochester', 'back pain', 'neck pain'],
+    image: '/festivalseason.png',
+    imageAlt: 'Crowd enjoying an outdoor summer festival in downtown Rochester',
     content: `
 <img src="/festivalseason.png" alt="Crowd enjoying an outdoor summer festival in downtown Rochester" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -402,6 +410,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '5 min read',
     tags: ['The Odyssey', 'movie night', 'posture', 'chiropractic care', 'Rochester NY', 'IMAX'],
+    image: '/odyssey.png',
+    imageAlt: 'Movie theater seating for a long IMAX screening',
     content: `
 <img src="/odyssey.png" alt="Movie theater seating for a long IMAX screening" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -443,6 +453,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Chiropractic Care',
     readTime: '6 min read',
     tags: ['chiropractor for low back pain Rochester NY', 'low back pain treatment Lyell Ave', 'chiropractic care Rochester NY', 'low back pain', 'flexion distraction', 'Rochester NY'],
+    image: '/lowbackpainrelief.png',
+    imageAlt: 'Person experiencing low back pain in need of chiropractic relief in Rochester, NY',
     content: `
 <img src="/lowbackpainrelief.png" alt="Person experiencing low back pain in need of chiropractic relief in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -495,6 +507,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '7 min read',
     tags: ['back to school', 'posture tips', 'kids chiropractic', 'Rochester NY', 'backpack safety', 'desk ergonomics'],
+    image: '/betterposture.png',
+    imageAlt: 'Child with a backpack demonstrating good posture for back-to-school season',
     content: `
 <img src="/betterposture.png" alt="Child with a backpack demonstrating good posture for back-to-school season" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -607,6 +621,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Treatment Spotlight',
     readTime: '5 min read',
     tags: ['shockwave therapy', 'fall injuries', 'chronic pain', 'Rochester NY', 'plantar fasciitis', 'tendonitis'],
+    image: '/ChiropracticShockwave.png',
+    imageAlt: 'Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic',
     content: `
 <img src="/ChiropracticShockwave.png" alt="Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic" class="rounded-2xl w-full mb-8 shadow-md" />
 
@@ -644,6 +660,8 @@ export const blogPosts: BlogPost[] = [
     category: 'Chiropractic Care',
     readTime: '6 min read',
     tags: ['chiropractic adjustment Rochester NY', 'CMT', 'chiropractic manipulation', 'first visit', 'Rochester NY'],
+    image: '/chiropractic-adjustment-rochester-ny-oak-olive.png',
+    imageAlt: 'Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY',
     content: `
 <img src="/chiropractic-adjustment-rochester-ny-oak-olive.png" alt="Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
 
