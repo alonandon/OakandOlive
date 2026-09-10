@@ -28,6 +28,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: 'Included in every visit',
     color: 'olive',
+    relatedConditions: ['lower-back-pain', 'neck-pain-stiffness', 'headaches-migraines'],
   },
   {
     id: 'flexion-distraction',
@@ -45,6 +46,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: '10–20 minutes (often combined with CMT)',
     color: 'sage',
+    relatedConditions: ['disc-herniation', 'sciatica-nerve-pain', 'lower-back-pain'],
   },
   {
     id: 'iastm',
@@ -62,6 +64,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: '10–15 minutes per region (typically combined with your visit)',
     color: 'olive',
+    relatedConditions: ['shoulder-pain', 'sports-athletic-injuries', 'plantar-fasciitis'],
   },
   {
     id: 'shockwave',
@@ -79,6 +82,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: '10–15 minutes per area',
     color: 'sage',
+    relatedConditions: ['plantar-fasciitis', 'shoulder-pain', 'sports-athletic-injuries'],
   },
   {
     id: 'bfrt',
@@ -96,6 +100,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: '20–30 minutes (often combined with your chiropractic visit)',
     color: 'olive',
+    relatedConditions: ['hip-knee-pain', 'sports-athletic-injuries'],
   },
   {
     id: 'cupping',
@@ -112,6 +117,7 @@ const services = [
     format: 'In-person at our Rochester, NY location',
     duration: '15–20 minutes (typically combined with your chiropractic visit)',
     color: 'sage',
+    relatedConditions: ['neck-pain-stiffness', 'sports-athletic-injuries'],
   },
   {
     id: 'nerve-flossing',
@@ -129,6 +135,7 @@ const services = [
     format: 'In-person at our Rochester, NY location (with home exercise instruction)',
     duration: '10–15 minutes (combined with your chiropractic visit)',
     color: 'olive',
+    relatedConditions: ['sciatica-nerve-pain'],
   },
   {
     id: 'nutrition',
@@ -146,6 +153,7 @@ const services = [
     format: 'In-person or integrated into your chiropractic visit',
     duration: 'Woven into your ongoing care plan',
     color: 'sage',
+    relatedConditions: [],
   },
   {
     id: 'exercise',
@@ -165,8 +173,22 @@ const services = [
     format: 'In-person instruction with take-home programming',
     duration: 'Integrated into your care plan',
     color: 'olive',
+    relatedConditions: ['lower-back-pain', 'hip-knee-pain', 'sports-athletic-injuries'],
   },
 ]
+
+const conditionLabels: Record<string, string> = {
+  'lower-back-pain': 'Lower Back Pain',
+  'neck-pain-stiffness': 'Neck Pain & Stiffness',
+  'sciatica-nerve-pain': 'Sciatica & Nerve Pain',
+  'headaches-migraines': 'Headaches & Migraines',
+  'sports-athletic-injuries': 'Sports & Athletic Injuries',
+  'auto-accident-whiplash': 'Auto Accident / Whiplash',
+  'disc-herniation': 'Disc Herniation',
+  'shoulder-pain': 'Shoulder Pain',
+  'hip-knee-pain': 'Hip & Knee Pain',
+  'plantar-fasciitis': 'Plantar Fasciitis',
+}
 
 export default function ServicesPage() {
   const schema = breadcrumbSchema([
@@ -254,6 +276,21 @@ export default function ServicesPage() {
                       <span className="font-sans text-sm text-bark"><strong>Best for:</strong> {service.who}</span>
                     </div>
                   </div>
+
+                  {service.relatedConditions.length > 0 && (
+                    <div className="flex flex-wrap items-center gap-2 mb-6">
+                      <span className="font-sans text-xs font-semibold text-bark-muted uppercase tracking-wide mr-1">Commonly treats:</span>
+                      {service.relatedConditions.map((conditionId) => (
+                        <Link
+                          key={conditionId}
+                          href={`/conditions#${conditionId}`}
+                          className="inline-block bg-cream-100 hover:bg-cream-200 text-bark-muted hover:text-bark text-xs font-sans px-3 py-1 rounded-full transition-colors"
+                        >
+                          {conditionLabels[conditionId]}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
 
                   <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary px-7 py-3.5">
                     Book {service.title}
