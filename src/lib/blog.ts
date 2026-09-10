@@ -648,7 +648,7 @@ export const blogPosts: BlogPost[] = [
 <img src="/chiropractic-adjustment-rochester-ny-oak-olive.png" alt="Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
 
 <p>If you've never seen a chiropractor before, the idea of an "adjustment" can sound a little mysterious — maybe even a little intimidating. At Oak &amp; Olive Chiropractic here in Rochester, one of the most common questions we hear from new patients is simply: what actually happens during a chiropractic adjustment, and is it safe?</p>
-<p>This guide walks through what chiropractic manipulation (CMT) is, how it works, and exactly what to expect at your first visit.</p>
+<p>This guide walks through what <a href="/services#cmt">chiropractic manipulation (CMT)</a> is, how it works, and exactly what to expect at your first visit.</p>
 
 <h2>What Is Chiropractic Manipulation (CMT)?</h2>
 <p><a href="/services#cmt">Chiropractic manipulative treatment, or CMT</a>, is a hands-on technique where a chiropractor applies a controlled, precise force to a joint — most often in the spine — to improve mobility and reduce restriction. You may have heard it called an "adjustment," which is the more familiar term for the same thing.</p>
@@ -679,7 +679,7 @@ export const blogPosts: BlogPost[] = [
 <p>It's not a one-size-fits-all treatment, which is why the exam comes before any hands-on care — we want to know an adjustment is actually the right tool before we use it.</p>
 
 <h2>Is Chiropractic Manipulation Safe?</h2>
-<p>For most people, yes. Chiropractic adjustments are a well-studied, widely used form of conservative care. As with any treatment, it's not right for every condition, which is exactly why a proper history and exam come first. If CMT isn't the right fit for you, we'll say so and recommend an approach that is.</p>
+<p>For most people, yes. <a href="/services#cmt">Chiropractic adjustments</a> are a well-studied, widely used form of conservative care. As with any treatment, it's not right for every condition, which is exactly why a proper history and exam come first. If CMT isn't the right fit for you, we'll say so and recommend an approach that is.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Does a chiropractic adjustment hurt?</h3>
@@ -690,7 +690,7 @@ export const blogPosts: BlogPost[] = [
 <p>Often, yes — if the exam supports it. Some cases call for gathering more information first.</p>
 
 <h2>Ready to Feel Better?</h2>
-<p>If you're dealing with back pain, neck tension, or stiffness that's been slowing you down, we'd love to help you figure out what's going on. <a href="/contact">Schedule your first visit with Oak &amp; Olive Chiropractic</a> or <a href="/services">learn more about our approach to care</a>.</p>
+<p>If you're dealing with <a href="/conditions#lower-back-pain">back pain</a>, <a href="/conditions#neck-pain-stiffness">neck tension</a>, or stiffness that's been slowing you down, we'd love to help you figure out what's going on. <a href="/contact">Schedule your first visit with Oak &amp; Olive Chiropractic</a> or <a href="/services">learn more about our approach to care</a>.</p>
 <p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY, serving patients throughout the Rochester area.</p>
     `.trim(),
   },
