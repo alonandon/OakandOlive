@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: 'Oak & Olive',
   description:
     'Rochester\'s trusted chiropractic practice. Expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.',
-  url: 'https://www.oakandolivewellness.com',
+  url: 'https://oakolivehealth.com',
   city: 'Rochester',
   state: 'NY',
   zip: '14606',
