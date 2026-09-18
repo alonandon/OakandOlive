@@ -89,15 +89,21 @@ export default function RootLayout({
         <Footer />
 
         {/*
-          Google Analytics loaded after the page is interactive so it does not
-          block the critical rendering path (fixes "render-blocking requests").
+          Google Analytics loaded once the browser is idle (requestIdleCallback),
+          not just "after interactive". gtag.js's own enhanced-measurement
+          listeners (scroll/engagement tracking) are a well-documented source of
+          forced synchronous layout reflows; our own code has none (verified —
+          no offsetHeight/scrollTop/getBoundingClientRect calls anywhere in src/),
+          so pushing GA's init further outside the critical window is the
+          available lever here. Also drops the eager preload hint Next adds for
+          afterInteractive scripts, trimming one more high-priority request.
           Replace G-XXXXXXXXXX with your actual Measurement ID.
         */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
