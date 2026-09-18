@@ -11,6 +11,8 @@ export interface BlogPost {
   content: string
   image?: string
   imageAlt?: string
+  imageWidth?: number
+  imageHeight?: number
 }
 
 export const blogPosts: BlogPost[] = [
@@ -27,9 +29,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['chiropractic', 'back pain', 'Rochester NY', 'spinal health', 'first visit'],
     image: '/GuidedMobilityAssessment.png',
     imageAlt: 'Chiropractor guiding a patient through a mobility assessment',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/GuidedMobilityAssessment.png" alt="Chiropractor guiding a patient through a mobility assessment" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>Many people wait far too long before seeing a chiropractor. They assume the ache in their lower back will go away on its own, or that headaches are just part of life. Sometimes those things are true — but often, they're your body telling you that something in your spine or soft tissue needs attention. Here are five signs that chiropractic care could make a real difference, and what you can expect when you come in for your first visit at Oak &amp; Olive Chiropractic in Rochester, NY.</p>
 
 <h2>1. Persistent Back or Neck Pain</h2>
@@ -67,9 +69,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['shockwave therapy', 'chronic pain', 'tendon pain', 'Rochester NY', 'plantar fasciitis'],
     image: '/PhysicalTherapyShockwave.png',
     imageAlt: 'Physical therapist administering shockwave therapy treatment',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/PhysicalTherapyShockwave.png" alt="Physical therapist administering shockwave therapy treatment" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>One of the most common frustrations I hear from new patients is this: "I've tried everything, and nothing has worked long-term." They've done physical therapy. They've taken anti-inflammatories. They may have had cortisone injections. And yet the pain — in their heel, their Achilles, their rotator cuff, their knee — keeps coming back. For many of these patients, <a href="/services#shockwave">shockwave therapy</a> is the answer they've been looking for.</p>
 
 <h2>What Is Shockwave Therapy?</h2>
@@ -110,9 +112,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['posture', 'desk ergonomics', 'back pain', 'Rochester NY', 'spine health', 'office workers'],
     image: '/DeskErgonomicsPosture.png',
     imageAlt: 'Office worker demonstrating proper desk ergonomics and posture',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/DeskErgonomicsPosture.png" alt="Office worker demonstrating proper desk ergonomics and posture" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>Rochester has a strong and growing base of office workers, remote professionals, healthcare employees, and students — many of whom spend the majority of their waking hours seated. If you're one of them, and you've noticed increasing stiffness in your neck, aching in your lower back, or headaches that seem to appear reliably around 3pm, there's a very specific reason for that. And the good news is, it's addressable.</p>
 
 <h2>What Actually Happens to Your Spine When You Sit</h2>
@@ -165,9 +167,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['back pain', 'summer health', 'hot weather', 'chiropractic care', 'Rochester NY', 'dehydration'],
     image: '/backpainweather.png',
     imageAlt: 'Person experiencing back pain outdoors in hot summer weather',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/backpainweather.png" alt="Person experiencing back pain outdoors in hot summer weather" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>As temperatures climb across Rochester each summer, many people expect to feel more active — not more uncomfortable. Yet it's common for individuals to notice increased back pain, neck pain, headaches, or muscle stiffness during periods of extreme heat.</p>
 <p>While heat itself doesn't directly cause spinal conditions, research suggests that high outdoor temperatures can contribute to dehydration, fatigue, altered activity levels, and muscle cramping, all of which may increase the likelihood of musculoskeletal pain.</p>
 
@@ -260,9 +262,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['Rochester chiropractor', 'chiropractor near me', 'back pain Rochester NY', 'neck pain chiropractor', 'July 4th back pain', 'chiropractic care Rochester', 'sports injury chiropractor', 'Independence Day health tips'],
     image: '/july4thbackpain.png',
     imageAlt: 'Person experiencing back pain after July 4th holiday activities',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/july4thbackpain.png" alt="Person experiencing back pain after July 4th holiday activities" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>The Fourth of July is one of the most active weekends of the summer. Whether you're hosting a backyard barbecue, traveling, carrying coolers, watching fireworks, or playing yard games, it's easy to place unexpected stress on your spine and joints.</p>
 <p>At Oak &amp; Olive Chiropractic in Rochester, NY, we often see an increase in back pain, neck pain, and muscle stiffness following holiday weekends. Fortunately, many of these issues can be prevented — or treated — with evidence-based chiropractic care.</p>
 
@@ -321,9 +323,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['neck pain Rochester NY', 'chiropractor for neck pain', 'neck pain treatment near me', 'tech neck relief', 'chiropractic adjustment neck pain'],
     image: '/neckpainrelief.png',
     imageAlt: 'Person holding their neck in pain, in need of chiropractic relief',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/neckpainrelief.png" alt="Person holding their neck in pain, in need of chiropractic relief" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>If you're reading this while rubbing the back of your neck, you're not alone. Neck pain is one of the most common reasons patients walk through our doors at Oak &amp; Olive Chiropractic in Rochester, NY — and it's also one of the most treatable, when you understand what's actually causing it.</p>
 <p>Whether your pain crept in after a long day at a desk, a restless night's sleep, or a fender bender on 490, this guide will walk you through what's likely going on and how we approach lasting relief here at our Lyell Ave office.</p>
 
@@ -386,9 +388,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['Rochester festivals', 'Corn Hill Arts Festival', 'Party in the Park', 'summer events', 'chiropractic care Rochester', 'back pain', 'neck pain'],
     image: '/festivalseason.png',
     imageAlt: 'Crowd enjoying an outdoor summer festival in downtown Rochester',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/festivalseason.png" alt="Crowd enjoying an outdoor summer festival in downtown Rochester" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>Summer in Rochester means one thing after another: the Corn Hill Arts Festival crowds, weekly Party in the Park concerts downtown, America's 250th birthday celebrations along the Genesee, and a concert calendar packed enough to make even a big touring act's Rochester stop feel like a hometown event. If you've spent the last few weekends on your feet at a festival, hauling a lawn chair to a fireworks show, or dancing at an outdoor concert, your body has been working overtime — even if it didn't feel like "exercise" at the time.</p>
 <p>At Oak &amp; Olive Chiropractic, right here on Lyell Ave, we see a predictable bump in neck, back, and shoulder complaints every summer once festival season kicks into gear. Here's why — and what you can do about it before your next event.</p>
 
@@ -428,9 +430,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['The Odyssey', 'movie night', 'posture', 'chiropractic care', 'Rochester NY', 'IMAX'],
     image: '/odyssey.png',
     imageAlt: 'Movie theater seating for a long IMAX screening',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/odyssey.png" alt="Movie theater seating for a long IMAX screening" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>Christopher Nolan's The Odyssey just hit theaters, and if you've bought your IMAX tickets, you already know what you're signing up for: sirens, cyclopes, a decade-long sea voyage, and a runtime that'll have you in that seat for the better part of three hours. Odysseus spent ten years trying to get home from Troy. Your lower back might feel like it took just as long by the time the credits roll.</p>
 <p>We couldn't resist the parallel. The Odyssey is, at its core, a story about a long, grueling journey home &mdash; and that's not a bad metaphor for what a lot of our patients are going through when they walk into Oak &amp; Olive. Whether it's recovering from an injury, working through chronic pain, or just trying to undo months of bad posture, healing is rarely a straight line. It's oars in the water, storms you didn't see coming, and a homecoming that's worth the trip.</p>
 <p>Here's what Homer's hero (and Nolan's marathon runtime) can teach us about taking care of your body.</p>
@@ -471,9 +473,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['chiropractor for low back pain Rochester NY', 'low back pain treatment Lyell Ave', 'chiropractic care Rochester NY', 'low back pain', 'flexion distraction', 'Rochester NY'],
     image: '/lowbackpainrelief.png',
     imageAlt: 'Person experiencing low back pain in need of chiropractic relief in Rochester, NY',
+    imageWidth: 1369,
+    imageHeight: 1149,
     content: `
-<img src="/lowbackpainrelief.png" alt="Person experiencing low back pain in need of chiropractic relief in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>If you're dealing with <a href="/conditions">low back pain</a>, you're far from alone — it's one of the most common reasons patients walk through our doors here at Oak &amp; Olive Chiropractic on Lyell Ave in Rochester. Whether the pain crept in slowly from long days at a desk or your work in the garden this summer left you stiff and sore, low back pain can affect nearly everything you do, from getting out of bed to picking up your kids.</p>
 <p>The good news: most low back pain responds well to conservative, non-invasive care — and you don't have to live with it.</p>
 
@@ -525,9 +527,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['back to school', 'posture tips', 'kids chiropractic', 'Rochester NY', 'backpack safety', 'desk ergonomics'],
     image: '/betterposture.png',
     imageAlt: 'Child with a backpack demonstrating good posture for back-to-school season',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/betterposture.png" alt="Child with a backpack demonstrating good posture for back-to-school season" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>As summer winds down, long days outside are often replaced with heavier backpacks, bus rides, classroom chairs, homework, and more time in front of screens. That transition can happen quickly &mdash; and so can the stiffness and aches that come with spending more time sitting.</p>
 <p>At Oak &amp; Olive Chiropractic in Rochester, NY, back-to-school season is a time when many families start noticing more neck tightness, shoulder discomfort, headaches, and lower back stiffness. Kids are adjusting to new backpacks and classroom routines, while parents may also be returning to a more desk-bound work schedule.</p>
 <p>The good news? A few simple changes to backpack fit, desk setup, screen habits, and daily movement can make a meaningful difference.</p>
@@ -639,9 +641,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['shockwave therapy', 'fall injuries', 'chronic pain', 'Rochester NY', 'plantar fasciitis', 'tendonitis'],
     image: '/ChiropracticShockwave.png',
     imageAlt: 'Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/ChiropracticShockwave.png" alt="Shockwave therapy treatment for chronic pain at Oak & Olive Chiropractic" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>If you're in Rochester, NY, and you've noticed your shoulder, heel, or elbow pain creeping back as the weather cools and life speeds back up, you're not imagining it. Every September, our office sees the same pattern: kids are back in fall sports, weekend warriors are squeezing in one more round of golf or a last group of hikes before winter, and the return to routine means more repetitive strain on joints and tendons that had a quieter summer.</p>
 <p>At Oak &amp; Olive Chiropractic, this is one of the most common reasons new and returning patients call us this time of year — and it's exactly the kind of stubborn, nagging pain that <a href="/services#shockwave">shockwave therapy</a> is built for.</p>
 
@@ -678,9 +680,9 @@ export const blogPosts: BlogPost[] = [
     tags: ['chiropractic adjustment Rochester NY', 'CMT', 'chiropractic manipulation', 'first visit', 'Rochester NY'],
     image: '/chiropractic-adjustment-rochester-ny-oak-olive.png',
     imageAlt: 'Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY',
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
-<img src="/chiropractic-adjustment-rochester-ny-oak-olive.png" alt="Chiropractor performing a chiropractic adjustment on a patient at Oak & Olive Chiropractic in Rochester, NY" class="rounded-2xl w-full mb-8 shadow-md" />
-
 <p>If you've never seen a chiropractor before, the idea of an "adjustment" can sound a little mysterious — maybe even a little intimidating. At Oak &amp; Olive Chiropractic here in Rochester, one of the most common questions we hear from new patients is simply: what actually happens during a chiropractic adjustment, and is it safe?</p>
 <p>This guide walks through what <a href="/services#cmt">chiropractic manipulation (CMT)</a> is, how it works, and exactly what to expect at your first visit.</p>
 

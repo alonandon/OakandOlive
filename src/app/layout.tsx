@@ -9,8 +9,11 @@ import { localBusinessSchema } from '@/lib/schema'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
-  // Explicitly include bold weights so the hero h1 (font-bold) is preloaded
-  weight: ['400', '700', '900'],
+  // 400 covers headings; 700 is needed for the font-serif + font-bold
+  // author-initial avatars on blog pages. Weight 900 is unused sitewide,
+  // so it's omitted to avoid preloading a font file nothing renders with
+  // (PageSpeed: reduces competing requests during the critical render path).
+  weight: ['400', '700'],
   variable: '--font-playfair',
   display: 'swap',
   preload: true,
@@ -18,7 +21,9 @@ const playfair = Playfair_Display({
 
 const lato = Lato({
   subsets: ['latin'],
-  weight: ['300', '400', '700', '900'],
+  // 300 and 900 are unused sitewide (no font-light/font-black utilities
+  // appear anywhere) — trimmed for the same reason as Playfair above.
+  weight: ['400', '700'],
   variable: '--font-lato',
   display: 'swap',
   preload: true,

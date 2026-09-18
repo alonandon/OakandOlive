@@ -1,0 +1,51 @@
+# No [build] section here on purpose — this site currently deploys via
+# Netlify's own dashboard-configured build settings / auto-detected
+# Next.js Runtime, and adding an explicit [build] block here would
+# override that. This file only adds header rules, which Netlify applies
+# alongside the existing build configuration.
+
+# Next.js's own hashed build output (JS/CSS/fonts) is already served with
+# long-lived immutable caching by Netlify's Next.js Runtime — no override
+# needed here.
+
+# The on-demand image optimizer (/_next/image) is otherwise served with
+# Cache-Control: max-age=0 by the Netlify Next.js Runtime, forcing a
+# revalidation on every request even though these responses are stable for
+# a given url+width+quality combination.
+# (PageSpeed: "Use efficient cache lifetimes")
+[[headers]]
+  for = "/_next/image*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Images served directly from /public (used as raw <img> sources, e.g. in
+# blog post content) otherwise default to max-age=0 as well.
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

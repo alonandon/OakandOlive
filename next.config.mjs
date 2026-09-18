@@ -3,12 +3,11 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [],
-  },
-  experimental: {
-    // Inlines above-the-fold CSS into <style> tags and loads the rest
-    // asynchronously, removing the 6.8 KiB stylesheet from the critical
-    // rendering path (PageSpeed: "Render-blocking requests, est. 150ms savings").
-    optimizeCss: true,
+    // Long-lived cache for the on-demand image optimizer's responses
+    // (PageSpeed: "Use efficient cache lifetimes"). Paired with the
+    // matching Cache-Control override in netlify.toml, since Netlify's
+    // Next.js Runtime otherwise serves these as max-age=0.
+    minimumCacheTTL: 31536000,
   },
 }
 

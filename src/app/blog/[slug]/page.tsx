@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { buildMetadata, siteConfig } from '@/lib/seo'
 import { breadcrumbSchema, articleSchema } from '@/lib/schema'
 import { blogPosts, getBlogPost, getRecentPosts, formatDate } from '@/lib/blog'
@@ -109,6 +110,17 @@ export default function BlogPostPage({ params }: Props) {
               <p className="font-sans text-lg text-bark-muted leading-relaxed border-l-4 border-olive-400 pl-5 mb-8 italic">
                 {post.excerpt}
               </p>
+              {post.image && post.imageWidth && post.imageHeight && (
+                <Image
+                  src={post.image}
+                  alt={post.imageAlt || post.title}
+                  width={post.imageWidth}
+                  height={post.imageHeight}
+                  className="rounded-2xl w-full h-auto mb-8 shadow-md"
+                  sizes="(min-width: 1024px) 800px, 100vw"
+                  priority
+                />
+              )}
               <div
                 className="prose-wellness"
                 dangerouslySetInnerHTML={{ __html: post.content }}
