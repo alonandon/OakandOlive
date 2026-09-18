@@ -750,11 +750,11 @@ export const blogPosts: BlogPost[] = [
 
 <h2>What Usually Causes Low Back Pain</h2>
 <p>Most <a href="/conditions#lower-back-pain">low back pain</a> falls into a handful of common categories:</p>
-<p><strong>Muscle or ligament strain.</strong> Lifting something awkwardly, sudden movements, or simply overdoing it during exercise or yardwork can strain the soft tissue supporting the spine. This is the most common cause of low back pain and often the quickest to resolve with proper care.</p>
+<p><strong>Muscle or ligament strain.</strong> Lifting something awkwardly, sudden movements, or simply overdoing it during exercise or <a href="/blog/hot-weather-back-pain-rochester">yardwork</a> can strain the soft tissue supporting the spine. This is the most common cause of low back pain and often the quickest to resolve with proper care.</p>
 <p><strong>Disc issues.</strong> The discs between your vertebrae can bulge or herniate, sometimes irritating a nearby nerve. This can cause pain that radiates into the buttock or leg (often called <a href="/conditions#sciatica-nerve-pain">sciatica</a>), along with numbness or tingling. See our page on <a href="/conditions#disc-herniation">disc herniation</a> for more.</p>
 <p><strong>Joint dysfunction and arthritis.</strong> The small joints in the spine (facet joints) can become irritated or develop arthritic changes over time, leading to stiffness and localized pain that's often worse with certain movements or after periods of inactivity.</p>
 <p><strong>Degenerative changes.</strong> As we age, discs lose hydration and height, and the spine adapts. This is a normal part of aging and doesn't always cause pain, but it can contribute to episodes of low back discomfort or stiffness.</p>
-<p><strong>Poor posture and prolonged sitting.</strong> Desk jobs, driving, and screen time add up. Sustained poor positioning weakens supporting muscles and increases stress on the low back over time.</p>
+<p><strong>Poor posture and prolonged sitting.</strong> <a href="/blog/desk-job-spine-health-rochester">Desk jobs, driving, and screen time add up.</a> Sustained poor positioning weakens supporting muscles and increases stress on the low back over time.</p>
 <p><strong>Spinal stenosis.</strong> A narrowing of the spinal canal, more common with age, can put pressure on nerves and cause pain, numbness, or weakness — often worse with walking or standing and relieved by sitting or bending forward.</p>
 
 <h2>Red Flags: When Low Back Pain Needs Urgent Medical Attention</h2>
@@ -777,14 +777,14 @@ export const blogPosts: BlogPost[] = [
 <li>Your pain developed gradually or after a specific activity, movement, or minor injury</li>
 <li>You have stiffness, muscle tightness, or pain that's worse with certain movements or positions</li>
 <li>You're dealing with recurring "flare-ups" of low back pain over months or years</li>
-<li>You have sciatica-type symptoms (pain, tingling, or numbness running down the leg) without progressive weakness or loss of bladder/bowel control</li>
+<li>You have <a href="/conditions#sciatica-nerve-pain">sciatica-type symptoms</a> (pain, tingling, or numbness running down the leg) without progressive weakness or loss of bladder/bowel control</li>
 <li>Your pain is limiting your ability to work, exercise, sleep, or enjoy daily activities, and you'd like a hands-on, non-surgical, drug-free approach</li>
 </ul>
-<p>At your first visit, a thorough history and exam (including orthopedic and neurological testing) helps confirm that chiropractic care is appropriate and rules out red flags before any treatment begins. From there, care may include <a href="/services#cmt">spinal adjustments</a>, <a href="/services#iastm">soft tissue work</a>, <a href="/services#exercise">targeted exercises</a>, and guidance on posture and movement to address both the pain and what's causing it. If a disc is involved, <a href="/services#flexion-distraction">flexion distraction</a> is often part of the plan. You can also read more about <a href="/blog/low-back-pain-relief-rochester-ny">how we approach low back pain at our Lyell Ave office</a>.</p>
+<p>At <a href="/blog/chiropractic-adjustment-rochester-ny">your first visit</a>, a thorough history and exam (including orthopedic and neurological testing) helps confirm that chiropractic care is appropriate and rules out red flags before any treatment begins. From there, care may include <a href="/services#cmt">spinal adjustments</a>, <a href="/services#iastm">soft tissue work</a>, <a href="/services#exercise">targeted exercises</a>, and guidance on posture and movement to address both the pain and what's causing it. If a disc is involved, <a href="/services#flexion-distraction">flexion distraction</a> is often part of the plan. You can also read more about <a href="/blog/low-back-pain-relief-rochester-ny">how we approach low back pain at our Lyell Ave office</a>.</p>
 
 <h2>The Bottom Line</h2>
 <p>Low back pain is common, and most of the time it's a mechanical problem that responds well to conservative care. Knowing the difference between "this needs a chiropractor" and "this needs an ER" can save you time, worry, and, in rare cases, prevent a serious problem from being missed.</p>
-<p>If you're dealing with low back pain and aren't sure what's causing it, Oak &amp; Olive Chiropractic in Rochester is here to help. We'll start with a thorough evaluation to understand what's going on and build a plan that fits your specific situation.</p>
+<p>If you're dealing with low back pain and aren't sure what's causing it, <a href="/about">Oak &amp; Olive Chiropractic in Rochester</a> is here to help. We'll start with a thorough evaluation to understand what's going on and build a plan that fits your specific situation.</p>
 <p>Ready to get to the bottom of your back pain? <a href="/contact">Schedule an appointment with Oak &amp; Olive Chiropractic</a> today.</p>
 
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you're experiencing any of the red flag symptoms above, seek immediate medical attention.</em></p>
