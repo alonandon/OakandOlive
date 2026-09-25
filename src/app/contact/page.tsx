@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import ContactForm from '@/components/ContactForm'
+import LazyGoogleMap from '@/components/LazyGoogleMap'
 import { buildMetadata, siteConfig } from '@/lib/seo'
 import { breadcrumbSchema } from '@/lib/schema'
 
@@ -177,17 +178,10 @@ export default function ContactPage() {
             <h2 className="font-serif text-2xl text-bark">Find Us in Rochester</h2>
             <p className="font-sans text-sm text-bark-muted mt-2">2316 Lyell Ave, Suite 2, Rochester, NY 14606</p>
           </div>
-          <div className="aspect-[16/6] rounded-2xl border border-olive-200 overflow-hidden shadow-sm">
-            <iframe
-              src="https://www.google.com/maps?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606&output=embed"
-              title="Map showing Oak & Olive Chiropractic at 2316 Lyell Ave, Suite 2, Rochester, NY 14606"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
+          <LazyGoogleMap
+            src="https://www.google.com/maps?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606&output=embed"
+            title="Map showing Oak & Olive Chiropractic at 2316 Lyell Ave, Suite 2, Rochester, NY 14606"
+          />
           <div className="text-center mt-5">
             <a
               href="https://maps.google.com/?q=2316+Lyell+Ave+Suite+2+Rochester+NY+14606"
