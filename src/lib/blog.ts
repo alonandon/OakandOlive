@@ -834,7 +834,7 @@ export const blogPosts: BlogPost[] = [
 <p>After procedures like ACL reconstruction, meniscus repair, knee replacement, or shoulder surgery, muscles weaken quickly while the joint is protected. BFRT lets you start rebuilding strength early without overloading the repair. Research shows it can reduce the muscle loss that happens after surgery and immobilization.</p>
 
 <h3>Tendon pain</h3>
-<p>Conditions like patellar tendinopathy (jumper's knee), Achilles tendinopathy, and lateral elbow pain (tennis elbow) need loading to heal, but heavy loading often flares them. BFRT gives a strong training stimulus at loads the tendon can handle. For stubborn tendon problems, it's often paired with <a href="/services#shockwave">shockwave therapy</a>.</p>
+<p>Conditions like patellar tendinopathy (jumper's knee), <a href="/blog/shockwave-therapy-chronic-pain-rochester">Achilles tendinopathy</a>, and lateral elbow pain (tennis elbow) need loading to heal, but heavy loading often flares them. BFRT gives a strong training stimulus at loads the tendon can handle. For stubborn tendon problems, it's often paired with <a href="/services#shockwave">shockwave therapy</a>.</p>
 
 <h3>Knee arthritis and joint pain</h3>
 <p>For people with knee osteoarthritis, strong quadriceps are one of the best protections for the joint. BFRT builds that strength without the joint compression that comes with heavy squats or leg presses. See our page on <a href="/conditions#hip-knee-pain">hip and knee pain</a> for more.</p>
@@ -864,7 +864,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>What to Expect During a BFRT Session at Oak &amp; Olive</h2>
 <ol class="list-decimal list-inside space-y-2 text-bark-muted mb-4 pl-4">
-<li><strong>Screening:</strong> We review your health history and make sure BFRT is safe and appropriate for you.</li>
+<li><strong>Screening:</strong> We review your <a href="/blog/chiropractic-adjustment-rochester-ny">health history</a> and make sure BFRT is safe and appropriate for you.</li>
 <li><strong>Setting pressure:</strong> Dr. Alex Eckert fits the cuff and sets a personalized pressure for your limb.</li>
 <li><strong>Exercise:</strong> A common protocol is 4 sets of 30, 15, 15, and 15 reps with 30–60 seconds of rest between sets, keeping the cuff inflated. A single exercise usually takes about 5–8 minutes.</li>
 <li><strong>Progression:</strong> As you get stronger, we adjust exercises, loads, and your overall plan.</li>
@@ -879,10 +879,10 @@ export const blogPosts: BlogPost[] = [
 <h3>Can I do BFRT on my own?</h3>
 <p>We recommend starting under supervision so your pressure is set correctly and you're screened for safety. We can then guide you on next steps.</p>
 <h3>Is BFRT only for athletes?</h3>
-<p>No. Some of the patients who benefit most are older adults, people recovering from surgery, and people with arthritis.</p>
+<p>No. Some of the patients who benefit most are older adults, people recovering from surgery, and <a href="/conditions#hip-knee-pain">people with arthritis</a>.</p>
 
 <h2>Rebuild Your Strength in Rochester</h2>
-<p>If injury, surgery, or joint pain has kept you from training the way you want, Blood Flow Restriction Training may be the bridge you need. Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY, serving Rochester, Gates, Greece, and the surrounding communities.</p>
+<p>If injury, surgery, or joint pain has kept you from training the way you want, Blood Flow Restriction Training may be the bridge you need. Oak &amp; Olive Chiropractic is located at <a href="/contact">2316 Lyell Ave, Suite 2, Rochester, NY</a>, serving Rochester, Gates, Greece, and the surrounding communities.</p>
 <p><a href="/contact">Book your visit today</a> to find out if BFRT is right for you.</p>
 
 <p><em>This article is for educational purposes and isn't a substitute for individual medical advice.</em></p>
