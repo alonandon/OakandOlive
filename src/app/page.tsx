@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import Script from 'next/script'
+import LazyShapoWidget from '@/components/LazyShapoWidget'
 import { siteConfig } from '@/lib/seo'
 import { getRecentPosts, formatDate } from '@/lib/blog'
 
@@ -315,12 +315,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div id="shapo-widget-9351899923fd5046a50b" />
-          <Script
-            id="shapo-embed-js"
-            src="https://cdn.shapo.io/js/embed.js"
-            strategy="lazyOnload"
-          />
+          <LazyShapoWidget />
 
         </div>
       </section>

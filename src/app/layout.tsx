@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Lato } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import DeferredAnalytics from '@/components/DeferredAnalytics'
 import { siteConfig } from '@/lib/seo'
 import { localBusinessSchema } from '@/lib/schema'
 
@@ -88,29 +88,8 @@ export default function RootLayout({
         <main id="main-content">{children}</main>
         <Footer />
 
-        {/*
-          Google Analytics loaded once the browser is idle (requestIdleCallback),
-          not just "after interactive". gtag.js's own enhanced-measurement
-          listeners (scroll/engagement tracking) are a well-documented source of
-          forced synchronous layout reflows; our own code has none (verified —
-          no offsetHeight/scrollTop/getBoundingClientRect calls anywhere in src/),
-          so pushing GA's init further outside the critical window is the
-          available lever here. Also drops the eager preload hint Next adds for
-          afterInteractive scripts, trimming one more high-priority request.
-          Replace G-XXXXXXXXXX with your actual Measurement ID.
-        */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${siteConfig.googleAnalyticsId}');
-          `}
-        </Script>
+        {/* GA4: gtag.js downloads on first interaction or after ~4s (see component) */}
+        <DeferredAnalytics id={siteConfig.googleAnalyticsId} />
       </body>
     </html>
   )

@@ -21,9 +21,19 @@ export default function Header() {
   const pathname = usePathname()
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16)
+    let frame = 0
+    const update = () => {
+      frame = 0
+      setScrolled(window.scrollY > 16)
+    }
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(update)
+    }
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      if (frame) window.cancelAnimationFrame(frame)
+    }
   }, [])
 
   useEffect(() => {
@@ -42,7 +52,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" aria-label={siteConfig.name}>
-            <Image src="/logo.png" alt={siteConfig.name} width={1500} height={1500} priority className="h-16 md:h-20 w-auto" />
+            <Image src="/logo.png" alt={siteConfig.name} width={80} height={80} priority className="h-16 md:h-20 w-auto" />
           </Link>
 
           {/* Desktop nav */}
