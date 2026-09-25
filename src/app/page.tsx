@@ -345,10 +345,10 @@ export default function HomePage() {
               <Link key={post.slug} href={`/blog/${post.slug}`} className="card group flex flex-col">
                 {/* Category badge */}
                 <div className="h-44 bg-gradient-to-br from-olive-800 to-olive-950 relative flex items-end p-5 overflow-hidden">
-                  {post.image && (
+                  {(post.thumbnail || post.image) && (
                     <Image
-                      src={post.image}
-                      alt={post.imageAlt || post.title}
+                      src={(post.thumbnail || post.image) as string}
+                      alt={post.thumbnailAlt || post.imageAlt || post.title}
                       fill
                       sizes="(min-width: 768px) 33vw, 100vw"
                       className="object-cover"

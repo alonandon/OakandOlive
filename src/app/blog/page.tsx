@@ -86,10 +86,10 @@ export default function BlogPage() {
             <Link href={`/blog/${featured.slug}`} className="group block">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-olive-950 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <div className="h-60 lg:h-auto bg-gradient-to-br from-olive-700 to-olive-950 relative">
-                  {featured.image && (
+                  {(featured.thumbnail || featured.image) && (
                     <Image
-                      src={featured.image}
-                      alt={featured.imageAlt || featured.title}
+                      src={(featured.thumbnail || featured.image) as string}
+                      alt={featured.thumbnailAlt || featured.imageAlt || featured.title}
                       fill
                       sizes="(min-width: 1024px) 50vw, 100vw"
                       className="object-cover"
@@ -145,10 +145,10 @@ export default function BlogPage() {
               {rest.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="card group flex flex-col">
                   <div className="h-48 bg-gradient-to-br from-olive-800 to-olive-950 relative flex items-end p-5 overflow-hidden">
-                    {post.image && (
+                    {(post.thumbnail || post.image) && (
                       <Image
-                        src={post.image}
-                        alt={post.imageAlt || post.title}
+                        src={(post.thumbnail || post.image) as string}
+                        alt={post.thumbnailAlt || post.imageAlt || post.title}
                         fill
                         sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                         className="object-cover"

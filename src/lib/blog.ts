@@ -13,6 +13,8 @@ export interface BlogPost {
   imageAlt?: string
   imageWidth?: number
   imageHeight?: number
+  thumbnail?: string
+  thumbnailAlt?: string
 }
 
 export const blogPosts: BlogPost[] = [
@@ -788,6 +790,102 @@ export const blogPosts: BlogPost[] = [
 <p>Ready to get to the bottom of your back pain? <a href="/contact">Schedule an appointment with Oak &amp; Olive Chiropractic</a> today.</p>
 
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you're experiencing any of the red flag symptoms above, seek immediate medical attention.</em></p>
+    `.trim(),
+  },
+  {
+    slug: 'blood-flow-restriction-training-rochester-ny',
+    title: 'Blood Flow Restriction Training (BFRT): Who It Helps and How It Works',
+    excerpt:
+      'Blood Flow Restriction Training (BFRT) lets you build real strength and muscle with very light weights. Learn how it works, who it helps, and what to expect at Oak & Olive Chiropractic in Rochester, NY.',
+    date: '2026-09-25',
+    dateModified: '2026-09-25',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
+    readTime: '7 min read',
+    tags: ['blood flow restriction training', 'BFRT', 'post-surgical rehab', 'tendon pain', 'knee arthritis', 'Rochester NY'],
+    image: '/BloodFlowRestrictionTherapy.png',
+    imageAlt: 'Infographic: Build Strength Without Heavy Weights — Blood Flow Restriction Training in Rochester at Oak & Olive Chiropractic, showing a patient doing a light bicep curl with a BFR cuff while Dr. Alex Eckert coaches',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    thumbnail: '/BloodFlowRestrictionTherapy-thumb.jpg',
+    thumbnailAlt: 'Patient doing a light bicep curl with a blood flow restriction cuff while Dr. Alex Eckert coaches',
+    content: `
+<p>Getting stronger usually means lifting heavy. But heavy lifting often isn't an option right after knee surgery, with a painful tendon, or with arthritic joints. <a href="/services#bfrt">Blood Flow Restriction Training (BFRT)</a> gets around that problem. It lets you build real strength and muscle with very light weights.</p>
+<p>At <a href="/about">Oak &amp; Olive Chiropractic</a> in Rochester, we use BFRT to help patients rebuild strength when heavy loading isn't safe or comfortable yet. Here's how it works and who it's a good fit for.</p>
+
+<h2>What Is Blood Flow Restriction Training?</h2>
+<p>BFRT (also called BFR training or occlusion training) uses a specialized inflatable cuff. The cuff goes around the top of the arm or thigh and is inflated to a carefully calculated pressure. That pressure partly limits blood flowing out of the working muscle (venous return) while still letting blood flow in.</p>
+<p>You then do simple exercises with light loads, usually 20–30% of your one-rep max. For the legs that might be body weight or a light ankle weight. For the arms it might be a few pounds.</p>
+<p>BFRT is not a tourniquet, and the goal is not to cut off circulation. Pressure is set for each person, typically as a percentage of your limb occlusion pressure (LOP), which is the pressure needed to fully stop blood flow in that specific limb. Setting pressure this way is what makes BFRT both safe and effective.</p>
+
+<h2>How Does BFRT Work?</h2>
+<p>When blood pools in the working muscle, the muscle quickly runs short of oxygen and builds up metabolic byproducts. That sets off several responses that normally only happen with heavy lifting:</p>
+<ul>
+<li><strong>Fast-twitch fiber recruitment:</strong> Your slow-twitch fibers tire quickly, so your body brings in the larger, stronger fast-twitch fibers much earlier than it would with light weights alone. These are the fibers most tied to strength and size.</li>
+<li><strong>Metabolic stress:</strong> Built-up lactate and other byproducts are a strong signal for muscle growth.</li>
+<li><strong>Cell swelling:</strong> Fluid shifts into the muscle cells, which appears to activate pathways for building muscle protein.</li>
+<li><strong>Hormonal response:</strong> Studies have shown short-term increases in growth hormone after BFR exercise.</li>
+</ul>
+<p>The result is strength and muscle gains similar to traditional heavy training, but with much less mechanical stress on joints, tendons, ligaments, and healing tissue.</p>
+
+<h2>Who Can Benefit From BFRT?</h2>
+
+<h3>Post-surgical patients</h3>
+<p>After procedures like ACL reconstruction, meniscus repair, knee replacement, or shoulder surgery, muscles weaken quickly while the joint is protected. BFRT lets you start rebuilding strength early without overloading the repair. Research shows it can reduce the muscle loss that happens after surgery and immobilization.</p>
+
+<h3>Tendon pain</h3>
+<p>Conditions like patellar tendinopathy (jumper's knee), Achilles tendinopathy, and lateral elbow pain (tennis elbow) need loading to heal, but heavy loading often flares them. BFRT gives a strong training stimulus at loads the tendon can handle. For stubborn tendon problems, it's often paired with <a href="/services#shockwave">shockwave therapy</a>.</p>
+
+<h3>Knee arthritis and joint pain</h3>
+<p>For people with knee osteoarthritis, strong quadriceps are one of the best protections for the joint. BFRT builds that strength without the joint compression that comes with heavy squats or leg presses. See our page on <a href="/conditions#hip-knee-pain">hip and knee pain</a> for more.</p>
+
+<h3>Older adults</h3>
+<p>Muscle loss with age (sarcopenia) affects balance, mobility, and independence. For older adults who can't or don't want to lift heavy, BFRT offers a joint-friendly way to maintain and build muscle.</p>
+
+<h3>Athletes and active adults</h3>
+<p>Athletes use BFRT to stay strong while injured, to supplement training during deload weeks, and to add training volume without extra joint wear. It's also a helpful tool when returning to sport after a <a href="/conditions#sports-athletic-injuries">sports injury</a>.</p>
+
+<h3>Anyone with load limits</h3>
+<p>If pain, injury, or a medical restriction keeps you from lifting heavy, BFRT may let you keep making progress in the meantime.</p>
+
+<h2>Is BFRT Safe?</h2>
+<p>When it's done with proper screening, individualized pressure, and appropriate equipment, research supports BFRT as a safe method for most people. Side effects are usually mild: temporary muscle soreness, a tight or tingling feeling during sets, and small skin marks from the cuff.</p>
+<p>BFRT is not appropriate for everyone. We screen carefully and may not recommend it if you have:</p>
+<ul>
+<li>A history of blood clots (DVT) or clotting disorders</li>
+<li>Peripheral vascular disease or poor circulation</li>
+<li>Uncontrolled high blood pressure</li>
+<li>Pregnancy</li>
+<li>Active cancer or lymphedema in the limb</li>
+<li>Open wounds, infection, or recent fractures in the area</li>
+<li>Certain cardiovascular conditions</li>
+</ul>
+<p>That's why BFRT should be supervised by a trained provider instead of done with elastic bands or improvised straps at home.</p>
+
+<h2>What to Expect During a BFRT Session at Oak &amp; Olive</h2>
+<ol class="list-decimal list-inside space-y-2 text-bark-muted mb-4 pl-4">
+<li><strong>Screening:</strong> We review your health history and make sure BFRT is safe and appropriate for you.</li>
+<li><strong>Setting pressure:</strong> Dr. Alex Eckert fits the cuff and sets a personalized pressure for your limb.</li>
+<li><strong>Exercise:</strong> A common protocol is 4 sets of 30, 15, 15, and 15 reps with 30–60 seconds of rest between sets, keeping the cuff inflated. A single exercise usually takes about 5–8 minutes.</li>
+<li><strong>Progression:</strong> As you get stronger, we adjust exercises, loads, and your overall plan.</li>
+</ol>
+<p>BFRT often works best as part of a complete plan, combined with <a href="/services#cmt">chiropractic adjustments</a>, <a href="/services#iastm">soft tissue work</a>, and <a href="/services#exercise">personalized exercise programming</a> to address the full picture of your pain or injury.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Does BFRT hurt?</h3>
+<p>It's challenging. Expect a strong muscle burn and fatigue by the last set. It shouldn't be sharply painful, and the pressure is adjusted to keep you comfortable and safe.</p>
+<h3>How soon will I see results?</h3>
+<p>Many people notice strength changes within 3–6 weeks of consistent training, 2–3 times per week.</p>
+<h3>Can I do BFRT on my own?</h3>
+<p>We recommend starting under supervision so your pressure is set correctly and you're screened for safety. We can then guide you on next steps.</p>
+<h3>Is BFRT only for athletes?</h3>
+<p>No. Some of the patients who benefit most are older adults, people recovering from surgery, and people with arthritis.</p>
+
+<h2>Rebuild Your Strength in Rochester</h2>
+<p>If injury, surgery, or joint pain has kept you from training the way you want, Blood Flow Restriction Training may be the bridge you need. Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY, serving Rochester, Gates, Greece, and the surrounding communities.</p>
+<p><a href="/contact">Book your visit today</a> to find out if BFRT is right for you.</p>
+
+<p><em>This article is for educational purposes and isn't a substitute for individual medical advice.</em></p>
     `.trim(),
   },
 ]
