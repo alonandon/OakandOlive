@@ -888,6 +888,64 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for individual medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'sciatica-symptoms-causes-non-surgical-relief',
+    title: 'Sciatica 101: Symptoms, Causes & Non-Surgical Relief in Rochester, NY',
+    excerpt:
+      'Dealing with sciatica? Learn the real causes, how to tell it apart from regular back pain, and how nerve flossing and flexion-distraction therapy at Oak & Olive Chiropractic can bring relief — without surgery.',
+    date: '2026-10-01',
+    dateModified: '2026-10-01',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '7 min read',
+    tags: ['sciatica', 'nerve flossing', 'flexion distraction', 'sciatic nerve pain', 'Rochester NY'],
+    image: '/SciaticaRochester.png',
+    imageAlt: 'Person experiencing sciatica pain radiating down the leg',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    content: `
+<p>If you've ever had a sharp, electric pain shoot from your lower back down through your hip and leg, you already know sciatica isn't something you can just "walk off." It's one of the most common reasons people search for a chiropractor near them, and for good reason — it can turn everyday things like sitting at a desk, bending to tie your shoes, or sleeping through the night into a real challenge.</p>
+<p>Here's what's actually happening, what tends to cause it, and what you can do about it that doesn't involve surgery.</p>
+
+<h2>What Is Sciatica, Really?</h2>
+<p>"Sciatica" isn't a diagnosis on its own — it's a symptom. It describes pain that travels along the path of the <a href="/conditions#sciatica-nerve-pain">sciatic nerve</a>, which runs from your lower back, through your buttock, and down the back of your leg. Something is irritating or compressing that nerve, and your body is letting you know about it.</p>
+<p>Common signs include:</p>
+<ul>
+<li>A sharp, burning, or shooting pain down one side of the leg</li>
+<li>Numbness or tingling in the leg or foot</li>
+<li>A dull ache in the lower back or buttock that radiates downward</li>
+<li>Pain that worsens when sitting, bending forward, or coughing/sneezing</li>
+<li>In some cases, mild weakness in the leg or foot</li>
+</ul>
+
+<h2>What Causes Sciatica?</h2>
+<p>A handful of underlying issues tend to be behind that nerve irritation:</p>
+<p><strong>Disc herniation.</strong> The most common cause. When a disc in the lower back bulges or herniates, it can press directly on a nerve root, triggering the classic shooting pain. See our page on <a href="/conditions#disc-herniation">disc herniation</a> for more.</p>
+<p><strong>Spinal stenosis.</strong> A narrowing of the space around the spinal nerves, often related to age-related changes, that puts pressure on the nerve roots.</p>
+<p><strong>Piriformis syndrome.</strong> The piriformis muscle, deep in the buttock, sits close to the sciatic nerve. If it's tight or spasming, it can irritate the nerve directly — sometimes mimicking a disc problem.</p>
+<p><strong>Degenerative disc disease or spondylolisthesis.</strong> Wear-and-tear changes in the spine over time that reduce space for the nerve roots.</p>
+<p><strong>SI joint dysfunction.</strong> The sacroiliac joint sits right next to where the sciatic nerve originates, and dysfunction there can produce very similar symptoms.</p>
+<p>Rochester's winters add their own wrinkle here, too — shoveling snow, scraping ice off the car with your back twisted, or just tensing up against the cold are all things we see trigger a flare-up every year.</p>
+
+<h2>When Sciatica Needs More Than Conservative Care</h2>
+<p>Most sciatica resolves well with conservative treatment, but a few symptoms mean you should get checked out urgently rather than starting with chiropractic care: loss of bladder or bowel control, numbness in the groin area, or progressive weakness in both legs. These can point to cauda equina syndrome, which needs immediate medical attention.</p>
+
+<h2>Non-Surgical Relief: What Actually Helps</h2>
+<p>The encouraging news is that the large majority of sciatica cases improve without surgery. At Oak &amp; Olive Chiropractic, two of the techniques we rely on most for sciatica are <a href="/services#flexion-distraction">flexion-distraction</a> and <a href="/services#nerve-flossing">nerve flossing</a>.</p>
+<p><strong>Flexion-distraction therapy.</strong> This is a gentle, specific technique performed on a specialized table that allows the lower spine to flex and gently stretch in a controlled, rhythmic motion. For disc-related sciatica in particular, flexion-distraction helps take pressure off the disc and the irritated nerve root, creating more space and reducing the compression that's causing your symptoms. It's low-force, comfortable for most patients, and one of the most well-researched chiropractic techniques for disc-related low back and leg pain.</p>
+<p><strong>Nerve flossing (neural gliding).</strong> Nerves are meant to glide smoothly through the surrounding muscle and tissue as you move. When a nerve gets irritated, it can become "stuck" or adhered to nearby tissue, which increases sensitivity and pain. Nerve flossing uses specific, gentle movement patterns — often combining ankle, knee, and neck positions — to help the sciatic nerve glide more freely again. We teach patients exercises they can do at home between visits, which often makes a noticeable difference in how quickly symptoms calm down.</p>
+<p>Alongside these, care may also include <a href="/services#iastm">soft tissue work</a>, targeted <a href="/services#exercise">strengthening and mobility exercises</a>, and practical guidance on posture, lifting mechanics, and daily habits — especially useful if your job has you sitting for long stretches or if Rochester's icy sidewalks have you moving more cautiously (and more stiffly) than usual.</p>
+
+<h2>When to See a Chiropractor for Sciatica</h2>
+<p>If you're dealing with leg pain that started after a specific incident, that's worse with sitting or bending, or that's been nagging at you for weeks, it's worth getting evaluated. The sooner the actual cause is identified, the sooner we can build a plan — rather than just chasing the pain.</p>
+
+<h2>Get Relief From Sciatica in Rochester</h2>
+<p>Sciatica can feel relentless, but it's rarely something you have to just live with. At Oak &amp; Olive Chiropractic, we'll start with a thorough exam to pinpoint exactly what's driving your symptoms, then build a treatment plan — often including flexion-distraction and nerve flossing — designed to get you back to moving, sitting, and sleeping comfortably.</p>
+<p><strong>Ready to find relief? <a href="/contact">Schedule your evaluation with Oak &amp; Olive Chiropractic</a> today.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you're experiencing loss of bladder/bowel control or progressive leg weakness, seek immediate medical care.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
