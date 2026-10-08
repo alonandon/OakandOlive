@@ -962,7 +962,7 @@ export const blogPosts: BlogPost[] = [
     imageWidth: 1536,
     imageHeight: 1024,
     content: `
-<p>Fall in Rochester is hard to beat — crisp air, apple picking, and trees across Brighton, Pittsford, and Irondequoit turning gold and red. Then the leaves come down. And every October and November, we see the same pattern at Oak &amp; Olive Chiropractic: a wave of patients walking in with low back pain after a long weekend of raking leaves.</p>
+<p>Fall in Rochester is hard to beat — crisp air, apple picking, and trees across Brighton, Pittsford, and Irondequoit turning gold and red. Then the leaves come down. And every October and November, we see the same pattern at <a href="/about">Oak &amp; Olive Chiropractic</a>: a wave of patients walking in with low back pain after a long weekend of raking leaves.</p>
 <p>Raking looks harmless, but it combines repetitive twisting, sustained forward bending, and lifting heavy, awkward bags — often after months of not doing any of those things. The good news is that a few simple changes can keep your back out of the equation.</p>
 
 <h2>Why Raking Leaves Causes So Much Back Pain</h2>
@@ -977,7 +977,7 @@ export const blogPosts: BlogPost[] = [
 <li>Hip circles and side bends to loosen the trunk</li>
 <li>Hamstring and hip flexor stretches, held for 20–30 seconds</li>
 </ul>
-<p>On a chilly Rochester morning, this matters even more. Cold muscles are less flexible and more prone to strain.</p>
+<p>On a chilly Rochester morning, this matters even more. Cold muscles are less flexible and more prone to strain — it's one reason <a href="/blog/fall-chronic-pain-shockwave-therapy-rochester">chronic pain often comes back in the fall</a>.</p>
 
 <h2>Rake Smarter, Not Harder</h2>
 <p><strong>Use a scissor stance.</strong> Instead of standing with your feet side by side, put one foot forward and one back — like a lunge-lite position. This lets you shift your weight with your legs rather than twisting through your spine.</p>
@@ -997,17 +997,17 @@ export const blogPosts: BlogPost[] = [
 <p>If you spend your weekdays sitting, your back may be even less prepared for weekend yard work — our guide to <a href="/blog/desk-job-spine-health-rochester">protecting your spine at a desk job</a> has tips that help year-round.</p>
 
 <h2>When Back Pain After Raking Needs Attention</h2>
-<p>Normal muscle soreness should improve within a few days. It's time to get evaluated if you notice:</p>
+<p>Normal muscle soreness should improve within a few days. It's time to get evaluated if you notice any of these <a href="/blog/signs-you-should-see-a-chiropractor-rochester">signs you should see a chiropractor</a>:</p>
 <ul>
 <li>Pain that lasts longer than a week or keeps getting worse</li>
 <li>Pain that shoots down one leg, or numbness and tingling — possible signs of <a href="/blog/sciatica-symptoms-causes-non-surgical-relief">sciatica</a></li>
 <li>Pain that makes it hard to stand up straight, sleep, or get through your workday</li>
 </ul>
-<p>Seek immediate medical care for loss of bladder or bowel control, numbness in the groin area, or progressive leg weakness.</p>
+<p>Seek immediate medical care for loss of bladder or bowel control, numbness in the groin area, or progressive leg weakness. Our guide to <a href="/blog/low-back-pain-causes-red-flags-rochester-ny">low back pain causes and red flags</a> explains these warning signs in more detail.</p>
 <p>For most raking-related <a href="/conditions#lower-back-pain">lower back pain</a>, conservative care works well. At Oak &amp; Olive, that may include <a href="/services#cmt">chiropractic adjustments</a> to restore joint motion, <a href="/services#flexion-distraction">flexion-distraction</a> for disc-related pain, <a href="/services#iastm">soft tissue work</a> for strained muscles, and <a href="/services#exercise">targeted exercises</a> to build the strength that keeps it from happening again. You can learn more in our guide to <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a>.</p>
 
 <h2>Enjoy Fall in Rochester — Pain-Free</h2>
-<p>Raking leaves doesn't have to mean a week of back pain. Warm up, rake with your legs instead of your spine, lift smart, and pace yourself. And if your back is already telling you it's had enough, we're here to help.</p>
+<p>Raking leaves doesn't have to mean a week of back pain. Warm up, rake with your legs instead of your spine, lift smart, and pace yourself. And if your back is already telling you it's had enough, we're here to help. If you're new to chiropractic care, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what to expect from an adjustment</a>.</p>
 <p><strong>Hurt your back raking leaves? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and get back to enjoying the season.</strong></p>
 
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
