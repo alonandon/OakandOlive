@@ -946,6 +946,73 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you're experiencing loss of bladder/bowel control or progressive leg weakness, seek immediate medical care.</em></p>
     `.trim(),
   },
+  {
+    slug: 'raking-leaves-back-pain-rochester',
+    title: 'Raking Leaves Without Wrecking Your Back: A Rochester Fall Guide',
+    excerpt:
+      'Raking leaves is one of the most common causes of fall back pain we see in Rochester. Learn how to warm up, rake with better mechanics, and bag leaves safely — plus when that sore back needs more than rest.',
+    date: '2026-10-08',
+    dateModified: '2026-10-08',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '6 min read',
+    tags: ['raking leaves', 'back pain', 'Rochester NY', 'fall yard work', 'injury prevention'],
+    image: '/RochesterRakingLowBackPain.png',
+    imageAlt: 'Infographic of a man raking leaves near the Rochester skyline with tips to avoid back pain: warm up, use a scissor stance, keep the rake close, lift with your legs, and pace yourself',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    content: `
+<p>Fall in Rochester is hard to beat — crisp air, apple picking, and trees across Brighton, Pittsford, and Irondequoit turning gold and red. Then the leaves come down. And every October and November, we see the same pattern at Oak &amp; Olive Chiropractic: a wave of patients walking in with low back pain after a long weekend of raking leaves.</p>
+<p>Raking looks harmless, but it combines repetitive twisting, sustained forward bending, and lifting heavy, awkward bags — often after months of not doing any of those things. The good news is that a few simple changes can keep your back out of the equation.</p>
+
+<h2>Why Raking Leaves Causes So Much Back Pain</h2>
+<p>The typical raking motion — feet planted, reaching out, and pulling the rake across your body — puts rotational stress on the lumbar spine over and over again. Add in bending to scoop piles, lifting wet leaves (which can weigh far more than you'd expect), and Rochester's cool mornings stiffening up your muscles, and it's a recipe for strains, irritated joints, and even <a href="/conditions#disc-herniation">disc flare-ups</a>.</p>
+<p>Most raking injuries aren't from one dramatic moment. They're from hundreds of small, repeated movements done with tired muscles and poor mechanics.</p>
+
+<h2>Warm Up Before You Grab the Rake</h2>
+<p>Treat yard work like the workout it is. Spend five minutes getting your body ready:</p>
+<ul>
+<li>A brisk walk around the yard or block to raise your body temperature</li>
+<li>Gentle standing back extensions — hands on hips, lean back slightly</li>
+<li>Hip circles and side bends to loosen the trunk</li>
+<li>Hamstring and hip flexor stretches, held for 20–30 seconds</li>
+</ul>
+<p>On a chilly Rochester morning, this matters even more. Cold muscles are less flexible and more prone to strain.</p>
+
+<h2>Rake Smarter, Not Harder</h2>
+<p><strong>Use a scissor stance.</strong> Instead of standing with your feet side by side, put one foot forward and one back — like a lunge-lite position. This lets you shift your weight with your legs rather than twisting through your spine.</p>
+<p><strong>Keep the rake close.</strong> Long reaches out in front of you load the low back. Take shorter strokes and move your feet to follow the work.</p>
+<p><strong>Switch sides often.</strong> Most of us rake with the same hand on top every time. Alternate every few minutes so one side of your back isn't doing all the work.</p>
+<p><strong>Choose the right rake.</strong> An ergonomic rake with a bent or padded handle — and one that's tall enough for you to stand upright — can noticeably reduce strain.</p>
+<p><strong>Stand tall.</strong> If you catch yourself hunched over, pause, reset your posture, and engage your core lightly as you pull.</p>
+
+<h2>Bag and Lift Leaves Safely</h2>
+<p>Lifting is where many back injuries actually happen. Squat down by bending at your hips and knees, keep the bag close to your body, and stand up using your legs. Avoid twisting while holding a load — pivot your feet instead. Don't overfill bags, especially with wet leaves, and use a tarp to drag piles to the curb rather than carrying them. If your town offers curbside leaf pickup, raking piles onto a tarp and sliding them to the curb can save your back a lot of lifting.</p>
+
+<h2>Pace Yourself</h2>
+<p>You don't have to clear the whole yard in one afternoon. Break the job into 20–30 minute sessions with breaks in between, stay hydrated, and spread the work over a couple of days if needed. Raking more often in smaller amounts — before leaves get wet and matted — is far easier on your body than one marathon session.</p>
+
+<h2>After Raking: Recover the Right Way</h2>
+<p>Finish with a few gentle stretches — knee-to-chest, child's pose, and a light standing back extension. A warm shower can help loosen tight muscles. If you've got mild soreness, light walking the next day usually helps more than lying on the couch.</p>
+<p>If you spend your weekdays sitting, your back may be even less prepared for weekend yard work — our guide to <a href="/blog/desk-job-spine-health-rochester">protecting your spine at a desk job</a> has tips that help year-round.</p>
+
+<h2>When Back Pain After Raking Needs Attention</h2>
+<p>Normal muscle soreness should improve within a few days. It's time to get evaluated if you notice:</p>
+<ul>
+<li>Pain that lasts longer than a week or keeps getting worse</li>
+<li>Pain that shoots down one leg, or numbness and tingling — possible signs of <a href="/blog/sciatica-symptoms-causes-non-surgical-relief">sciatica</a></li>
+<li>Pain that makes it hard to stand up straight, sleep, or get through your workday</li>
+</ul>
+<p>Seek immediate medical care for loss of bladder or bowel control, numbness in the groin area, or progressive leg weakness.</p>
+<p>For most raking-related <a href="/conditions#lower-back-pain">lower back pain</a>, conservative care works well. At Oak &amp; Olive, that may include <a href="/services#cmt">chiropractic adjustments</a> to restore joint motion, <a href="/services#flexion-distraction">flexion-distraction</a> for disc-related pain, <a href="/services#iastm">soft tissue work</a> for strained muscles, and <a href="/services#exercise">targeted exercises</a> to build the strength that keeps it from happening again. You can learn more in our guide to <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a>.</p>
+
+<h2>Enjoy Fall in Rochester — Pain-Free</h2>
+<p>Raking leaves doesn't have to mean a week of back pain. Warm up, rake with your legs instead of your spine, lift smart, and pace yourself. And if your back is already telling you it's had enough, we're here to help.</p>
+<p><strong>Hurt your back raking leaves? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and get back to enjoying the season.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
