@@ -1013,6 +1013,73 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'cupping-therapy-benefits-myths-rochester-ny',
+    title: 'Cupping Therapy Explained: Benefits, Myths, and What It Feels Like',
+    excerpt:
+      'Those round marks on athletes have made cupping famous, but what does it actually do? Learn how cupping therapy works, what the research says, the most common myths, and what a session at our Rochester office really feels like.',
+    date: '2026-10-15',
+    dateModified: '2026-10-15',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
+    readTime: '6 min read',
+    tags: ['cupping therapy', 'myofascial decompression', 'muscle tension', 'Rochester NY', 'athletic recovery'],
+    image: '/Cupping%20Therapy%20Wellness%20Infographic.png',
+    imageAlt: 'Cupping therapy infographic showing glass cups on a patient\'s back, with common reasons people choose cupping, four myths busted, and what to expect at Oak & Olive Chiropractic in Rochester, NY',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    content: `
+<p>You've probably seen them: perfectly round, reddish-purple marks across an Olympic swimmer's shoulders or a pro athlete's back. Cupping therapy has gone from niche to mainstream, and at <a href="/about">Oak &amp; Olive Chiropractic</a> it's one of the treatments patients ask about most. It's also one of the most misunderstood.</p>
+<p>Here's a clear, honest look at what cupping is, what it can and can't do, and what it actually feels like on the table.</p>
+
+<h2>What Is Cupping Therapy?</h2>
+<p>Cupping uses cups placed on the skin to create suction. Instead of pressing down into tissue the way massage does, the suction <em>lifts</em> the skin, fascia, and underlying muscle. That's why it's often described as decompression: it creates space between layers of tissue that have become tight, stuck, or restricted.</p>
+<p>Cupping has been used in various forms for thousands of years. Today's clinical version, often called <strong>myofascial decompression</strong>, combines suction with movement and is typically used alongside other hands-on care rather than on its own.</p>
+
+<h2>Static vs. Dynamic Cupping</h2>
+<p><strong>Static cupping</strong> means the cups are placed on a tight area and left in place for a few minutes while you relax.</p>
+<p><strong>Dynamic cupping</strong> involves gliding the cups across the skin with a light lotion, or having you move the joint underneath (turning your head, lifting your arm, bending your knee) while the cups stay on. This movement-based approach is a big part of how we use cupping, because it helps tissue glide better through the exact motions that bother you.</p>
+
+<h2>What Are the Benefits of Cupping?</h2>
+<p>Patients most often tell us cupping helps with:</p>
+<ul>
+<li>Relief from muscle tension and chronic tightness, especially in the neck, upper traps, shoulders, and low back</li>
+<li>Improved range of motion and flexibility after a session</li>
+<li>Faster-feeling recovery after workouts, races, or a long season of sport</li>
+<li>Reduced pain from myofascial restrictions and trigger points</li>
+</ul>
+<p>To be honest about the evidence: research on cupping is still growing, and studies vary in quality. Several reviews suggest it can help reduce pain and improve function for issues like <a href="/conditions#neck-pain-stiffness">neck pain</a> and <a href="/conditions#lower-back-pain">low back pain</a>, at least in the short term. It works best as one part of a plan, not as a cure-all, which is exactly how we use it.</p>
+
+<h2>Cupping Myths, Busted</h2>
+<p><strong>Myth: The marks are bruises.</strong> Cupping marks aren't caused by impact or trauma like a typical bruise. The suction draws blood toward the surface and can break tiny capillaries, which leaves a temporary discoloration. They're usually painless and fade within several days to about a week and a half.</p>
+<p><strong>Myth: Darker marks mean more "toxins."</strong> There's no good evidence that cupping pulls toxins out of the body or that mark color reflects toxicity. Darker marks are more likely related to the suction strength, how long the cups stay on, and how much circulation and tension is in that area.</p>
+<p><strong>Myth: Cupping hurts.</strong> Most people find it surprisingly comfortable. It feels very different from deep tissue massage, and we adjust the suction to your comfort level.</p>
+<p><strong>Myth: It's only for athletes.</strong> Athletes made it famous, but desk workers, parents, weekend gardeners, and anyone with stubborn muscle tension can benefit. If you sit all day, our guide to <a href="/blog/desk-job-spine-health-rochester">protecting your spine at a desk job</a> is a good companion read.</p>
+<p><strong>Myth: Cupping replaces other care.</strong> Cupping can loosen tight tissue, but lasting results usually come from pairing it with treatments that address joint motion, strength, and movement habits.</p>
+
+<h2>What Does Cupping Feel Like?</h2>
+<p>When a cup is applied, you'll feel a pulling or tugging sensation as the skin lifts. Many patients describe it as a deep stretch from the outside in, or "the opposite of a massage." Over tight areas it can feel intense at first, then ease within a minute or so as the tissue relaxes. With dynamic cupping, it feels like a slow, gliding pull across the muscle.</p>
+<p>Afterward, the area may feel looser, warmer, and a bit tender, similar to how you'd feel after a good workout. You may notice marks for a few days. Drinking water and some gentle movement afterward can help you feel your best.</p>
+
+<h2>What a Cupping Session at Oak &amp; Olive Looks Like</h2>
+<p>Cupping at our office typically takes 15 to 20 minutes and is usually combined with your chiropractic visit. Depending on your needs, we may pair it with:</p>
+<ul>
+<li><a href="/services#cmt">Chiropractic adjustments</a> to restore motion in stiff joints</li>
+<li><a href="/services#iastm">Instrument-assisted soft tissue work (IASTM)</a> for scar tissue and fascial restrictions</li>
+<li><a href="/services#exercise">Targeted exercises</a> and post-cupping mobility work to lock in the new range of motion</li>
+</ul>
+<p>It's often a good fit for <a href="/conditions#sports-athletic-injuries">sports and athletic injuries</a>, chronic neck and shoulder tension, and general muscle tightness that keeps coming back.</p>
+
+<h2>Who Should Avoid Cupping?</h2>
+<p>Cupping is generally safe, but it isn't right for everyone. Let us know if you take blood thinners, have a bleeding or clotting disorder, are pregnant, have a history of blood clots, or have skin that is broken, sunburned, or irritated in the area being treated. We'll review your health history before any treatment and adjust the plan or choose a different approach if needed.</p>
+
+<h2>Try Cupping Therapy in Rochester</h2>
+<p>If tight muscles, nagging tension, or slow recovery are holding you back, cupping may be a helpful addition to your care. We'll start with an exam to understand what's driving your symptoms and let you know whether cupping makes sense for you. If you're new to our office, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what to expect from your first visit and adjustment</a>.</p>
+<p><strong>Curious about cupping? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and find out if it's right for you.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
