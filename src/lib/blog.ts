@@ -1048,7 +1048,7 @@ export const blogPosts: BlogPost[] = [
 <li>Faster-feeling recovery after workouts, races, or a long season of sport</li>
 <li>Reduced pain from myofascial restrictions and trigger points</li>
 </ul>
-<p>To be honest about the evidence: research on cupping is still growing, and studies vary in quality. Several reviews suggest it can help reduce pain and improve function for issues like <a href="/conditions#neck-pain-stiffness">neck pain</a> and <a href="/conditions#lower-back-pain">low back pain</a>, at least in the short term. It works best as one part of a plan, not as a cure-all, which is exactly how we use it.</p>
+<p>To be honest about the evidence: research on cupping is still growing, and studies vary in quality. Several reviews suggest it can help reduce pain and improve function for issues like <a href="/conditions#neck-pain-stiffness">neck pain</a> and <a href="/conditions#lower-back-pain">low back pain</a>, at least in the short term. It works best as one part of a plan, not as a cure-all, which is exactly how we use it. If neck or back pain is what's bothering you, our guides to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief</a> and <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a> explain how cupping fits alongside other treatments.</p>
 
 <h2>Cupping Myths, Busted</h2>
 <p><strong>Myth: The marks are bruises.</strong> Cupping marks aren't caused by impact or trauma like a typical bruise. The suction draws blood toward the surface and can break tiny capillaries, which leaves a temporary discoloration. They're usually painless and fade within several days to about a week and a half.</p>
@@ -1068,7 +1068,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/services#iastm">Instrument-assisted soft tissue work (IASTM)</a> for scar tissue and fascial restrictions</li>
 <li><a href="/services#exercise">Targeted exercises</a> and post-cupping mobility work to lock in the new range of motion</li>
 </ul>
-<p>It's often a good fit for <a href="/conditions#sports-athletic-injuries">sports and athletic injuries</a>, chronic neck and shoulder tension, and general muscle tightness that keeps coming back.</p>
+<p>It's often a good fit for <a href="/conditions#sports-athletic-injuries">sports and athletic injuries</a>, chronic neck and shoulder tension, and general muscle tightness that keeps coming back. Athletes working back from an injury sometimes pair it with <a href="/blog/blood-flow-restriction-training-rochester-ny">blood flow restriction training</a>.</p>
 
 <h2>Who Should Avoid Cupping?</h2>
 <p>Cupping is generally safe, but it isn't right for everyone. Let us know if you take blood thinners, have a bleeding or clotting disorder, are pregnant, have a history of blood clots, or have skin that is broken, sunburned, or irritated in the area being treated. We'll review your health history before any treatment and adjust the plan or choose a different approach if needed.</p>
