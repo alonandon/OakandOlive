@@ -1080,6 +1080,99 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'tech-neck-neck-pain-rochester-ny',
+    title: "Neck Pain and Tech Neck: Why It's So Common and What Actually Helps",
+    excerpt:
+      "Phones, laptops, and long workdays have made neck pain one of the most common complaints we see. Learn what \"tech neck\" really is, why posture alone isn't the whole story, and the simple, proven habits and treatments that actually help.",
+    date: '2026-10-22',
+    dateModified: '2026-10-22',
+    author: 'Dr. Alex',
+    category: 'Posture & Ergonomics',
+    readTime: '7 min read',
+    tags: ['tech neck', 'neck pain', 'text neck', 'posture', 'Rochester NY', 'desk ergonomics'],
+    image: '/Tech%20Neck%20Pain.png',
+    imageAlt: 'Tech neck infographic showing a woman looking down at her phone with neck strain highlighted, five habits that help (raise your phone, raise your screen, change positions, strengthen, and use a supportive pillow), and warning signs to see Oak & Olive Chiropractic in Rochester, NY sooner',
+    imageWidth: 1312,
+    imageHeight: 1199,
+    content: `
+<p>Look around any waiting room, coffee shop, or RTS bus stop in Rochester and you'll see the same thing: heads tilted down, shoulders rounded, eyes on a screen. It's no surprise that neck pain is one of the most common reasons people come to <a href="/about">Oak &amp; Olive Chiropractic</a>. Many of them arrive using the same two words: "tech neck."</p>
+<p>The good news is that tech neck is very manageable. The less obvious news is that the fix isn't simply "sit up straight." Here's what's really going on, and what actually helps.</p>
+
+<h2>What Is Tech Neck?</h2>
+<p>"Tech neck" (sometimes called "text neck") is a nickname, not a formal diagnosis. It describes the neck, upper back, and shoulder pain that tends to build up when you spend long stretches looking down at a phone, tablet, or laptop. Common symptoms include:</p>
+<ul>
+<li>A dull ache or stiffness at the base of the neck</li>
+<li>Tightness across the upper traps and between the shoulder blades</li>
+<li>Headaches that start at the base of the skull and wrap toward the forehead</li>
+<li>Reduced ability to turn or tilt your head, especially at the end of the day</li>
+<li>Occasionally, tingling or achiness into the shoulder or arm</li>
+</ul>
+
+<h2>Why It's So Common</h2>
+<p>Your head weighs roughly 10 to 12 pounds. When it sits balanced over your shoulders, your neck muscles barely have to work. As your head drifts forward and down, those muscles have to work harder to hold it up. One often-quoted computer model estimated the load on the neck rises to around 50 to 60 pounds when the head is bent forward 45 to 60 degrees. That number is a modeling estimate rather than something measured in real people, but the principle holds: the further forward your head goes, the harder your neck works.</p>
+<p>Add in how we live now and it adds up quickly:</p>
+<ul>
+<li><strong>Hours, not minutes.</strong> Most adults spend several hours a day on a phone, on top of a full workday at a computer.</li>
+<li><strong>Laptops everywhere.</strong> A laptop screen sits low by design, which pulls your gaze (and your head) down.</li>
+<li><strong>Less movement overall.</strong> Long commutes, desk jobs, and shorter, darker fall days in Rochester all mean more time sitting still.</li>
+<li><strong>Stress.</strong> Stress tends to show up as clenched jaws and shoulders creeping toward the ears, which loads the same muscles even further.</li>
+</ul>
+
+<h2>The Honest Truth: It's Not Just About Posture</h2>
+<p>Here's something many articles leave out. Research on posture and neck pain is more mixed than you might expect. Some studies find only a weak link between how far someone bends their neck when texting and whether they have neck pain. People with "perfect" posture still get neck pain, and plenty of people who slouch don't.</p>
+<p>What seems to matter more is <strong>how long you stay in one position</strong> and <strong>how capable your neck and upper back are</strong> of handling the load. In other words, your best posture is your next posture. A slightly slouched position you change often is usually better than a "perfect" position you hold rigidly for three hours.</p>
+<p>That's a helpful shift, because it means you don't have to obsess over every angle. You need to move more, build some strength, and set up your screens so they aren't constantly pulling you forward.</p>
+
+<h2>What Actually Helps</h2>
+<h3>1. Raise your screens, don't lower your head</h3>
+<p>Bring your phone up toward eye level instead of dropping your chin to it. At a desk, the top of your monitor should be at or just below eye level, about an arm's length away. If you work on a laptop, a simple stand with a separate keyboard and mouse makes a big difference. Our guide to <a href="/blog/desk-job-spine-health-rochester">what sitting 8 hours a day does to your spine</a> walks through a full desk setup.</p>
+
+<h3>2. Break up long stretches</h3>
+<p>Set a reminder to change positions every 30 to 45 minutes. Stand up, walk to refill your water, look out a window, or take a call on your feet. Small, frequent breaks beat one long stretch at the end of the day.</p>
+
+<h3>3. Strengthen, don't just stretch</h3>
+<p>Stretching feels good, but strengthening is what tends to make results last. Exercise is one of the best-supported treatments for chronic neck pain. A few simple ones to start with:</p>
+<ul>
+<li><strong>Chin tucks:</strong> Gently glide your chin straight back, as if making a double chin, hold 5 seconds, and repeat 10 times.</li>
+<li><strong>Shoulder blade squeezes:</strong> Draw your shoulder blades back and down, hold 5 seconds, and repeat 10 to 15 times.</li>
+<li><strong>Doorway pec stretch:</strong> Forearms on a door frame, step gently forward to open up the chest for 20 to 30 seconds.</li>
+<li><strong>Band pull-aparts or rows:</strong> Build the upper back muscles that help support your head and shoulders.</li>
+</ul>
+<p>These should feel like work, not sharp pain. If something hurts, ease off and ask us for a modified version.</p>
+
+<h3>4. Check your sleep setup</h3>
+<p>A pillow that's too high or too flat can undo your daytime efforts. Aim for a pillow that keeps your head level with your spine, whether you sleep on your back or side. Stomach sleeping, with your head turned to one side all night, is a common culprit for morning stiffness.</p>
+
+<h3>5. Get hands-on care when it's not improving</h3>
+<p>If your neck pain keeps coming back or isn't improving after a couple of weeks of better habits, hands-on care can help calm things down and restore motion so exercises are easier to do. At our office, a tech neck plan may include:</p>
+<ul>
+<li><a href="/services#cmt">Chiropractic adjustments</a> to restore motion in stiff joints of the neck and upper back. If you've never had one, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what your first adjustment is like</a>.</li>
+<li><a href="/services#iastm">Instrument-assisted soft tissue work</a> or <a href="/services#cupping">cupping therapy</a> for tight upper traps and shoulders. Learn more in our <a href="/blog/cupping-therapy-benefits-myths-rochester-ny">guide to cupping</a>.</li>
+<li><a href="/services#exercise">Targeted exercises</a> tailored to your job, sport, and daily routine so the results stick.</li>
+</ul>
+
+<h2>Tech Neck in Kids and Teens</h2>
+<p>Tech neck isn't just an adult problem. Students spend hours on phones, tablets, and school laptops, often slumped on a couch or bed. The same rules apply: bring screens up, take breaks, and stay active. Our <a href="/blog/back-to-school-posture-tips-rochester">back-to-school posture guide</a> has tips for parents.</p>
+
+<h2>When to See Someone Sooner</h2>
+<p>Most tech neck is muscular and improves with the steps above. Get checked promptly if you notice:</p>
+<ul>
+<li>Numbness, tingling, or weakness in your arms or hands</li>
+<li>Pain that's getting worse instead of better, or that wakes you at night</li>
+<li>Severe headaches, dizziness, or changes in vision</li>
+<li>Neck pain after a fall, car accident, or other injury</li>
+<li>Fever, unexplained weight loss, or feeling unwell along with neck pain</li>
+</ul>
+<p>For a broader look at causes and treatment options, see our guide to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief in Rochester</a>.</p>
+
+<h2>Get Help for Tech Neck in Rochester</h2>
+<p>You don't have to give up your phone or your job to feel better. With a few smart changes and the right care, most people see real improvement. We'll start with a thorough exam to understand what's driving your <a href="/conditions#neck-pain-stiffness">neck pain and stiffness</a>, then build a plan that fits your day.</p>
+<p><strong>Tired of that end-of-day neck ache? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's get you moving comfortably again.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
