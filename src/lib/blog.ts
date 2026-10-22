@@ -1088,7 +1088,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-10-22',
     dateModified: '2026-10-22',
     author: 'Dr. Alex',
-    category: 'Posture & Ergonomics',
+    category: 'Wellness Tips',
     readTime: '7 min read',
     tags: ['tech neck', 'neck pain', 'text neck', 'posture', 'Rochester NY', 'desk ergonomics'],
     image: '/Tech%20Neck%20Pain.png',
