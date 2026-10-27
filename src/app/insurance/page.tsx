@@ -6,11 +6,11 @@ import { breadcrumbSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = buildMetadata({
   title: 'Insurance We Accept',
   description:
-    "Oak & Olive Chiropractic in Rochester, NY is in-network with BlueCross BlueShield, Aetna, and MVP Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
+    "Oak & Olive Chiropractic in Rochester, NY is in-network with BlueCross BlueShield, Aetna, MVP, and Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
   path: '/insurance',
 })
 
-const healthPlans = ['BlueCross BlueShield', 'Aetna', 'MVP Medicare']
+const healthPlans = ['BlueCross BlueShield', 'Aetna', 'MVP Health Care']
 
 const injuryCoverage = [
   {
@@ -123,8 +123,22 @@ export default function InsurancePage() {
         </div>
       </section>
 
+      {/* Medicare */}
+      <section className="py-20 lg:py-28 bg-cream-50" aria-labelledby="medicare-heading">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="section-label">Medicare</span>
+          <h2 id="medicare-heading" className="section-heading mt-3 mb-5">We Accept Medicare</h2>
+          <p className="font-sans text-bark-muted leading-relaxed mb-4">
+            Oak &amp; Olive accepts Medicare. Medicare covers chiropractic adjustments of the spine when they are medically necessary to treat a specific problem, such as a misaligned joint causing pain or limited movement.
+          </p>
+          <p className="font-sans text-bark-muted leading-relaxed">
+            Medicare does not cover every service we offer, such as exams, X-rays, soft-tissue therapies, or ongoing maintenance care. We&apos;ll go over exactly what is covered and any out-of-pocket costs with you before treatment begins.
+          </p>
+        </div>
+      </section>
+
       {/* Auto & workers' comp */}
-      <section className="py-20 lg:py-28 bg-cream-50" aria-labelledby="injury-heading">
+      <section className="py-20 lg:py-28 bg-white" aria-labelledby="injury-heading">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="section-label">Injury Claims</span>
@@ -135,7 +149,7 @@ export default function InsurancePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {injuryCoverage.map((item) => (
-              <div key={item.name} className="bg-white border border-cream-200 rounded-2xl p-8">
+              <div key={item.name} className="bg-cream-50 border border-cream-200 rounded-2xl p-8">
                 <h3 className="font-serif text-2xl text-bark mb-3">{item.name}</h3>
                 <p className="font-sans text-bark-muted text-sm leading-relaxed mb-5">{item.description}</p>
                 <Link href={item.link.href} className="font-sans text-sm font-medium text-olive-700 hover:text-olive-900 transition-colors">
@@ -148,7 +162,7 @@ export default function InsurancePage() {
       </section>
 
       {/* How it works */}
-      <section className="py-20 lg:py-28 bg-white" aria-labelledby="verify-heading">
+      <section className="py-20 lg:py-28 bg-cream-50" aria-labelledby="verify-heading">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="section-label">How It Works</span>
@@ -169,12 +183,12 @@ export default function InsurancePage() {
       </section>
 
       {/* Insurance FAQs */}
-      <section className="py-20 lg:py-28 bg-cream-50" aria-labelledby="insurance-faq-heading">
+      <section className="py-20 lg:py-28 bg-white" aria-labelledby="insurance-faq-heading">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 id="insurance-faq-heading" className="section-heading text-center mb-10">Common Insurance Questions</h2>
           <dl className="space-y-6">
             {insuranceFaqs.map((faq) => (
-              <div key={faq.question} className="bg-white border border-cream-200 rounded-2xl p-7">
+              <div key={faq.question} className="bg-cream-50 border border-cream-200 rounded-2xl p-7">
                 <dt className="font-serif text-lg text-bark mb-2">{faq.question}</dt>
                 <dd className="font-sans text-sm text-bark-muted leading-relaxed">{faq.answer}</dd>
               </div>
@@ -187,7 +201,7 @@ export default function InsurancePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 lg:py-28 bg-white" aria-labelledby="insurance-cta-heading">
+      <section className="py-20 lg:py-28 bg-cream-50" aria-labelledby="insurance-cta-heading">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="section-label">Get Started</span>
           <h2 id="insurance-cta-heading" className="section-heading mt-3 mb-5">
