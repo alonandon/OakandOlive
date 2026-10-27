@@ -137,7 +137,7 @@ export default function InsurancePage() {
             Oak &amp; Olive accepts Medicare. Medicare covers chiropractic adjustments of the spine when they are medically necessary to treat a specific problem, such as a misaligned joint causing pain or limited movement.
           </p>
           <p className="font-sans text-bark-muted leading-relaxed">
-            Medicare does not cover every service we offer, such as exams, X-rays, soft-tissue therapies, or ongoing maintenance care. We&apos;ll go over exactly what is covered and any out-of-pocket costs with you before treatment begins.
+            Medicare does not cover every service we offer, such as exams, soft-tissue therapies, or ongoing maintenance care. We&apos;ll go over exactly what is covered and any out-of-pocket costs with you before treatment begins.
           </p>
         </div>
       </section>
