@@ -6,11 +6,15 @@ import { breadcrumbSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = buildMetadata({
   title: 'Insurance We Accept',
   description:
-    "Oak & Olive Chiropractic in Rochester, NY is in-network with Excellus BlueCross BlueShield, Aetna, MVP, and Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
+    "Oak & Olive Chiropractic in Rochester, NY is in-network with BlueCross BlueShield plans including Excellus BCBS, Aetna, MVP, and Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
   path: '/insurance',
 })
 
-const healthPlans = ['Excellus BlueCross BlueShield', 'Aetna', 'MVP Health Care']
+const healthPlans = [
+  { name: 'BlueCross BlueShield', note: 'Blue plans go by many names, including Excellus BCBS' },
+  { name: 'Aetna' },
+  { name: 'MVP Health Care' },
+]
 
 const injuryCoverage = [
   {
@@ -112,11 +116,12 @@ export default function InsurancePage() {
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {healthPlans.map((plan) => (
-              <li key={plan} className="bg-olive-50 border border-olive-100 rounded-2xl p-7 text-center">
+              <li key={plan.name} className="bg-olive-50 border border-olive-100 rounded-2xl p-7 text-center">
                 <svg className="w-8 h-8 mx-auto mb-4 text-olive-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.75} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
-                <h3 className="font-serif text-xl text-bark">{plan}</h3>
+                <h3 className="font-serif text-xl text-bark">{plan.name}</h3>
+                {plan.note && <p className="font-sans text-sm text-bark-muted mt-1">{plan.note}</p>}
               </li>
             ))}
           </ul>
