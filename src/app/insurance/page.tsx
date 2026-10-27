@@ -6,11 +6,11 @@ import { breadcrumbSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = buildMetadata({
   title: 'Insurance We Accept',
   description:
-    "Oak & Olive Chiropractic in Rochester, NY is in-network with BlueCross BlueShield, Aetna, MVP, and Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
+    "Oak & Olive Chiropractic in Rochester, NY is in-network with Excellus BlueCross BlueShield, Aetna, MVP, and Medicare, and accepts no-fault auto and workers' compensation cases. Call to verify your benefits.",
   path: '/insurance',
 })
 
-const healthPlans = ['BlueCross BlueShield', 'Aetna', 'MVP Health Care']
+const healthPlans = ['Excellus BlueCross BlueShield', 'Aetna', 'MVP Health Care']
 
 const injuryCoverage = [
   {
