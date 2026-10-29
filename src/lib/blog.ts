@@ -1213,7 +1213,7 @@ export const blogPosts: BlogPost[] = [
 <li>Patellar tendinopathy (jumper's knee)</li>
 <li>Outer hip pain (greater trochanteric pain syndrome)</li>
 </ul>
-<p>Shockwave is <strong>not</strong> a general fix for every type of chronic pain. It isn't designed to treat nerve pain like sciatica, disc problems, or widespread pain conditions. If one of those is driving your symptoms, we'll talk about options that fit better.</p>
+<p>Shockwave is <strong>not</strong> a general fix for every type of chronic pain. It isn't designed to treat nerve pain like <a href="/blog/sciatica-symptoms-causes-non-surgical-relief">sciatica</a>, disc problems, or widespread pain conditions. If one of those is driving your symptoms, we'll talk about options that fit better.</p>
 
 <h2>What to Expect at Your First Visit</h2>
 <h3>1. An exam comes first</h3>
