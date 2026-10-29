@@ -25,6 +25,7 @@ const sports = [
   { name: 'Tennis & Pickleball', injuries: 'Tennis elbow, rotator cuff irritation, calf strains, knee pain' },
   { name: 'Cycling', injuries: 'Neck and upper back pain, low back pain, knee pain, IT band irritation' },
   { name: 'Swimming', injuries: 'Swimmer’s shoulder, neck pain, low back pain' },
+  { name: 'Wrestling & Martial Arts', injuries: 'Neck strain, shoulder sprains, rib and back pain, knee and ankle sprains' },
 ]
 
 const treatments = [
