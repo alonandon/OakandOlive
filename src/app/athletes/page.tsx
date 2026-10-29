@@ -139,7 +139,7 @@ export default function AthletesPage() {
             Rest alone rarely fixes a sports injury. It just delays the next one. At Oak &amp; Olive, care for athletes combines hands-on treatment with the two things that actually change outcomes: smart loading and proper fueling.
           </p>
           <p className="font-sans text-bark-muted leading-relaxed">
-            Dr. Eckert holds a Bachelor of Science in Exercise Science, so your plan is built by someone who understands training, not just pain relief.
+            Dr. Eckert holds a Bachelor of Science in Exercise Science and spent 8 years as a personal trainer, so your plan is built by someone who understands training, not just pain relief.
           </p>
         </div>
       </section>
@@ -177,7 +177,7 @@ export default function AthletesPage() {
           </h2>
           <div className="font-sans text-olive-100 leading-relaxed space-y-4">
             <p>
-              [PLACEHOLDER: Dr. Eckert&apos;s bodybuilding background, such as years training, shows or placings, and what drew him to the sport.]
+              Dr. Eckert has been training for over 15 years and spent 8 years working as a personal trainer before finishing chiropractic school. Bodybuilding and lifting, along with a grandfather who practiced medicine, are what first drew Dr. Eckert to the health sciences. The gym isn&apos;t a side interest here. It&apos;s where this practice started.
             </p>
             <p>
               Bodybuilders put their joints through enormous volume, often while dieting hard. That combination is behind a lot of the shoulder, elbow, and low back pain we see in the gym crowd. We get it, because we&apos;ve been there: we&apos;ll treat the problem, adjust your split and exercise selection so you keep growing, and help you dial in nutrition that supports recovery through both bulking and prep.
