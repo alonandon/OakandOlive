@@ -19,6 +19,7 @@ const quickLinks = [
   { label: 'About Us',    href: '/about' },
   { label: 'Treatments',  href: '/services' },
   { label: 'Conditions',  href: '/conditions' },
+  { label: 'Athletes',    href: '/athletes' },
   { label: 'Insurance',   href: '/insurance' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Blog',        href: '/blog' },
