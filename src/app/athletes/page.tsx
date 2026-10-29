@@ -123,7 +123,7 @@ export default function AthletesPage() {
             <a href="https://practice.chirotouch.com/portal/OakOliveChiropractic" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 text-base">
               Book an Evaluation
             </a>
-            <a href={tel} className="btn-secondary px-8 py-4 text-base">
+            <a href={tel} className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-sans font-semibold text-base rounded-md hover:border-white/60 hover:bg-white/10 transition-all duration-200">
               Call {siteConfig.phone}
             </a>
           </div>
