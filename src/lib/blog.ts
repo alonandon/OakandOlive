@@ -1173,6 +1173,97 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'shockwave-therapy-how-it-works-what-to-expect',
+    title: 'Shockwave Therapy for Chronic Pain: How It Works and What to Expect',
+    excerpt:
+      "Curious about shockwave therapy but not sure what actually happens during a session? Here's a plain-English look at how it works, which kinds of chronic pain it helps most, what each visit feels like, and how long results usually take.",
+    date: '2026-10-29',
+    dateModified: '2026-10-29',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
+    readTime: '7 min read',
+    tags: ['shockwave therapy', 'ESWT', 'chronic pain', 'tendon pain', 'what to expect', 'Rochester NY'],
+    image: '/Shockwave%20Therapy%20for%20Chronic%20Pain.png',
+    imageAlt: 'Shockwave therapy infographic showing a provider treating a knee with a handheld shockwave applicator, what to expect (a thorough exam first, 10 to 15 minutes per area, same-day return to normal activities, a typical course of 4 to 8 weekly sessions), and common areas it can help (plantar fasciitis, Achilles tendinopathy, shoulder tendon pain, tennis elbow, and jumper\'s knee) at Oak & Olive Chiropractic in Rochester, NY',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    content: `
+<p>"What does it actually feel like?" is the first question almost everyone asks when we bring up <a href="/services#shockwave">shockwave therapy</a>. The second is usually "Will it work for me?" Both are fair questions. Shockwave can sound intimidating, and it isn't the right fit for every kind of pain, so it helps to know exactly what you're signing up for.</p>
+<p>We've written before about <a href="/blog/shockwave-therapy-chronic-pain-rochester">how shockwave is changing the treatment of chronic pain</a> and <a href="/blog/fall-chronic-pain-shockwave-therapy-rochester">why tendon pain tends to flare up in the fall</a>. This post is the practical version: how it works, who it helps, and what to expect from your first visit to your last.</p>
+
+<h2>How Shockwave Therapy Works</h2>
+<p>Shockwave therapy, also called extracorporeal shockwave therapy (ESWT), uses a handheld applicator to send short, strong pulses of acoustic (sound) energy through the skin into irritated tissue. "Extracorporeal" just means the energy comes from outside the body. There are no needles, incisions, or medications involved.</p>
+<p>Researchers are still working out every detail of why it helps, but the leading explanations are that the pulses:</p>
+<ul>
+<li><strong>Restart a stalled healing process.</strong> Chronic tendon problems often aren't inflamed so much as stuck. The tissue has become disorganized and stopped repairing itself well. Shockwave appears to stimulate the cells involved in tissue repair.</li>
+<li><strong>Encourage new blood flow.</strong> Tendons have a relatively poor blood supply, which is one reason they heal slowly. Shockwave is thought to promote the growth of small new blood vessels in the treated area.</li>
+<li><strong>Calm down pain signaling.</strong> Treatment seems to reduce the sensitivity of pain nerves in the area, which is why some people notice relief before the tissue has fully remodeled.</li>
+<li><strong>Help break up calcium deposits.</strong> In calcific tendinitis of the shoulder, shockwave can help the body break down and reabsorb calcium buildup.</li>
+</ul>
+<p>Our office uses <strong>radial shockwave</strong>, which spreads energy over a wider, shallower area. It's well suited to the tendons and soft tissues of the feet, ankles, knees, hips, elbows, and shoulders.</p>
+
+<h2>Which Kinds of Chronic Pain It Helps Most</h2>
+<p>"Chronic pain" covers a lot of ground, so let's be specific. Shockwave has the strongest track record for long-standing <strong>tendon and soft-tissue</strong> problems, especially ones that have lasted three months or more and haven't fully responded to rest, stretching, or other conservative care. Common examples include:</p>
+<ul>
+<li><a href="/conditions#plantar-fasciitis">Plantar fasciitis</a> (heel pain that's worst with your first steps in the morning)</li>
+<li>Achilles tendinopathy</li>
+<li>Calcific tendinitis and other <a href="/conditions#shoulder-pain">shoulder tendon problems</a></li>
+<li>Tennis elbow and golfer's elbow</li>
+<li>Patellar tendinopathy (jumper's knee)</li>
+<li>Outer hip pain (greater trochanteric pain syndrome)</li>
+</ul>
+<p>Shockwave is <strong>not</strong> a general fix for every type of chronic pain. It isn't designed to treat nerve pain like sciatica, disc problems, or widespread pain conditions. If one of those is driving your symptoms, we'll talk about options that fit better.</p>
+
+<h2>What to Expect at Your First Visit</h2>
+<h3>1. An exam comes first</h3>
+<p>Before any treatment, we'll take a history and do a hands-on exam to confirm where your pain is coming from and whether shockwave makes sense. If your symptoms point to something that needs imaging or another provider's opinion, we'll tell you and help you take that next step. If you're new to our office, our post on <a href="/blog/signs-you-should-see-a-chiropractor-rochester">what to expect at your first visit</a> covers the basics.</p>
+
+<h3>2. The treatment itself</h3>
+<p>We'll apply a little gel to the skin over the painful area and place the applicator on it. You'll hear a rapid clicking or tapping sound and feel firm, quick pulses. We start at a lower intensity and adjust based on your feedback.</p>
+<p>Honest answer to "does it hurt?": it can be uncomfortable, especially over the most tender spot, but most people describe it as a strong, tolerable tapping rather than sharp pain. You're in control, and we can turn it down at any time. The treatment itself typically takes about 10 to 15 minutes per area.</p>
+
+<h3>3. Right after treatment</h3>
+<p>Most people walk out and go about their day. It's common to have some soreness, redness, or mild tenderness in the area for a day or two. Occasionally there's some minor bruising or swelling. These effects usually settle quickly.</p>
+<p>For the first 48 hours or so, we'll usually ask you to:</p>
+<ul>
+<li>Stay active with normal daily movement, but skip intense workouts or long runs that heavily load the treated area</li>
+<li>Check with us before reaching for anti-inflammatory medication, since the goal of treatment is to encourage a healing response</li>
+<li>Keep up with any home exercises we've given you, unless something feels sharply worse</li>
+</ul>
+
+<h2>How Many Sessions and How Fast It Works</h2>
+<p>A typical course is <strong>4 to 8 sessions</strong>, usually spaced about a week apart. Some people feel a difference after the first couple of visits, but shockwave works by encouraging tissue to repair, and that takes time. Improvement often continues to build for several weeks after the last session.</p>
+<p>It's also worth being realistic: shockwave doesn't work for everyone. Most research shows meaningful improvement for many patients with the conditions above, but results vary from person to person. We'll check in on your progress along the way and adjust the plan if you're not responding as expected.</p>
+
+<h2>Why We Pair It With Exercise</h2>
+<p>Shockwave helps get healing moving, but tendons get stronger by being loaded the right way. That's why we nearly always combine it with <a href="/services#exercise">targeted exercise</a>, and sometimes with <a href="/services#iastm">instrument-assisted soft tissue work</a>, <a href="/services#cmt">chiropractic adjustments</a>, or <a href="/services#bfrt">blood flow restriction training</a>. If you're curious about that last one, here's <a href="/blog/blood-flow-restriction-training-rochester-ny">how BFRT works and who it helps</a>. The combination gives you the best chance of lasting relief instead of a temporary break from pain.</p>
+
+<h2>Who Shouldn't Have Shockwave</h2>
+<p>Shockwave is very safe when used appropriately, but it isn't right for everyone. We'll screen for things like:</p>
+<ul>
+<li>Pregnancy</li>
+<li>Bleeding disorders or blood-thinning medications</li>
+<li>Cancer, or a tumor in or near the treatment area</li>
+<li>Infection, open wounds, or skin problems over the area</li>
+<li>A pacemaker or other implanted electronic device</li>
+<li>A recent steroid injection in the same spot</li>
+<li>Very recent, acute injuries, which usually do better with other care first</li>
+</ul>
+<p>If any of these apply to you, let us know. It doesn't necessarily rule you out of care, but it helps us choose the right approach.</p>
+
+<h2>Quick Answers to Common Questions</h2>
+<p><strong>Is there downtime?</strong> Usually not. Most people return to work and normal activities the same day.</p>
+<p><strong>Do I need a referral?</strong> No referral is needed to schedule an evaluation with us.</p>
+<p><strong>Is it covered by insurance?</strong> Coverage for shockwave varies by plan. Our front desk can help you understand your options, and you can see the plans we work with on our <a href="/insurance">insurance page</a>.</p>
+
+<h2>Find Out if Shockwave Is Right for You</h2>
+<p>If heel, elbow, shoulder, knee, or hip pain has been hanging around for months and you're tired of waiting for it to go away on its own, shockwave may be worth a conversation. We'll start with a thorough exam and give you an honest recommendation, whether that's shockwave or something else.</p>
+<p><strong>Ready to stop working around your pain? <a href="/contact">Schedule an evaluation with Oak &amp; Olive Chiropractic in Rochester</a> and let's see if shockwave therapy is a good fit.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
