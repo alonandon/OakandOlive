@@ -1264,6 +1264,100 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'neck-headaches-migraines-rochester-ny',
+    title: 'Headaches and Migraines: Could Your Neck Be the Cause?',
+    excerpt:
+      "Some headaches start in your head, and some start in your neck. Learn the difference between cervicogenic headaches, tension headaches, and migraines, the clues that point to your neck, what the research says about chiropractic care, and when a headache needs urgent attention.",
+    date: '2026-11-05',
+    dateModified: '2026-11-05',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '7 min read',
+    tags: ['headaches', 'migraines', 'cervicogenic headache', 'tension headache', 'neck pain', 'Rochester NY'],
+    image: '/Headaches%20and%20Migraines%20Neck%20Pain.png',
+    imageAlt: 'Headaches and migraines infographic showing a woman holding her neck and temple in pain, four clues your neck may be involved (headaches that start at the back of the head or neck, limited or painful head turning, pressing on the base of the skull brings on your familiar headache, and headaches after long workdays, drives, or a car accident), and contact details for Oak & Olive Chiropractic in Rochester, NY',
+    imageWidth: 1536,
+    imageHeight: 1024,
+    content: `
+<p>If you've ever had a headache that seemed to start at the base of your skull and creep up over your head, you've probably wondered whether your neck had something to do with it. Often, it does. Headaches are one of the most common reasons people visit <a href="/about">Oak &amp; Olive Chiropractic</a>, and many of them are surprised to learn how closely the neck and head are connected.</p>
+<p>That said, not every headache comes from the neck, and migraines in particular are more complicated than "a tight neck." Here's how to tell the difference, what tends to help, and when a headache is a reason to get checked right away.</p>
+
+<h2>How the Neck Can Cause a Headache</h2>
+<p>The nerves of the upper neck (the top three vertebrae) share a relay station in the brainstem with the nerve that carries sensation from your forehead, temples, and face. Because of that shared wiring, your brain can't always tell where a pain signal started. Irritation in the joints, muscles, or ligaments of the upper neck can be felt as pain in the back of the head, behind the eyes, or across the forehead. This is called <strong>referred pain</strong>, and it's the reason a neck problem can feel very much like a "head" problem.</p>
+
+<h2>Three Common Types of Headaches</h2>
+<h3>Cervicogenic headache</h3>
+<p>"Cervicogenic" simply means "coming from the neck." These headaches are caused by a problem in the cervical spine or its soft tissues. Typical features include:</p>
+<ul>
+<li>Pain that usually stays on one side and starts in the neck or base of the skull</li>
+<li>Pain that spreads toward the forehead, temple, or behind the eye on the same side</li>
+<li>Reduced neck motion, especially turning your head toward the painful side</li>
+<li>Headaches brought on by certain neck positions, long periods at a desk, or pressure on specific spots in the upper neck</li>
+</ul>
+
+<h3>Tension-type headache</h3>
+<p>The most common headache of all. It usually feels like a dull, pressing band around the head rather than a throbbing pain, and it often comes with tight neck and shoulder muscles. Stress, poor sleep, long screen time, and jaw clenching are frequent contributors. Tension headaches aren't caused by the neck in the same way cervicogenic headaches are, but tight, overworked neck muscles commonly go along with them.</p>
+
+<h3>Migraine</h3>
+<p>Migraine is a neurological condition, not a muscle or joint problem. Attacks are often throbbing, may be one-sided, and are commonly accompanied by nausea, sensitivity to light or sound, and sometimes an aura (visual changes before the headache). Even so, the neck is involved more often than people realize. Many people with migraines also have neck pain, and neck tension can be part of the warning phase before an attack or a trigger that makes attacks more likely.</p>
+
+<h2>Clues Your Neck May Be Involved</h2>
+<p>You might be dealing with a neck-related headache if:</p>
+<ul>
+<li>Your headaches start at the back of the head or the top of the neck</li>
+<li>Your neck feels stiff or sore before or during a headache</li>
+<li>Turning or tilting your head is limited or makes the headache worse</li>
+<li>Pressing on the muscles at the base of your skull reproduces your familiar headache</li>
+<li>Headaches show up after long workdays at a computer, a long drive, or a rough night's sleep</li>
+<li>Your headaches began or got worse after a car accident, fall, or sports injury</li>
+</ul>
+<p>Long hours looking down at screens are a big piece of this for many people. Our post on <a href="/blog/tech-neck-neck-pain-rochester-ny">tech neck and what actually helps</a> covers that side of things, and our guide to <a href="/blog/desk-job-spine-health-rochester">what sitting 8 hours a day does to your spine</a> walks through a desk setup that takes pressure off your neck.</p>
+
+<h2>What the Research Says About Chiropractic Care for Headaches</h2>
+<p>We believe in being straightforward about the evidence:</p>
+<ul>
+<li><strong>Cervicogenic headache:</strong> This is where hands-on care has the best support. Research suggests that spinal manipulation and mobilization of the neck, especially when combined with exercise, can reduce how often these headaches happen and how intense they are.</li>
+<li><strong>Tension-type headache:</strong> Soft-tissue work, manual therapy, and exercise may help some people, particularly those with neck and shoulder tension. The evidence is more mixed than for cervicogenic headaches.</li>
+<li><strong>Migraine:</strong> Chiropractic care is not a cure for migraine, and the research on it is limited. For some people, easing neck pain and tension may help reduce triggers or make attacks more manageable. It works best as one part of a plan that includes your primary care provider or neurologist, not as a replacement for medical care.</li>
+</ul>
+
+<h2>How We Approach Headaches at Oak &amp; Olive</h2>
+<p>Every plan starts with a thorough history and hands-on exam. We'll ask about when your headaches happen, what they feel like, what makes them better or worse, and any other symptoms. We'll check how your neck and upper back move, test the muscles and nerves, and look for anything that suggests your headache needs a different kind of care. If something points to a need for imaging or another provider's opinion, we'll tell you and help you take that next step.</p>
+<p>If your neck appears to be part of the picture, your plan may include:</p>
+<ul>
+<li><a href="/services#cmt">Chiropractic adjustments</a> to restore motion in stiff joints of the upper neck and upper back. If you've never had one, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what your first adjustment is like</a>.</li>
+<li><a href="/services#iastm">Instrument-assisted soft tissue work</a> or <a href="/services#cupping">cupping therapy</a> for tight muscles at the base of the skull, upper traps, and shoulders.</li>
+<li><a href="/services#exercise">Targeted exercises</a> to strengthen the deep neck and upper back muscles, which research shows is an important part of lasting relief.</li>
+<li>Practical advice on workstation setup, sleep position, and daily habits that may be feeding your headaches.</li>
+</ul>
+
+<h2>Simple Things You Can Try at Home</h2>
+<ul>
+<li><strong>Keep a headache diary.</strong> Note when headaches start, how long they last, what you were doing, sleep, stress, caffeine, and meals. Patterns often jump out within a few weeks and are very helpful for whoever is treating you.</li>
+<li><strong>Try chin tucks.</strong> Gently glide your chin straight back, hold 5 seconds, and repeat 10 times a few times a day. This works the deep neck muscles that often weaken with forward head posture.</li>
+<li><strong>Break up screen time.</strong> Change positions every 30 to 45 minutes and bring screens up to eye level instead of dropping your head.</li>
+<li><strong>Check your pillow.</strong> Aim to keep your head level with your spine. Stomach sleeping with your head turned all night is a common source of morning headaches.</li>
+<li><strong>Cover the basics.</strong> Regular sleep, enough water, steady meals, and managing stress all reduce headache frequency for many people.</li>
+</ul>
+
+<h2>When a Headache Needs Urgent Attention</h2>
+<p>Most headaches aren't dangerous, but some are a sign of something serious. <strong>Seek emergency care right away</strong> if you have:</p>
+<ul>
+<li>A sudden, severe headache that peaks within seconds to a minute, or the "worst headache of your life"</li>
+<li>Headache with fever, a stiff neck, confusion, or a rash</li>
+<li>Weakness, numbness, trouble speaking, vision loss, or loss of balance</li>
+<li>A headache after a head injury, especially with vomiting, drowsiness, or confusion</li>
+</ul>
+<p>Also check in with your doctor soon if your headaches are new and you're over 50, if your usual headache pattern changes significantly, if headaches wake you from sleep, or if you have a history of cancer or a weakened immune system.</p>
+
+<h2>Get Help for Neck-Related Headaches in Rochester</h2>
+<p>If your headaches seem to start in your neck, you don't have to keep reaching for the pill bottle and hoping for the best. We'll take the time to understand what's driving your headaches and give you an honest opinion about whether your neck is part of the problem. Learn more about the <a href="/conditions#headaches-migraines">headaches and migraines</a> we help with, or read our broader guide to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief in Rochester</a>. Not sure if it's time? Here are <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
+<p><strong>Tired of headaches running your week? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's find out if your neck is the cause.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you have severe, sudden, or unusual headaches, contact your doctor or seek emergency care.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
