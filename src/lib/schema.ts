@@ -7,6 +7,8 @@ export function localBusinessSchema() {
     name: siteConfig.name,
     description: siteConfig.description,
     url: siteConfig.url,
+    logo: `${siteConfig.url}/logo.png`,
+    image: `${siteConfig.url}/logo.png`,
     telephone: siteConfig.phone,
     email: siteConfig.email,
     address: {
@@ -101,6 +103,12 @@ export function articleSchema({
       '@type': 'Organization',
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/logo.png`,
+        width: 1500,
+        height: 1500,
+      },
     },
   }
 }
