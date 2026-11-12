@@ -1358,6 +1358,94 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you have severe, sudden, or unusual headaches, contact your doctor or seek emergency care.</em></p>
     `.trim(),
   },
+  {
+    slug: 'iastm-graston-style-soft-tissue-work-rochester-ny',
+    title: 'IASTM (Graston-Style Soft Tissue Work): What It Treats and Why It Works',
+    excerpt:
+      "IASTM uses smooth, stainless steel tools to find and treat stiff, irritated soft tissue. Learn what instrument-assisted soft tissue work is, the conditions it helps most, what the research actually says about why it works, and what a session at our Rochester office feels like.",
+    date: '2026-11-12',
+    dateModified: '2026-11-12',
+    author: 'Dr. Alex',
+    category: 'Treatment Spotlight',
+    readTime: '7 min read',
+    tags: ['IASTM', 'Graston-style', 'instrument assisted soft tissue mobilization', 'soft tissue therapy', 'tendinopathy', 'Rochester NY'],
+    content: `
+<p>If you've seen a chiropractor, physical therapist, or athletic trainer glide a smooth metal tool along someone's calf or forearm, you've seen instrument-assisted soft tissue mobilization, or <strong>IASTM</strong>. You may have heard it called "Graston." Graston Technique&reg; is actually a trademarked brand of IASTM tools and training. The broader approach, using specially shaped instruments to treat muscles, tendons, and fascia, is what we use at <a href="/about">Oak &amp; Olive Chiropractic</a>, and it's one of the most useful tools we have for stubborn soft tissue problems.</p>
+<p>Here's what IASTM is, what it's good for, what the research says about why it helps, and what you can expect if it's part of your plan.</p>
+
+<h2>What Is IASTM?</h2>
+<p>IASTM uses stainless steel instruments with beveled, rounded edges. With a light layer of emollient on the skin, the tool is stroked along the muscle or tendon in different directions. The instruments do two jobs:</p>
+<ul>
+<li><strong>Finding the problem.</strong> Steel transmits vibration well, so as the tool moves over the tissue we can feel areas that are thickened, restricted, or "gritty" compared to the surrounding tissue. Patients often notice those spots feel different too.</li>
+<li><strong>Treating it.</strong> Once we find those areas, we apply controlled, targeted pressure to them, then follow up with stretching and movement so the tissue gets used in its new range right away.</li>
+</ul>
+<p>Compared to hands alone, the tools let us work more precisely on a small area, like a specific spot on the Achilles tendon or the outside of the elbow, while saving the clinician's hands for everything else.</p>
+
+<h2>What IASTM Can Help With</h2>
+<p>IASTM is most helpful for problems involving muscles, tendons, and fascia, especially ones that have lingered for weeks or months. Common examples include:</p>
+<ul>
+<li><strong>Tendon problems (tendinopathy):</strong> tennis and golfer's elbow, Achilles tendon pain, patellar tendon pain ("jumper's knee"), and rotator cuff irritation</li>
+<li><strong>Plantar fasciitis</strong> and other heel and arch pain</li>
+<li><strong>Neck and upper back tightness</strong>, including the upper traps and the muscles at the base of the skull</li>
+<li><strong>Low back and hip tightness</strong>, such as stiff paraspinal muscles, the IT band area, and hip flexors</li>
+<li><strong>Shin splints</strong> and calf tightness in runners</li>
+<li><strong>Scar tissue and post-surgical stiffness</strong>, once the incision has fully healed and your surgeon has cleared you</li>
+<li><strong>Repetitive strain</strong> from work, lifting, or sports that leaves an area tight and sore</li>
+</ul>
+<p>It's especially popular with athletes and active adults, because it can be done before a workout to improve how a stiff area moves or after to address lingering tightness. If you're training hard, our page for <a href="/athletes">athletes</a> covers how we fit it into a sports-focused plan.</p>
+
+<h2>Why It Works: What the Research Says</h2>
+<p>You'll sometimes hear that IASTM "breaks up scar tissue." That's a simplified explanation, and the real picture is a bit more interesting. We like to be honest about what is known and what isn't.</p>
+<h3>It stimulates the tissue to remodel</h3>
+<p>Muscles, tendons, and fascia respond to mechanical load, a process called <strong>mechanotransduction</strong>. Laboratory and animal studies have shown that instrument-applied pressure can increase the activity of fibroblasts, the cells that build and repair collagen. In a tendon that has become disorganized after injury or overuse, that may help encourage healthier repair, especially when combined with strengthening exercises that load the tendon.</p>
+<h3>It changes how the nervous system reads the area</h3>
+<p>Much of the quick relief people feel after IASTM likely comes from the nervous system. Pressure and movement over the skin and fascia stimulate sensory receptors that can turn down pain signals and reduce protective muscle guarding. That's a big part of why range of motion often improves right after a session.</p>
+<h3>It improves motion, at least in the short term</h3>
+<p>Clinical studies generally show that IASTM can improve range of motion and reduce pain in the short term for a number of conditions. The evidence for long-term results is more mixed, and research comparing IASTM to other good treatments often finds similar results. In our experience, it works best as <strong>one part of a plan</strong>, paired with exercise, rather than as a stand-alone fix.</p>
+
+<h2>What a Session Feels Like</h2>
+<p>Every visit starts with a history and hands-on exam so we know whether IASTM makes sense for you. If it does, here's what to expect:</p>
+<ul>
+<li><strong>A quick warm-up.</strong> Often light movement or a few minutes of activity to get blood flowing to the area.</li>
+<li><strong>Treatment.</strong> We apply a little emollient and work the area with the instrument, usually for a few minutes per area. You'll feel pressure and a scraping sensation. Tender spots can be uncomfortable, but it should never be sharp or unbearable, and we adjust the pressure as we go.</li>
+<li><strong>Movement afterward.</strong> We follow up with stretching, mobility work, or <a href="/services#exercise">targeted exercises</a> so the tissue gets used in its improved range.</li>
+</ul>
+<p>IASTM is often combined with other care. Depending on what's going on, your plan might also include <a href="/services#cmt">chiropractic adjustments</a>, <a href="/blog/cupping-therapy-benefits-myths-rochester-ny">cupping therapy</a> for broader areas of muscle tension, or <a href="/blog/shockwave-therapy-how-it-works-what-to-expect">shockwave therapy</a> for chronic tendon pain that hasn't responded to other care. For people who need to build strength around an injury without heavy loads, <a href="/blog/blood-flow-restriction-training-rochester-ny">blood flow restriction training</a> pairs well with soft tissue work.</p>
+
+<h2>Side Effects and Who Should Avoid It</h2>
+<p>IASTM is generally safe when done by a trained provider. Normal, temporary effects include:</p>
+<ul>
+<li>Redness in the treated area during and right after treatment</li>
+<li>Mild soreness for a day or two, similar to after a workout</li>
+<li>Occasionally small red dots (petechiae) or light bruising, which fade within a few days</li>
+</ul>
+<p>We'll avoid IASTM, or use a much lighter approach, if you:</p>
+<ul>
+<li>Take blood thinners or have a bleeding or clotting disorder</li>
+<li>Have an open wound, unhealed incision, skin infection, or rash in the area</li>
+<li>Have a known or suspected blood clot, fracture, or active cancer in the area</li>
+<li>Have fragile skin, uncontrolled high blood pressure, or certain conditions affecting your blood vessels or nerves</li>
+</ul>
+<p>Be sure to tell us about any medications and health conditions during your exam so we can choose the safest approach for you.</p>
+
+<h2>How Many Sessions Will I Need?</h2>
+<p>It depends on what we're treating and how long it's been going on. Many people notice a difference in how an area moves within the first visit or two. For a long-standing tendon problem, a plan of several sessions over a few weeks, combined with a home exercise program, is common. We'll check your progress along the way, and if IASTM isn't helping, we'll change course.</p>
+
+<h2>Simple Things You Can Do at Home</h2>
+<ul>
+<li><strong>Keep moving.</strong> Gentle activity after treatment helps more than resting the area completely.</li>
+<li><strong>Do your exercises.</strong> Soft tissue work opens a window of better motion. Strengthening and mobility work are what make the change last.</li>
+<li><strong>Break up repetitive positions.</strong> If desk work is feeding your neck and shoulder tightness, our post on <a href="/blog/tech-neck-neck-pain-rochester-ny">tech neck and what actually helps</a> has practical tips.</li>
+<li><strong>Stay hydrated and sleep well.</strong> Recovery happens between visits.</li>
+</ul>
+
+<h2>Try IASTM at Oak &amp; Olive Chiropractic in Rochester</h2>
+<p>If you've got a tendon, muscle, or scar tissue problem that just won't let go, IASTM may be a good fit. Learn more about <a href="/services#iastm">instrument-assisted soft tissue mobilization at our office</a>, or browse the <a href="/conditions">conditions we treat</a>, including <a href="/conditions#plantar-fasciitis">plantar fasciitis</a>, <a href="/conditions#shoulder-pain">shoulder pain</a>, and <a href="/conditions#sports-athletic-injuries">sports injuries</a>.</p>
+<p><strong>Ready to get moving again? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's find out whether IASTM belongs in your plan.</strong></p>
+
+<p><em>Graston Technique&reg; is a registered trademark of Graston Technique, LLC. Oak &amp; Olive Chiropractic uses instrument-assisted soft tissue techniques and is not affiliated with Graston Technique, LLC. This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
