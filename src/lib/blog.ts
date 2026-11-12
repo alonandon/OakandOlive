@@ -1369,6 +1369,10 @@ export const blogPosts: BlogPost[] = [
     category: 'Treatment Spotlight',
     readTime: '7 min read',
     tags: ['IASTM', 'Graston-style', 'instrument assisted soft tissue mobilization', 'soft tissue therapy', 'tendinopathy', 'Rochester NY'],
+    image: '/IASTM%20Soft%20Tissue%20Therapy%20Guide.png',
+    imageAlt: "IASTM infographic showing a clinician using a stainless steel instrument on a patient's calf, common conditions treated (tennis elbow, Achilles, and knee tendon pain; plantar fasciitis and heel pain; neck, upper back, and low back tightness; shin splints and calf tightness; healed scar tissue and post-surgical stiffness), and contact details for Oak & Olive Chiropractic in Rochester, NY",
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
 <p>If you've seen a chiropractor, physical therapist, or athletic trainer glide a smooth metal tool along someone's calf or forearm, you've seen instrument-assisted soft tissue mobilization, or <strong>IASTM</strong>. You may have heard it called "Graston." Graston Technique&reg; is actually a trademarked brand of IASTM tools and training. The broader approach, using specially shaped instruments to treat muscles, tendons, and fascia, is what we use at <a href="/about">Oak &amp; Olive Chiropractic</a>, and it's one of the most useful tools we have for stubborn soft tissue problems.</p>
 <p>Here's what IASTM is, what it's good for, what the research says about why it helps, and what you can expect if it's part of your plan.</p>
