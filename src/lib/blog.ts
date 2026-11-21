@@ -1461,6 +1461,10 @@ export const blogPosts: BlogPost[] = [
     category: 'Chiropractic Care',
     readTime: '7 min read',
     tags: ['auto accident chiropractor', 'car accident injuries', 'whiplash', 'no-fault insurance', 'delayed pain', 'Rochester NY'],
+    image: '/Car%20Accident%20Chiropractic%20Care%20Guide.png',
+    imageAlt: "Car accident injuries infographic showing a woman holding her neck in front of two damaged cars, common injuries that show up late (whiplash and neck stiffness, headaches starting at the base of the skull, mid back, low back, and shoulder pain, tingling or numbness in an arm or leg, and concussion symptoms even without hitting your head), a note that New York no-fault (PIP) auto insurance typically covers chiropractic care, ER warning signs, and contact details for Oak & Olive Chiropractic in Rochester, NY",
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
 <p>You were stopped at a light on Lyell Avenue, or merging onto 390, when someone hit you from behind. The cars are dented, everyone is talking, you exchange information, and you feel... okay. Maybe a little shaky, but nothing hurts. So you go home, figure you got lucky, and get on with your week.</p>
 <p>Then two or three days later your neck is stiff, your head aches, and turning to check your blind spot hurts. This is one of the most common stories we hear at <a href="/about">Oak &amp; Olive Chiropractic</a>, and it's the reason we encourage people to get checked after a car accident <strong>even when they feel fine</strong>. Here's why.</p>
