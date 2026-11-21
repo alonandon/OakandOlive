@@ -1450,6 +1450,87 @@ export const blogPosts: BlogPost[] = [
 <p><em>Graston Technique&reg; is a registered trademark of Graston Technique, LLC. Oak &amp; Olive Chiropractic uses instrument-assisted soft tissue techniques and is not affiliated with Graston Technique, LLC. This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
     `.trim(),
   },
+  {
+    slug: 'auto-accident-chiropractor-rochester-ny',
+    title: 'Car Accident Injuries: Why You Should See a Chiropractor Even If You Feel Fine',
+    excerpt:
+      "Walking away from a car accident without pain doesn't always mean walking away without an injury. Learn why symptoms are often delayed, the injuries that commonly hide after a crash, what an evaluation with an auto accident chiropractor in Rochester, NY looks like, and how no-fault insurance fits in.",
+    date: '2026-11-20',
+    dateModified: '2026-11-20',
+    author: 'Dr. Alex',
+    category: 'Chiropractic Care',
+    readTime: '7 min read',
+    tags: ['auto accident chiropractor', 'car accident injuries', 'whiplash', 'no-fault insurance', 'delayed pain', 'Rochester NY'],
+    content: `
+<p>You were stopped at a light on Lyell Avenue, or merging onto 390, when someone hit you from behind. The cars are dented, everyone is talking, you exchange information, and you feel... okay. Maybe a little shaky, but nothing hurts. So you go home, figure you got lucky, and get on with your week.</p>
+<p>Then two or three days later your neck is stiff, your head aches, and turning to check your blind spot hurts. This is one of the most common stories we hear at <a href="/about">Oak &amp; Olive Chiropractic</a>, and it's the reason we encourage people to get checked after a car accident <strong>even when they feel fine</strong>. Here's why.</p>
+
+<h2>Why You Might Not Feel Hurt Right Away</h2>
+<p>A crash is a stressful event, and your body responds the way it was built to. Adrenaline and other stress hormones surge, and they're very good at masking pain for a few hours. On top of that, the injuries most common in car accidents involve muscles, ligaments, and joints, and these tissues often don't announce themselves immediately. Inflammation and protective muscle tightening build over the next 24 to 72 hours, which is why so many people wake up a day or two later feeling much worse than they did at the scene.</p>
+<p>It also doesn't take a dramatic crash to cause a problem. Even a low-speed rear-end collision can whip the head and neck back and forth faster than your muscles can react. The amount of damage to your bumper isn't a reliable guide to what happened to your neck.</p>
+
+<h2>Injuries That Commonly Hide After a Crash</h2>
+<p>Whiplash gets most of the attention, but it isn't the only injury we see after motor vehicle accidents:</p>
+<ul>
+<li><strong>Whiplash and neck sprain or strain:</strong> stretching or straining of the muscles, ligaments, and small joints of the neck. Stiffness, pain with turning, and tenderness at the base of the skull are typical.</li>
+<li><strong>Headaches:</strong> often starting at the back of the head or neck. If your headaches began or got worse after a crash, our post on <a href="/blog/neck-headaches-migraines-rochester-ny">headaches that start in the neck</a> explains why that happens.</li>
+<li><strong>Mid back and rib pain:</strong> from bracing, twisting, or the force of the seatbelt across the chest.</li>
+<li><strong>Low back pain:</strong> the low back absorbs a lot of force, especially in side impacts or when your foot is jammed on the brake.</li>
+<li><strong>Shoulder pain:</strong> from gripping the wheel or the seatbelt pulling across one shoulder.</li>
+<li><strong>Nerve symptoms:</strong> tingling, numbness, or pain traveling into an arm or leg, which can mean a nerve is irritated in the neck or low back.</li>
+<li><strong>Concussion:</strong> you don't have to hit your head to have one. The same rapid back-and-forth motion that causes whiplash can jar the brain.</li>
+</ul>
+
+<h2>When to Go to the ER First</h2>
+<p>A chiropractor is not the first stop for every crash. <strong>Call 911 or go to the emergency room</strong> if you have any of the following after an accident:</p>
+<ul>
+<li>Loss of consciousness, confusion, or a severe or worsening headache</li>
+<li>Repeated vomiting, unusual drowsiness, slurred speech, or vision changes</li>
+<li>Severe neck pain, especially with numbness, weakness, or tingling in the arms or legs</li>
+<li>Loss of bladder or bowel control, or numbness in the groin or inner thighs</li>
+<li>Chest or abdominal pain, trouble breathing, or a suspected broken bone</li>
+</ul>
+<p>Once serious injuries have been ruled out, or if you never had those warning signs, that's when a musculoskeletal evaluation makes sense.</p>
+
+<h2>Why Getting Evaluated Early Matters</h2>
+<h3>For your recovery</h3>
+<p>The first few weeks after an injury are when your body decides how it's going to heal. When people "wait and see," they often stop moving their neck or back normally to avoid pain. Muscles guard, joints stiffen, and the area gets weaker. That pattern is one of the ways a short-term injury turns into months of nagging neck or back pain. Research on whiplash recovery consistently points to the same advice: stay active, move early within comfortable limits, and get guidance rather than resting for weeks.</p>
+
+<h3>For your records and your claim</h3>
+<p>An evaluation soon after the accident creates a clear record of what you were feeling and what we found on exam, close to the date it happened. If symptoms show up later, that documentation helps connect them to the crash. No-fault claims also have deadlines, so it's smart to report the accident to your auto insurer and get your claim started right away, even if you feel fine.</p>
+
+<h2>What an Auto Accident Evaluation Looks Like at Our Rochester Office</h2>
+<p>Your first visit starts with a detailed conversation about the accident: where you were sitting, the direction of impact, whether you were braced or turned, and every symptom you've noticed since, even the ones that seem minor. From there we perform a hands-on orthopedic and neurological exam, checking how your neck and back move, testing strength, reflexes, and sensation, and screening for signs of concussion or anything that needs another provider's attention.</p>
+<p>We don't take X-rays in our office. If your history or exam suggests you need imaging, we'll tell you why and refer you to the right place, and we're happy to coordinate with your primary care doctor or other providers. You can read more about what to expect as a new patient in our <a href="/faq">FAQ</a>.</p>
+<p>If you're a good fit for care, your plan may include:</p>
+<ul>
+<li><a href="/services#cmt">Gentle chiropractic adjustments</a> or mobilization to restore motion in stiff joints. If you've never had one, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what your first adjustment is like</a>.</li>
+<li>Soft tissue work such as <a href="/blog/iastm-graston-style-soft-tissue-work-rochester-ny">instrument-assisted soft tissue mobilization (IASTM)</a> for guarded, irritated muscles.</li>
+<li><a href="/services#exercise">Progressive exercises</a> to rebuild strength and control in the deep neck, upper back, and core muscles.</li>
+<li>Practical advice on sleep, driving, work, and staying active while you heal.</li>
+</ul>
+<p>Not every crash injury is in the neck. If your low back took the hit, our guide to <a href="/blog/low-back-pain-causes-red-flags-rochester-ny">low back pain causes and red flags</a> is a good next read.</p>
+
+<h2>What to Do in the Days After an Accident</h2>
+<ul>
+<li><strong>Write things down.</strong> Note the date, time, and details of the crash, and keep a simple log of any symptoms as they appear.</li>
+<li><strong>Report the accident to your insurance company</strong> and keep your claim number handy.</li>
+<li><strong>Keep moving gently.</strong> Short walks and easy, pain-free neck and back motion are usually better than staying on the couch.</li>
+<li><strong>Pay attention to delayed symptoms</strong> like stiffness, headaches, dizziness, trouble concentrating, or tingling in your arms or legs.</li>
+<li><strong>Get evaluated</strong>, even if you feel fine. A thorough exam either catches an injury early or gives you peace of mind.</li>
+</ul>
+
+<h2>Does Insurance Cover Chiropractic Care After a Car Accident?</h2>
+<p>In New York, no-fault (PIP) auto insurance typically pays for chiropractic care after a car accident, regardless of who was at fault. Oak &amp; Olive accepts no-fault auto cases. Bring your claim number and your auto insurance carrier's information to your first visit, and we'll handle the billing. For details on no-fault, health plans like BlueCross BlueShield (including Excellus BCBS), Aetna, and MVP, and what to bring, see our <a href="/insurance">insurance page</a> and its <a href="/insurance#insurance-faq-heading">common insurance questions</a>.</p>
+
+<h2>See an Auto Accident Chiropractor in Rochester, NY</h2>
+<p>Feeling fine after a crash is good news, but it isn't the same as being uninjured. A careful evaluation in the days after an accident is one of the simplest ways to protect your recovery. Learn more about the <a href="/conditions#auto-accident-whiplash">auto accident and whiplash injuries</a> we treat, or read <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
+<p>New patients are always welcome, and no referral is needed. We're at 2316 Lyell Ave, Suite 2, convenient to Greece, Gates, Chili, and the west side of Rochester.</p>
+<p><strong>Been in a car accident recently? <a href="/contact">Schedule your new patient visit</a> or call (585) 429-5100, and we'll help you get checked out and on the road to recovery.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you have severe or worsening symptoms after an accident, seek emergency care right away.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
