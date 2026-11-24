@@ -113,10 +113,14 @@ export default function AboutPage() {
 
             {/* Dr. Fred SanFilipo */}
             <article id="dr-fred-sanfilipo" className="grid grid-cols-1 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-10 lg:gap-14 items-start scroll-mt-24" aria-labelledby="fred-heading">
-              {/* TODO: replace with a photo of Dr. SanFilipo (e.g. /fred-sanfilipo.jpg) */}
-              <div className="relative rounded-2xl overflow-hidden aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 shadow-lg bg-gradient-to-br from-olive-700 to-olive-950 flex items-center justify-center">
-                <span className="font-serif font-bold text-7xl text-white/90" aria-hidden="true">FS</span>
-                <span className="sr-only">Photo of Dr. Fred SanFilipo coming soon</span>
+              <div className="relative rounded-2xl overflow-hidden aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 shadow-lg">
+                <Image
+                  src="/Fred%20jpg.avif"
+                  alt="Dr. Fred SanFilipo, DC, DACBO — chiropractic orthopedist at Oak & Olive Chiropractic"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
               </div>
               <div>
                 <span className="inline-block font-sans text-xs font-semibold tracking-widest uppercase bg-olive-100 text-olive-700 rounded-full px-3 py-1">Chiropractic Orthopedist</span>
