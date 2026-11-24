@@ -82,13 +82,26 @@ export default function WelcomeModal() {
             We&apos;re excited to announce that Dr. Fred SanFilipo, DC, DACBO, has joined the Oak &amp; Olive team. A board-certified chiropractic orthopedist, Dr. SanFilipo brings more than 45 years of clinical experience caring for patients across Rochester.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/about#dr-fred-sanfilipo" onClick={dismiss} className="btn-primary">
+            <a
+              href="https://practice.chirotouch.com/portal/OakOliveChiropractic"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={dismiss}
+              className="btn-primary"
+            >
+              Book Now
+            </a>
+            <Link href="/about#dr-fred-sanfilipo" onClick={dismiss} className="btn-secondary">
               Meet Dr. SanFilipo
             </Link>
-            <button type="button" onClick={dismiss} className="btn-secondary">
-              Maybe Later
-            </button>
           </div>
+          <button
+            type="button"
+            onClick={dismiss}
+            className="mt-4 font-sans text-sm text-bark-muted underline underline-offset-4 hover:text-bark transition-colors"
+          >
+            Maybe later
+          </button>
         </div>
       </div>
     </div>
