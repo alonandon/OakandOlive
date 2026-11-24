@@ -49,3 +49,25 @@
   for = "/*.ico"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Canonical host: always https://oakolivehealth.com (no www, no http).
+# Search Console showed http://oakolivehealth.com/ collecting impressions as a
+# separate URL from the https homepage. Netlify normally forces HTTPS once a
+# certificate is active; these explicit 301s make it unambiguous.
+[[redirects]]
+  from = "http://oakolivehealth.com/*"
+  to = "https://oakolivehealth.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.oakolivehealth.com/*"
+  to = "https://oakolivehealth.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.oakolivehealth.com/*"
+  to = "https://oakolivehealth.com/:splat"
+  status = 301
+  force = true

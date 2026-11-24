@@ -164,7 +164,7 @@ export default function AthletesPage() {
             ))}
           </ul>
           <p className="font-sans text-sm text-bark-muted text-center mt-8">
-            See more on <Link href="/conditions#sports-athletic-injuries" className="text-olive-700 hover:text-olive-900 underline">sports &amp; athletic injuries</Link> and other <Link href="/conditions" className="text-olive-700 hover:text-olive-900 underline">conditions we treat</Link>.
+            See more on <Link href="/conditions/sports-athletic-injuries" className="text-olive-700 hover:text-olive-900 underline">sports &amp; athletic injuries</Link> and other <Link href="/conditions" className="text-olive-700 hover:text-olive-900 underline">conditions we treat</Link>.
           </p>
         </div>
       </section>

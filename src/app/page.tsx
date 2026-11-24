@@ -7,12 +7,12 @@ import { getRecentPosts, formatDate } from '@/lib/blog'
 
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Chiropractic Care in Rochester, NY`,
+  title: { absolute: `Chiropractor in Rochester, NY | ${siteConfig.name}` },
   description:
-    'Oak & Olive Chiropractic — Rochester\'s trusted chiropractic practice. Expert spinal care, injury rehabilitation, and hands-on treatment. Book a consultation today.',
+    'Chiropractor on Lyell Ave in Rochester, NY, serving Greece, Gates, and Chili. Adjustments, shockwave, cupping, IASTM, and rehab for back, neck, and sports injuries. Book today.',
   alternates: { canonical: siteConfig.url },
   openGraph: {
-    title: `${siteConfig.name} | Chiropractic Care in Rochester, NY`,
+    title: `Chiropractor in Rochester, NY | ${siteConfig.name}`,
     description: 'Rochester\'s trusted chiropractic practice. Expert spinal care, injury rehabilitation, and hands-on treatment to help you move better, feel better, and live fully.',
     url: siteConfig.url,
   },

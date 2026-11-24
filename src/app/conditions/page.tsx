@@ -1,97 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { siteConfig } from '@/lib/seo'
+import { buildMetadata } from '@/lib/seo'
+import { conditions, serviceLabels } from '@/lib/conditions'
 
-export const metadata: Metadata = {
-  title: `Conditions We Treat | ${siteConfig.name}`,
+export const metadata: Metadata = buildMetadata({
+  title: 'Conditions We Treat in Rochester, NY',
   description:
-    'Oak & Olive Chiropractic treats a wide range of conditions including back pain, neck pain, sciatica, headaches, sports injuries, disc herniation, and more in Rochester, NY.',
-  alternates: { canonical: `${siteConfig.url}/conditions` },
-}
-
-const conditions = [
-  {
-    id: 'lower-back-pain',
-    name: 'Lower Back Pain',
-    description:
-      'One of the most common reasons patients seek chiropractic care. We identify the root cause — whether muscular, disc-related, or structural — and build a plan to get you moving pain-free.',
-    related: ['cmt', 'flexion-distraction', 'exercise'],
-  },
-  {
-    id: 'neck-pain-stiffness',
-    name: 'Neck Pain & Stiffness',
-    description:
-      'Tension, poor posture, and injury can all create neck pain that radiates into the shoulders and arms. Targeted adjustments and soft-tissue work restore mobility and relieve discomfort.',
-    related: ['cmt', 'iastm', 'cupping'],
-  },
-  {
-    id: 'sciatica-nerve-pain',
-    name: 'Sciatica & Nerve Pain',
-    description:
-      'Sciatic pain that shoots down the leg can be debilitating. We address the underlying nerve compression with spinal decompression, adjustments, and nerve mobilization techniques.',
-    related: ['flexion-distraction', 'nerve-flossing'],
-  },
-  {
-    id: 'headaches-migraines',
-    name: 'Headaches & Migraines',
-    description:
-      'Many headaches originate from tension in the cervical spine. Chiropractic care can significantly reduce frequency and intensity for both tension headaches and migraines.',
-    related: ['cmt'],
-  },
-  {
-    id: 'sports-athletic-injuries',
-    name: 'Sports & Athletic Injuries',
-    description:
-      'From weekend warriors to competitive athletes, we help you recover faster and perform better using a combination of manual therapy, rehab exercise, and soft-tissue treatment.',
-    related: ['iastm', 'exercise', 'shockwave'],
-  },
-  {
-    id: 'auto-accident-whiplash',
-    name: 'Auto Accident / Whiplash',
-    description:
-      'Whiplash and other collision-related injuries need prompt, expert care. We document your injuries thoroughly and guide you through a full recovery.',
-    related: ['cmt', 'iastm'],
-  },
-  {
-    id: 'disc-herniation',
-    name: 'Disc Herniation',
-    description:
-      'Herniated or bulging discs can compress nerves and cause significant pain. Flexion distraction, spinal decompression, and targeted rehab can provide lasting relief without surgery.',
-    related: ['flexion-distraction', 'exercise'],
-  },
-  {
-    id: 'shoulder-pain',
-    name: 'Shoulder Pain',
-    description:
-      'Rotator cuff issues, impingement, and shoulder stiffness respond well to chiropractic and soft-tissue therapy. We restore full range of motion and reduce inflammation.',
-    related: ['cmt', 'iastm', 'shockwave'],
-  },
-  {
-    id: 'hip-knee-pain',
-    name: 'Hip & Knee Pain',
-    description:
-      'Joint dysfunction in the hips and knees often stems from improper mechanics elsewhere in the body. We treat the whole kinetic chain so you can walk, run, and move without pain.',
-    related: ['cmt', 'exercise', 'bfrt'],
-  },
-  {
-    id: 'plantar-fasciitis',
-    name: 'Plantar Fasciitis',
-    description:
-      'Heel and arch pain from plantar fasciitis can sideline even the most active patients. Shockwave therapy, IASTM, and corrective exercise deliver proven results.',
-    related: ['shockwave', 'iastm', 'exercise'],
-  },
-]
-
-const serviceLabels: Record<string, string> = {
-  cmt: 'CMT',
-  'flexion-distraction': 'Flexion Distraction',
-  iastm: 'IASTM',
-  shockwave: 'Shockwave Therapy',
-  bfrt: 'BFRT',
-  cupping: 'Cupping',
-  'nerve-flossing': 'Nerve Flossing',
-  exercise: 'Exercise Programming',
-}
+    'Oak & Olive Chiropractic treats back pain, neck pain, sciatica, headaches, disc herniation, sports injuries, shoulder, hip, knee, and heel pain in Rochester, NY.',
+  path: '/conditions',
+})
 
 export default function ConditionsPage() {
   return (
@@ -115,15 +32,25 @@ export default function ConditionsPage() {
           <h2 id="conditions-list-heading" className="sr-only">List of conditions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {conditions.map((condition) => (
-              <div key={condition.name} id={condition.id} className="card p-8 scroll-mt-24">
+              <div key={condition.slug} id={condition.slug} className="card p-8 scroll-mt-24">
                 <div className="flex items-start gap-4">
                   <span className="flex-shrink-0 w-2.5 h-2.5 mt-2 rounded-full bg-olive-500" />
                   <div>
-                    <h3 className="font-serif text-xl text-bark mb-2">{condition.name}</h3>
-                    <p className="font-sans text-sm text-bark-muted leading-relaxed">{condition.description}</p>
-                    {condition.related.length > 0 && (
+                    <h3 className="font-serif text-xl text-bark mb-2">
+                      <Link href={`/conditions/${condition.slug}`} className="hover:text-olive-700 transition-colors">
+                        {condition.name}
+                      </Link>
+                    </h3>
+                    <p className="font-sans text-sm text-bark-muted leading-relaxed">{condition.summary}</p>
+                    <Link
+                      href={`/conditions/${condition.slug}`}
+                      className="inline-block mt-3 font-sans text-sm font-semibold text-olive-700 hover:text-olive-900 transition-colors"
+                    >
+                      Learn about {condition.name.toLowerCase()} treatment &rarr;
+                    </Link>
+                    {condition.services.length > 0 && (
                       <div className="flex flex-wrap gap-2 mt-4">
-                        {condition.related.map((serviceId) => (
+                        {condition.services.map((serviceId) => (
                           <Link
                             key={serviceId}
                             href={`/services#${serviceId}`}

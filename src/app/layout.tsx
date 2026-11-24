@@ -64,9 +64,6 @@ export const metadata: Metadata = {
     site: siteConfig.twitterHandle,
     creator: siteConfig.twitterHandle,
   },
-  verification: {
-    google: 'YOUR_GOOGLE_SITE_VERIFICATION_TOKEN',
-  },
   robots: {
     index: true,
     follow: true,

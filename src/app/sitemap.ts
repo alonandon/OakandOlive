@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { siteConfig } from '@/lib/seo'
 import { blogPosts } from '@/lib/blog'
+import { conditions } from '@/lib/conditions'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -18,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/conditions`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -73,5 +80,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...blogRoutes]
+  const conditionRoutes: MetadataRoute.Sitemap = conditions.map((c) => ({
+    url: `${siteConfig.url}/conditions/${c.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
+  return [...staticRoutes, ...conditionRoutes, ...blogRoutes]
 }

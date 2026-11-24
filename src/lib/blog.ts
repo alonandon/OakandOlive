@@ -708,11 +708,11 @@ export const blogPosts: BlogPost[] = [
 <h2>Who Can Benefit From Chiropractic Adjustments?</h2>
 <p>CMT is commonly used for:</p>
 <ul>
-<li><a href="/conditions#lower-back-pain">Low back pain and stiffness</a></li>
-<li><a href="/conditions#neck-pain-stiffness">Neck pain and tension headaches</a></li>
-<li><a href="/conditions#sciatica-nerve-pain">Sciatica and nerve-related pain</a></li>
+<li><a href="/conditions/lower-back-pain">Low back pain and stiffness</a></li>
+<li><a href="/conditions/neck-pain-stiffness">Neck pain and tension headaches</a></li>
+<li><a href="/conditions/sciatica-nerve-pain">Sciatica and nerve-related pain</a></li>
 <li>Postural strain from desk work or driving</li>
-<li><a href="/conditions#sports-athletic-injuries">Recovery after minor sports or work injuries</a></li>
+<li><a href="/conditions/sports-athletic-injuries">Recovery after minor sports or work injuries</a></li>
 </ul>
 <p>It's not a one-size-fits-all treatment, which is why the exam comes before any hands-on care — we want to know an adjustment is actually the right tool before we use it.</p>
 
@@ -728,7 +728,7 @@ export const blogPosts: BlogPost[] = [
 <p>Often, yes — if the exam supports it. Some cases call for gathering more information first.</p>
 
 <h2>Ready to Feel Better?</h2>
-<p>If you're dealing with <a href="/conditions#lower-back-pain">back pain</a>, <a href="/conditions#neck-pain-stiffness">neck tension</a>, or stiffness that's been slowing you down, we'd love to help you figure out what's going on. <a href="/contact">Schedule your first visit with Oak &amp; Olive Chiropractic</a> or <a href="/services">learn more about our approach to care</a>.</p>
+<p>If you're dealing with <a href="/conditions/lower-back-pain">back pain</a>, <a href="/conditions/neck-pain-stiffness">neck tension</a>, or stiffness that's been slowing you down, we'd love to help you figure out what's going on. <a href="/contact">Schedule your first visit with Oak &amp; Olive Chiropractic</a> or <a href="/services">learn more about our approach to care</a>.</p>
 <p>Oak &amp; Olive Chiropractic is located at 2316 Lyell Ave, Suite 2, Rochester, NY, serving patients throughout the Rochester area.</p>
     `.trim(),
   },
@@ -751,9 +751,9 @@ export const blogPosts: BlogPost[] = [
 <p>Low back pain affects most adults at some point in their lives, and it's one of the leading reasons people visit a doctor or miss work. The good news: the vast majority of low back pain is mechanical in nature, meaning it comes from the muscles, joints, discs, or ligaments of the spine rather than a serious underlying disease — and it typically improves with the right care. Still, it's worth knowing what's causing your pain, which symptoms mean you should seek care right away, and when a chiropractor is the right provider to see.</p>
 
 <h2>What Usually Causes Low Back Pain</h2>
-<p>Most <a href="/conditions#lower-back-pain">low back pain</a> falls into a handful of common categories:</p>
+<p>Most <a href="/conditions/lower-back-pain">low back pain</a> falls into a handful of common categories:</p>
 <p><strong>Muscle or ligament strain.</strong> Lifting something awkwardly, sudden movements, or simply overdoing it during exercise or <a href="/blog/hot-weather-back-pain-rochester">yardwork</a> can strain the soft tissue supporting the spine. This is the most common cause of low back pain and often the quickest to resolve with proper care.</p>
-<p><strong>Disc issues.</strong> The discs between your vertebrae can bulge or herniate, sometimes irritating a nearby nerve. This can cause pain that radiates into the buttock or leg (often called <a href="/conditions#sciatica-nerve-pain">sciatica</a>), along with numbness or tingling. See our page on <a href="/conditions#disc-herniation">disc herniation</a> for more.</p>
+<p><strong>Disc issues.</strong> The discs between your vertebrae can bulge or herniate, sometimes irritating a nearby nerve. This can cause pain that radiates into the buttock or leg (often called <a href="/conditions/sciatica-nerve-pain">sciatica</a>), along with numbness or tingling. See our page on <a href="/conditions/disc-herniation">disc herniation</a> for more.</p>
 <p><strong>Joint dysfunction and arthritis.</strong> The small joints in the spine (facet joints) can become irritated or develop arthritic changes over time, leading to stiffness and localized pain that's often worse with certain movements or after periods of inactivity.</p>
 <p><strong>Degenerative changes.</strong> As we age, discs lose hydration and height, and the spine adapts. This is a normal part of aging and doesn't always cause pain, but it can contribute to episodes of low back discomfort or stiffness.</p>
 <p><strong>Poor posture and prolonged sitting.</strong> <a href="/blog/desk-job-spine-health-rochester">Desk jobs, driving, and screen time add up.</a> Sustained poor positioning weakens supporting muscles and increases stress on the low back over time.</p>
@@ -779,7 +779,7 @@ export const blogPosts: BlogPost[] = [
 <li>Your pain developed gradually or after a specific activity, movement, or minor injury</li>
 <li>You have stiffness, muscle tightness, or pain that's worse with certain movements or positions</li>
 <li>You're dealing with recurring "flare-ups" of low back pain over months or years</li>
-<li>You have <a href="/conditions#sciatica-nerve-pain">sciatica-type symptoms</a> (pain, tingling, or numbness running down the leg) without progressive weakness or loss of bladder/bowel control</li>
+<li>You have <a href="/conditions/sciatica-nerve-pain">sciatica-type symptoms</a> (pain, tingling, or numbness running down the leg) without progressive weakness or loss of bladder/bowel control</li>
 <li>Your pain is limiting your ability to work, exercise, sleep, or enjoy daily activities, and you'd like a hands-on, non-surgical, drug-free approach</li>
 </ul>
 <p>At <a href="/blog/chiropractic-adjustment-rochester-ny">your first visit</a>, a thorough history and exam (including orthopedic and neurological testing) helps confirm that chiropractic care is appropriate and rules out red flags before any treatment begins. From there, care may include <a href="/services#cmt">spinal adjustments</a>, <a href="/services#iastm">soft tissue work</a>, <a href="/services#exercise">targeted exercises</a>, and guidance on posture and movement to address both the pain and what's causing it. If a disc is involved, <a href="/services#flexion-distraction">flexion distraction</a> is often part of the plan. You can also read more about <a href="/blog/low-back-pain-relief-rochester-ny">how we approach low back pain at our Lyell Ave office</a>.</p>
@@ -837,13 +837,13 @@ export const blogPosts: BlogPost[] = [
 <p>Conditions like patellar tendinopathy (jumper's knee), <a href="/blog/shockwave-therapy-chronic-pain-rochester">Achilles tendinopathy</a>, and lateral elbow pain (tennis elbow) need loading to heal, but heavy loading often flares them. BFRT gives a strong training stimulus at loads the tendon can handle. For stubborn tendon problems, it's often paired with <a href="/services#shockwave">shockwave therapy</a>.</p>
 
 <h3>Knee arthritis and joint pain</h3>
-<p>For people with knee osteoarthritis, strong quadriceps are one of the best protections for the joint. BFRT builds that strength without the joint compression that comes with heavy squats or leg presses. See our page on <a href="/conditions#hip-knee-pain">hip and knee pain</a> for more.</p>
+<p>For people with knee osteoarthritis, strong quadriceps are one of the best protections for the joint. BFRT builds that strength without the joint compression that comes with heavy squats or leg presses. See our page on <a href="/conditions/hip-knee-pain">hip and knee pain</a> for more.</p>
 
 <h3>Older adults</h3>
 <p>Muscle loss with age (sarcopenia) affects balance, mobility, and independence. For older adults who can't or don't want to lift heavy, BFRT offers a joint-friendly way to maintain and build muscle.</p>
 
 <h3>Athletes and active adults</h3>
-<p>Athletes use BFRT to stay strong while injured, to supplement training during deload weeks, and to add training volume without extra joint wear. It's also a helpful tool when returning to sport after a <a href="/conditions#sports-athletic-injuries">sports injury</a>.</p>
+<p>Athletes use BFRT to stay strong while injured, to supplement training during deload weeks, and to add training volume without extra joint wear. It's also a helpful tool when returning to sport after a <a href="/conditions/sports-athletic-injuries">sports injury</a>.</p>
 
 <h3>Anyone with load limits</h3>
 <p>If pain, injury, or a medical restriction keeps you from lifting heavy, BFRT may let you keep making progress in the meantime.</p>
@@ -879,7 +879,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Can I do BFRT on my own?</h3>
 <p>We recommend starting under supervision so your pressure is set correctly and you're screened for safety. We can then guide you on next steps.</p>
 <h3>Is BFRT only for athletes?</h3>
-<p>No. Some of the patients who benefit most are older adults, people recovering from surgery, and <a href="/conditions#hip-knee-pain">people with arthritis</a>.</p>
+<p>No. Some of the patients who benefit most are older adults, people recovering from surgery, and <a href="/conditions/hip-knee-pain">people with arthritis</a>.</p>
 
 <h2>Rebuild Your Strength in Rochester</h2>
 <p>If injury, surgery, or joint pain has kept you from training the way you want, Blood Flow Restriction Training may be the bridge you need. Oak &amp; Olive Chiropractic is located at <a href="/contact">2316 Lyell Ave, Suite 2, Rochester, NY</a>, serving Rochester, Gates, Greece, and the surrounding communities.</p>
@@ -908,7 +908,7 @@ export const blogPosts: BlogPost[] = [
 <p>Here's what's actually happening, what tends to cause it, and what you can do about it that doesn't involve surgery.</p>
 
 <h2>What Is Sciatica, Really?</h2>
-<p>"Sciatica" isn't a diagnosis on its own — it's a symptom. It describes pain that travels along the path of the <a href="/conditions#sciatica-nerve-pain">sciatic nerve</a>, which runs from your lower back, through your buttock, and down the back of your leg. Something is irritating or compressing that nerve, and your body is letting you know about it.</p>
+<p>"Sciatica" isn't a diagnosis on its own — it's a symptom. It describes pain that travels along the path of the <a href="/conditions/sciatica-nerve-pain">sciatic nerve</a>, which runs from your lower back, through your buttock, and down the back of your leg. Something is irritating or compressing that nerve, and your body is letting you know about it.</p>
 <p>Common signs include:</p>
 <ul>
 <li>A sharp, burning, or shooting pain down one side of the leg</li>
@@ -920,7 +920,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>What Causes Sciatica?</h2>
 <p>A handful of underlying issues tend to be behind that nerve irritation:</p>
-<p><strong>Disc herniation.</strong> The most common cause. When a disc in the lower back bulges or herniates, it can press directly on a nerve root, triggering the classic shooting pain. See our page on <a href="/conditions#disc-herniation">disc herniation</a> for more.</p>
+<p><strong>Disc herniation.</strong> The most common cause. When a disc in the lower back bulges or herniates, it can press directly on a nerve root, triggering the classic shooting pain. See our page on <a href="/conditions/disc-herniation">disc herniation</a> for more.</p>
 <p><strong>Spinal stenosis.</strong> A narrowing of the space around the spinal nerves, often related to age-related changes, that puts pressure on the nerve roots.</p>
 <p><strong>Piriformis syndrome.</strong> The piriformis muscle, deep in the buttock, sits close to the sciatic nerve. If it's tight or spasming, it can irritate the nerve directly — sometimes mimicking a disc problem.</p>
 <p><strong>Degenerative disc disease or spondylolisthesis.</strong> Wear-and-tear changes in the spine over time that reduce space for the nerve roots.</p>
@@ -966,7 +966,7 @@ export const blogPosts: BlogPost[] = [
 <p>Raking looks harmless, but it combines repetitive twisting, sustained forward bending, and lifting heavy, awkward bags — often after months of not doing any of those things. The good news is that a few simple changes can keep your back out of the equation.</p>
 
 <h2>Why Raking Leaves Causes So Much Back Pain</h2>
-<p>The typical raking motion — feet planted, reaching out, and pulling the rake across your body — puts rotational stress on the lumbar spine over and over again. Add in bending to scoop piles, lifting wet leaves (which can weigh far more than you'd expect), and Rochester's cool mornings stiffening up your muscles, and it's a recipe for strains, irritated joints, and even <a href="/conditions#disc-herniation">disc flare-ups</a>.</p>
+<p>The typical raking motion — feet planted, reaching out, and pulling the rake across your body — puts rotational stress on the lumbar spine over and over again. Add in bending to scoop piles, lifting wet leaves (which can weigh far more than you'd expect), and Rochester's cool mornings stiffening up your muscles, and it's a recipe for strains, irritated joints, and even <a href="/conditions/disc-herniation">disc flare-ups</a>.</p>
 <p>Most raking injuries aren't from one dramatic moment. They're from hundreds of small, repeated movements done with tired muscles and poor mechanics.</p>
 
 <h2>Warm Up Before You Grab the Rake</h2>
@@ -1004,7 +1004,7 @@ export const blogPosts: BlogPost[] = [
 <li>Pain that makes it hard to stand up straight, sleep, or get through your workday</li>
 </ul>
 <p>Seek immediate medical care for loss of bladder or bowel control, numbness in the groin area, or progressive leg weakness. Our guide to <a href="/blog/low-back-pain-causes-red-flags-rochester-ny">low back pain causes and red flags</a> explains these warning signs in more detail.</p>
-<p>For most raking-related <a href="/conditions#lower-back-pain">lower back pain</a>, conservative care works well. At Oak &amp; Olive, that may include <a href="/services#cmt">chiropractic adjustments</a> to restore joint motion, <a href="/services#flexion-distraction">flexion-distraction</a> for disc-related pain, <a href="/services#iastm">soft tissue work</a> for strained muscles, and <a href="/services#exercise">targeted exercises</a> to build the strength that keeps it from happening again. You can learn more in our guide to <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a>.</p>
+<p>For most raking-related <a href="/conditions/lower-back-pain">lower back pain</a>, conservative care works well. At Oak &amp; Olive, that may include <a href="/services#cmt">chiropractic adjustments</a> to restore joint motion, <a href="/services#flexion-distraction">flexion-distraction</a> for disc-related pain, <a href="/services#iastm">soft tissue work</a> for strained muscles, and <a href="/services#exercise">targeted exercises</a> to build the strength that keeps it from happening again. You can learn more in our guide to <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a>.</p>
 
 <h2>Enjoy Fall in Rochester — Pain-Free</h2>
 <p>Raking leaves doesn't have to mean a week of back pain. Warm up, rake with your legs instead of your spine, lift smart, and pace yourself. And if your back is already telling you it's had enough, we're here to help. If you're new to chiropractic care, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what to expect from an adjustment</a>.</p>
@@ -1048,7 +1048,7 @@ export const blogPosts: BlogPost[] = [
 <li>Faster-feeling recovery after workouts, races, or a long season of sport</li>
 <li>Reduced pain from myofascial restrictions and trigger points</li>
 </ul>
-<p>To be honest about the evidence: research on cupping is still growing, and studies vary in quality. Several reviews suggest it can help reduce pain and improve function for issues like <a href="/conditions#neck-pain-stiffness">neck pain</a> and <a href="/conditions#lower-back-pain">low back pain</a>, at least in the short term. It works best as one part of a plan, not as a cure-all, which is exactly how we use it. If neck or back pain is what's bothering you, our guides to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief</a> and <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a> explain how cupping fits alongside other treatments.</p>
+<p>To be honest about the evidence: research on cupping is still growing, and studies vary in quality. Several reviews suggest it can help reduce pain and improve function for issues like <a href="/conditions/neck-pain-stiffness">neck pain</a> and <a href="/conditions/lower-back-pain">low back pain</a>, at least in the short term. It works best as one part of a plan, not as a cure-all, which is exactly how we use it. If neck or back pain is what's bothering you, our guides to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief</a> and <a href="/blog/low-back-pain-relief-rochester-ny">low back pain relief in Rochester</a> explain how cupping fits alongside other treatments.</p>
 
 <h2>Cupping Myths, Busted</h2>
 <p><strong>Myth: The marks are bruises.</strong> Cupping marks aren't caused by impact or trauma like a typical bruise. The suction draws blood toward the surface and can break tiny capillaries, which leaves a temporary discoloration. They're usually painless and fade within several days to about a week and a half.</p>
@@ -1068,7 +1068,7 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/services#iastm">Instrument-assisted soft tissue work (IASTM)</a> for scar tissue and fascial restrictions</li>
 <li><a href="/services#exercise">Targeted exercises</a> and post-cupping mobility work to lock in the new range of motion</li>
 </ul>
-<p>It's often a good fit for <a href="/conditions#sports-athletic-injuries">sports and athletic injuries</a>, chronic neck and shoulder tension, and general muscle tightness that keeps coming back. Athletes working back from an injury sometimes pair it with <a href="/blog/blood-flow-restriction-training-rochester-ny">blood flow restriction training</a>.</p>
+<p>It's often a good fit for <a href="/conditions/sports-athletic-injuries">sports and athletic injuries</a>, chronic neck and shoulder tension, and general muscle tightness that keeps coming back. Athletes working back from an injury sometimes pair it with <a href="/blog/blood-flow-restriction-training-rochester-ny">blood flow restriction training</a>.</p>
 
 <h2>Who Should Avoid Cupping?</h2>
 <p>Cupping is generally safe, but it isn't right for everyone. Let us know if you take blood thinners, have a bleeding or clotting disorder, are pregnant, have a history of blood clots, or have skin that is broken, sunburned, or irritated in the area being treated. We'll review your health history before any treatment and adjust the plan or choose a different approach if needed.</p>
@@ -1167,7 +1167,7 @@ export const blogPosts: BlogPost[] = [
 <p>For a broader look at causes and treatment options, see our guide to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief in Rochester</a>.</p>
 
 <h2>Get Help for Tech Neck in Rochester</h2>
-<p>You don't have to give up your phone or your job to feel better. With a few smart changes and the right care, most people see real improvement. We'll start with a thorough exam to understand what's driving your <a href="/conditions#neck-pain-stiffness">neck pain and stiffness</a>, then build a plan that fits your day.</p>
+<p>You don't have to give up your phone or your job to feel better. With a few smart changes and the right care, most people see real improvement. We'll start with a thorough exam to understand what's driving your <a href="/conditions/neck-pain-stiffness">neck pain and stiffness</a>, then build a plan that fits your day.</p>
 <p><strong>Tired of that end-of-day neck ache? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's get you moving comfortably again.</strong></p>
 
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
@@ -1206,9 +1206,9 @@ export const blogPosts: BlogPost[] = [
 <h2>Which Kinds of Chronic Pain It Helps Most</h2>
 <p>"Chronic pain" covers a lot of ground, so let's be specific. Shockwave has the strongest track record for long-standing <strong>tendon and soft-tissue</strong> problems, especially ones that have lasted three months or more and haven't fully responded to rest, stretching, or other conservative care. Common examples include:</p>
 <ul>
-<li><a href="/conditions#plantar-fasciitis">Plantar fasciitis</a> (heel pain that's worst with your first steps in the morning)</li>
+<li><a href="/conditions/plantar-fasciitis">Plantar fasciitis</a> (heel pain that's worst with your first steps in the morning)</li>
 <li>Achilles tendinopathy</li>
-<li>Calcific tendinitis and other <a href="/conditions#shoulder-pain">shoulder tendon problems</a></li>
+<li>Calcific tendinitis and other <a href="/conditions/shoulder-pain">shoulder tendon problems</a></li>
 <li>Tennis elbow and golfer's elbow</li>
 <li>Patellar tendinopathy (jumper's knee)</li>
 <li>Outer hip pain (greater trochanteric pain syndrome)</li>
@@ -1352,7 +1352,7 @@ export const blogPosts: BlogPost[] = [
 <p>Also check in with your doctor soon if your headaches are new and you're over 50, if your usual headache pattern changes significantly, if headaches wake you from sleep, or if you have a history of cancer or a weakened immune system.</p>
 
 <h2>Get Help for Neck-Related Headaches in Rochester</h2>
-<p>If your headaches seem to start in your neck, you don't have to keep reaching for the pill bottle and hoping for the best. We'll take the time to understand what's driving your headaches and give you an honest opinion about whether your neck is part of the problem. Learn more about the <a href="/conditions#headaches-migraines">headaches and migraines</a> we help with, or read our broader guide to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief in Rochester</a>. Not sure if it's time? Here are <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
+<p>If your headaches seem to start in your neck, you don't have to keep reaching for the pill bottle and hoping for the best. We'll take the time to understand what's driving your headaches and give you an honest opinion about whether your neck is part of the problem. Learn more about the <a href="/conditions/headaches-migraines">headaches and migraines</a> we help with, or read our broader guide to <a href="/blog/neck-pain-relief-rochester-ny">neck pain relief in Rochester</a>. Not sure if it's time? Here are <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
 <p><strong>Tired of headaches running your week? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's find out if your neck is the cause.</strong></p>
 
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you have severe, sudden, or unusual headaches, contact your doctor or seek emergency care.</em></p>
@@ -1444,7 +1444,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>Try IASTM at Oak &amp; Olive Chiropractic in Rochester</h2>
-<p>If you've got a tendon, muscle, or scar tissue problem that just won't let go, IASTM may be a good fit. Learn more about <a href="/services#iastm">instrument-assisted soft tissue mobilization at our office</a>, or browse the <a href="/conditions">conditions we treat</a>, including <a href="/conditions#plantar-fasciitis">plantar fasciitis</a>, <a href="/conditions#shoulder-pain">shoulder pain</a>, and <a href="/conditions#sports-athletic-injuries">sports injuries</a>.</p>
+<p>If you've got a tendon, muscle, or scar tissue problem that just won't let go, IASTM may be a good fit. Learn more about <a href="/services#iastm">instrument-assisted soft tissue mobilization at our office</a>, or browse the <a href="/conditions">conditions we treat</a>, including <a href="/conditions/plantar-fasciitis">plantar fasciitis</a>, <a href="/conditions/shoulder-pain">shoulder pain</a>, and <a href="/conditions/sports-athletic-injuries">sports injuries</a>.</p>
 <p><strong>Ready to get moving again? <a href="/contact">Schedule a visit with Oak &amp; Olive Chiropractic in Rochester</a> and let's find out whether IASTM belongs in your plan.</strong></p>
 
 <p><em>Graston Technique&reg; is a registered trademark of Graston Technique, LLC. Oak &amp; Olive Chiropractic uses instrument-assisted soft tissue techniques and is not affiliated with Graston Technique, LLC. This article is for educational purposes and isn't a substitute for personalized medical advice.</em></p>
@@ -1528,7 +1528,7 @@ export const blogPosts: BlogPost[] = [
 <p>In New York, no-fault (PIP) auto insurance typically pays for chiropractic care after a car accident, regardless of who was at fault. Oak &amp; Olive accepts no-fault auto cases. Bring your claim number and your auto insurance carrier's information to your first visit, and we'll handle the billing. For details on no-fault, health plans like BlueCross BlueShield (including Excellus BCBS), Aetna, and MVP, and what to bring, see our <a href="/insurance">insurance page</a> and its <a href="/insurance#insurance-faq-heading">common insurance questions</a>.</p>
 
 <h2>See an Auto Accident Chiropractor in Rochester, NY</h2>
-<p>Feeling fine after a crash is good news, but it isn't the same as being uninjured. A careful evaluation in the days after an accident is one of the simplest ways to protect your recovery. Learn more about the <a href="/conditions#auto-accident-whiplash">auto accident and whiplash injuries</a> we treat, or read <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
+<p>Feeling fine after a crash is good news, but it isn't the same as being uninjured. A careful evaluation in the days after an accident is one of the simplest ways to protect your recovery. Learn more about the <a href="/conditions/auto-accident-whiplash">auto accident and whiplash injuries</a> we treat, or read <a href="/blog/signs-you-should-see-a-chiropractor-rochester">five signs you should see a chiropractor</a>.</p>
 <p>New patients are always welcome, and no referral is needed. We're at 2316 Lyell Ave, Suite 2, convenient to Greece, Gates, Chili, and the west side of Rochester.</p>
 <p><strong>Been in a car accident recently? <a href="/contact">Schedule your new patient visit</a> or call (585) 429-5100, and we'll help you get checked out and on the road to recovery.</strong></p>
 

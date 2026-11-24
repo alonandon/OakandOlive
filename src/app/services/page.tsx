@@ -283,7 +283,7 @@ export default function ServicesPage() {
                       {service.relatedConditions.map((conditionId) => (
                         <Link
                           key={conditionId}
-                          href={`/conditions#${conditionId}`}
+                          href={`/conditions/${conditionId}`}
                           className="inline-block bg-cream-100 hover:bg-cream-200 text-bark-muted hover:text-bark text-xs font-sans px-3 py-1 rounded-full transition-colors"
                         >
                           {conditionLabels[conditionId]}
