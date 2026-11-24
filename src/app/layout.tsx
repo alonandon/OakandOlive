@@ -4,6 +4,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DeferredAnalytics from '@/components/DeferredAnalytics'
+import WelcomeModal from '@/components/WelcomeModal'
 import { siteConfig } from '@/lib/seo'
 import { localBusinessSchema } from '@/lib/schema'
 
@@ -98,6 +99,7 @@ export default function RootLayout({
         <Header />
         <main id="main-content">{children}</main>
         <Footer />
+        <WelcomeModal />
 
         {/* GA4: gtag.js downloads on first interaction or after ~4s (see component) */}
         <DeferredAnalytics id={siteConfig.googleAnalyticsId} />
