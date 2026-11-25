@@ -1546,6 +1546,10 @@ export const blogPosts: BlogPost[] = [
     category: 'Wellness Tips',
     readTime: '7 min read',
     tags: ['chiropractic nutrition coaching', 'exercise programming', 'injury recovery', 'strength training', 'protein', 'Rochester NY'],
+    image: '/Nutrition%20and%20Exercise%20Recovery%20Guide.png',
+    imageAlt: "Nutrition and exercise programming infographic from Oak & Olive Chiropractic showing a dumbbell, water bottle, and a bowl of grilled chicken, quinoa, tomatoes, and avocado, with panels on exercise programming and nutrition coaching (protein, whole foods, hydration, and sleep), a multi-disciplinary team note about Dr. Alex Eckert and Dr. Fred SanFilipo, and contact details for the Rochester, NY office",
+    imageWidth: 1536,
+    imageHeight: 1024,
     content: `
 <p>Most people come to a chiropractor for one reason: something hurts. A stiff neck, a low back that grabs when you bend over, a shoulder that won't let you lift overhead. Hands-on care is very good at calming that pain down and getting stiff joints moving again. But if that's the whole plan, a lot of people end up right back where they started a few months later.</p>
 <p>That's because treatment in the office is only half of recovery. The other half happens in your kitchen, your gym, and your living room floor, in the 160-plus hours a week you're not on our table. At <a href="/about">Oak &amp; Olive Chiropractic</a>, nutrition coaching and exercise programming are built into care on purpose. Here's why, and what that actually looks like.</p>
