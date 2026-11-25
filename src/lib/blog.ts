@@ -1535,6 +1535,73 @@ export const blogPosts: BlogPost[] = [
 <p><em>This article is for educational purposes and isn't a substitute for personalized medical advice. If you have severe or worsening symptoms after an accident, seek emergency care right away.</em></p>
     `.trim(),
   },
+  {
+    slug: 'chiropractic-nutrition-coaching-rochester-ny',
+    title: 'Nutrition and Exercise Programming: The Other Half of Recovery',
+    excerpt:
+      "An adjustment can get you moving again, but what you eat and how you train decide whether you stay that way. Here's how chiropractic nutrition coaching and exercise programming fit into recovery at Oak & Olive Chiropractic in Rochester, NY, and why we built a multi-disciplinary team around it.",
+    date: '2026-11-25',
+    dateModified: '2026-11-25',
+    author: 'Dr. Alex',
+    category: 'Wellness Tips',
+    readTime: '7 min read',
+    tags: ['chiropractic nutrition coaching', 'exercise programming', 'injury recovery', 'strength training', 'protein', 'Rochester NY'],
+    content: `
+<p>Most people come to a chiropractor for one reason: something hurts. A stiff neck, a low back that grabs when you bend over, a shoulder that won't let you lift overhead. Hands-on care is very good at calming that pain down and getting stiff joints moving again. But if that's the whole plan, a lot of people end up right back where they started a few months later.</p>
+<p>That's because treatment in the office is only half of recovery. The other half happens in your kitchen, your gym, and your living room floor, in the 160-plus hours a week you're not on our table. At <a href="/about">Oak &amp; Olive Chiropractic</a>, nutrition coaching and exercise programming are built into care on purpose. Here's why, and what that actually looks like.</p>
+
+<h2>Why Pain Relief Alone Isn't Recovery</h2>
+<p>Think of an injury as two problems at once. The first is the irritated tissue that's sending pain signals. The second is everything that let it get irritated in the first place: weak or deconditioned muscles, limited mobility, poor recovery between hard days, extra body weight loading the joints, or a long run of bad sleep and stress.</p>
+<p>Adjustments, <a href="/blog/iastm-graston-style-soft-tissue-work-rochester-ny">instrument-assisted soft tissue work</a>, and other in-office treatments do a great job with the first problem. They open a window where moving feels better. Exercise and nutrition are how you use that window to fix the second problem, so the same injury doesn't keep coming back. If you've never had an adjustment and want to know what that part involves, here's <a href="/blog/chiropractic-adjustment-rochester-ny">what your first adjustment is like</a>.</p>
+
+<h2>Exercise Programming: Building the Strength to Stay Out of Pain</h2>
+<p>Our motto for <a href="/services#exercise">exercise programming</a> is simple: chiropractic care gets you out of pain, and exercise keeps you there. Tissues like muscle, tendon, ligament, and even bone adapt to the loads you put on them. Give them the right amount of challenge, progressed over time, and they get stronger and more resilient. Avoid loading them altogether, and they slowly get weaker and more sensitive.</p>
+<p>A good program is not a printout of the same ten stretches everyone gets. It should:</p>
+<ul>
+<li><strong>Start with an assessment.</strong> We look at how you move, where you're strong, where you compensate, and what positions bring on your symptoms.</li>
+<li><strong>Match your goals.</strong> A grandparent who wants to garden pain-free and a powerlifter chasing a new deadlift need very different plans.</li>
+<li><strong>Progress on purpose.</strong> Exercises get harder as you get stronger, with more weight, more range, or more complexity, so you keep adapting.</li>
+<li><strong>Fit your life.</strong> Home or gym, 15 minutes or an hour, the best program is the one you'll actually do.</li>
+<li><strong>Get rechecked.</strong> We reassess and update your plan as you improve rather than running the same routine forever.</li>
+</ul>
+<p>For patients who can't load heavy yet, tools like <a href="/blog/blood-flow-restriction-training-rochester-ny">blood flow restriction training (BFRT)</a> let you build strength with light weights while an injury heals. And if your pain comes from long hours at a desk, our post on <a href="/blog/desk-job-spine-health-rochester">desk jobs and spine health</a> has simple movement habits you can start today.</p>
+
+<h2>Nutrition: The Raw Materials for Healing</h2>
+<p>Every repair your body makes, from a strained muscle to an irritated tendon, is built out of what you eat. Nutrition won't replace treatment or exercise, but poor nutrition can absolutely slow both down. Our approach to <a href="/services#nutrition">nutrition coaching</a> is practical and sustainable, not a rigid diet. A few of the foundations we talk through with patients:</p>
+<h3>Eat enough protein</h3>
+<p>Protein supplies the building blocks for muscle and connective tissue. The basic recommended amount for adults is about 0.8 grams per kilogram of body weight per day, but research on active adults and people recovering from injury commonly points to more, often in the range of roughly 1.2 to 2.0 grams per kilogram, spread across meals. Practically, that means a palm-sized or larger serving of protein (meat, fish, eggs, Greek yogurt, beans, tofu) at each meal. If you have kidney disease or another medical condition, check with your physician before changing your protein intake.</p>
+<h3>Don't under-eat while you heal</h3>
+<p>Healing costs energy. Cutting calories hard right after an injury, especially when you're also less active, can make it harder to hold on to muscle. If weight loss is a goal, we usually aim for gradual, steady changes rather than crash dieting during recovery.</p>
+<h3>Build meals around whole foods</h3>
+<p>Plenty of vegetables, fruit, whole grains, beans, nuts, olive oil, and fish give you the vitamins, minerals, fiber, and healthy fats that support normal tissue repair and overall health. You don't need a perfect diet. Getting most meals built from mostly whole foods goes a long way.</p>
+<h3>Hydrate, sleep, and go easy on alcohol</h3>
+<p>Water, sleep, and alcohol are the recovery factors people overlook most. Sleep in particular is when a lot of tissue repair happens, and regular heavy drinking works against both sleep and healing.</p>
+<h3>Supplements, only when they make sense</h3>
+<p>Most people don't need a cabinet full of pills. When a supplement may help, such as vitamin D for someone who's low or a protein powder for convenience, we'll talk through it and encourage you to loop in your primary care doctor, especially if you take medications.</p>
+<p>With Thanksgiving here and the holidays right behind it, none of this means skipping the stuffing. Enjoy the meal, take a walk afterward, and get back to your normal habits the next day. Consistency over weeks matters far more than any one dinner.</p>
+<p><em>A note on scope:</em> our nutrition coaching focuses on general, evidence-based habits that support musculoskeletal recovery and long-term health. It isn't medical nutrition therapy. If you're managing diabetes, kidney disease, an eating disorder, food allergies, or another medical condition, we'll encourage you to work with your physician or a registered dietitian, and we're happy to coordinate with them.</p>
+
+<h2>Why We Built a Multi-Disciplinary Team</h2>
+<p>Oak &amp; Olive was built on the idea that the best care looks at the whole person, not just the sore spot. That comes from a personal place. Before chiropractic school, Dr. Alex spent eight years working as a personal trainer, and has more than 15 years of training and lifting experience. Lifting and bodybuilding, along with a grandfather who practiced medicine, are what drew Dr. Alex to the health sciences in the first place, and that background shapes how we program exercise and talk about nutrition every day.</p>
+<p>This month our team grew. We're proud to welcome <a href="/about#dr-fred-sanfilipo">Dr. Fred SanFilipo, DC, DACBO</a>, a board-certified chiropractic orthopedist with more than 45 years of clinical experience in the Rochester area. Dr. SanFilipo brings deep expertise in orthopedic evaluation, whiplash-associated disorders, TMJ, and soft tissue conditions. Together, that means one office where you can get a thorough orthopedic workup, hands-on treatment, a structured exercise program, and practical nutrition guidance, all working toward the same goal. You can read more about both doctors on our <a href="/about">About page</a>.</p>
+
+<h2>What This Looks Like in Your Care Plan</h2>
+<p>Nutrition and exercise aren't a separate program you have to go find somewhere else. They're woven into your visits:</p>
+<ul>
+<li><strong>Your first visit</strong> includes a detailed history and exam, and we'll ask about your activity, training, sleep, and eating habits along with your symptoms. Our <a href="/faq">FAQ</a> covers what to expect at your first appointment.</li>
+<li><strong>During treatment visits</strong> we teach and progress your exercises in person and send you home with a plan.</li>
+<li><strong>As you improve</strong> we shift from calming pain down to building strength and capacity, and nutrition goals evolve with you, whether that's recovering from an injury, getting back to a sport, or losing some weight to take stress off sore knees and a sore back.</li>
+</ul>
+<p>Athletes and lifters, we also work with a wide range of sports. See how we help on our <a href="/athletes">athletes page</a>. And if low back pain is what's holding you back, our guide to <a href="/blog/low-back-pain-causes-red-flags-rochester-ny">low back pain causes and red flags</a> is a good next read.</p>
+
+<h2>Chiropractic Nutrition Coaching and Exercise Programming in Rochester, NY</h2>
+<p>If you've been stuck in a cycle of feeling better after treatment and then sliding back, the missing piece is often what happens between visits. Our team will help you build the strength, habits, and fuel to make your progress stick.</p>
+<p>New patients are always welcome, and no referral is needed. We're at 2316 Lyell Ave, Suite 2, convenient to Greece, Gates, Chili, and the west side of Rochester.</p>
+<p><strong>Ready to work on the other half of your recovery? <a href="/contact">Schedule your new patient visit</a> or call (585) 429-5100.</strong></p>
+
+<p><em>This article is for educational purposes and isn't a substitute for personalized medical or nutritional advice. Talk with your physician before making major changes to your diet or exercise routine, especially if you have a medical condition.</em></p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
